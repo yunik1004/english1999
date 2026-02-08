@@ -27,3 +27,14 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Macos
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Others
+.claude/
+.idea/
+*.iml

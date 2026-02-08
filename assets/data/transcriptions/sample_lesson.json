@@ -1,0 +1,124 @@
+{
+  "segments": [
+    {
+      "id": 1,
+      "text": "Hello everyone, and welcome to today's English lesson.",
+      "startTime": "00:00:00",
+      "endTime": "00:00:03"
+    },
+    {
+      "id": 2,
+      "text": "Today we're going to learn about the present simple tense.",
+      "startTime": "00:00:03",
+      "endTime": "00:00:07"
+    },
+    {
+      "id": 3,
+      "text": "We use present simple to talk about habits and routines.",
+      "startTime": "00:00:07",
+      "endTime": "00:00:11"
+    },
+    {
+      "id": 4,
+      "text": "For example, I wake up at 7 AM every morning.",
+      "startTime": "00:00:11",
+      "endTime": "00:00:15"
+    },
+    {
+      "id": 5,
+      "text": "She goes to school by bus.",
+      "startTime": "00:00:15",
+      "endTime": "00:00:18"
+    },
+    {
+      "id": 6,
+      "text": "They play football on weekends.",
+      "startTime": "00:00:18",
+      "endTime": "00:00:21"
+    },
+    {
+      "id": 7,
+      "text": "Now let's look at how to form the present simple.",
+      "startTime": "00:00:21",
+      "endTime": "00:00:24"
+    },
+    {
+      "id": 8,
+      "text": "For I, you, we, and they, we use the base form of the verb.",
+      "startTime": "00:00:24",
+      "endTime": "00:00:29"
+    },
+    {
+      "id": 9,
+      "text": "For he, she, and it, we add 's' or 'es' to the verb.",
+      "startTime": "00:00:29",
+      "endTime": "00:00:34"
+    },
+    {
+      "id": 10,
+      "text": "For example: I work, you work, but he works.",
+      "startTime": "00:00:34",
+      "endTime": "00:00:38"
+    },
+    {
+      "id": 11,
+      "text": "Let's practice with some more examples.",
+      "startTime": "00:00:38",
+      "endTime": "00:00:41"
+    },
+    {
+      "id": 12,
+      "text": "The sun rises in the east.",
+      "startTime": "00:00:41",
+      "endTime": "00:00:44"
+    },
+    {
+      "id": 13,
+      "text": "Water boils at 100 degrees Celsius.",
+      "startTime": "00:00:44",
+      "endTime": "00:00:48"
+    },
+    {
+      "id": 14,
+      "text": "My brother studies engineering at university.",
+      "startTime": "00:00:48",
+      "endTime": "00:00:52"
+    },
+    {
+      "id": 15,
+      "text": "We also use present simple for facts and general truths.",
+      "startTime": "00:00:52",
+      "endTime": "00:00:56"
+    },
+    {
+      "id": 16,
+      "text": "Cats like milk.",
+      "startTime": "00:00:56",
+      "endTime": "00:00:58"
+    },
+    {
+      "id": 17,
+      "text": "London is the capital of England.",
+      "startTime": "00:00:58",
+      "endTime": "00:01:01"
+    },
+    {
+      "id": 18,
+      "text": "Great! Now you understand the basics of present simple.",
+      "startTime": "00:01:01",
+      "endTime": "00:01:05"
+    },
+    {
+      "id": 19,
+      "text": "Remember to practice every day to improve your English.",
+      "startTime": "00:01:05",
+      "endTime": "00:01:09"
+    },
+    {
+      "id": 20,
+      "text": "Thank you for watching, and see you in the next lesson!",
+      "startTime": "00:01:09",
+      "endTime": "00:01:13"
+    }
+  ]
+}
