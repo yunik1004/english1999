@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         home: VideoLessonScreen(
           videoLesson: VideoLesson(
             id: 'sample-001',
-            youtubeVideoId: 'BBAyRBTfsOU',
+            youtubeVideoId: 'r0x4k0yxd8s',
             title: 'Sample English Lesson',
             description: 'Sample video for testing',
             transcriptionPath: 'assets/data/transcriptions/sample_lesson.json',

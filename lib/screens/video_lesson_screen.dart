@@ -5,6 +5,7 @@ import '../providers/video_player_provider.dart';
 import '../services/transcription_service.dart';
 import '../widgets/video_player_widget.dart';
 import '../widgets/transcription_list_widget.dart';
+import '../widgets/responsive_video_layout.dart';
 
 class VideoLessonScreen extends StatefulWidget {
   final VideoLesson videoLesson;
@@ -88,17 +89,9 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
                     ),
                   ),
                 )
-              : Column(
-                  children: [
-                    const VideoPlayerWidget(),
-                    const Divider(height: 1),
-                    Expanded(
-                      child: Container(
-                        color: Colors.grey.shade50,
-                        child: const TranscriptionListWidget(),
-                      ),
-                    ),
-                  ],
+              : const ResponsiveVideoLayout(
+                  videoPlayer: VideoPlayerWidget(),
+                  transcriptionList: TranscriptionListWidget(),
                 ),
     );
   }

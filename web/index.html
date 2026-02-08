@@ -31,6 +31,13 @@
 
   <title>english1999</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Disable all iframe pointer events during Flutter drag operations */
+    body.flutter-dragging iframe {
+      pointer-events: none !important;
+    }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
