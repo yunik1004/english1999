@@ -11,6 +11,7 @@ class VideoPlayerProvider extends ChangeNotifier {
   int? _currentSegmentIndex;
   bool _isInitialized = false;
   String? _errorMessage;
+  bool _showTranslation = false;
 
   YoutubePlayerController? get controller => _controller;
   Duration get currentPosition => _currentPosition;
@@ -18,6 +19,7 @@ class VideoPlayerProvider extends ChangeNotifier {
   Transcription? get transcription => _transcription;
   bool get isInitialized => _isInitialized;
   String? get errorMessage => _errorMessage;
+  bool get showTranslation => _showTranslation;
 
   void initializePlayer(String youtubeVideoId, Transcription transcription) {
     _transcription = transcription;
@@ -117,6 +119,11 @@ class VideoPlayerProvider extends ChangeNotifier {
 
   void pause() {
     _controller?.pauseVideo();
+    notifyListeners();
+  }
+
+  void toggleTranslation() {
+    _showTranslation = !_showTranslation;
     notifyListeners();
   }
 

@@ -4,12 +4,14 @@ import '../models/transcription.dart';
 class TranscriptionSegmentItem extends StatelessWidget {
   final TranscriptionSegment segment;
   final bool isActive;
+  final bool showTranslation;
   final VoidCallback onTap;
 
   const TranscriptionSegmentItem({
     super.key,
     required this.segment,
     required this.isActive,
+    required this.showTranslation,
     required this.onTap,
   });
 
@@ -51,6 +53,19 @@ class TranscriptionSegmentItem extends StatelessWidget {
                 height: 1.5,
               ),
             ),
+            if (showTranslation && segment.translation.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              Text(
+                segment.translation,
+                style: TextStyle(
+                  fontFamily: 'NotoSerifKR',
+                  fontSize: isActive ? 16 : 14,
+                  fontWeight: FontWeight.normal,
+                  color: isActive ? const Color(0xFFA8896A) : const Color(0xFF9B8B7A),
+                  height: 1.6,
+                ),
+              ),
+            ],
           ],
         ),
       ),

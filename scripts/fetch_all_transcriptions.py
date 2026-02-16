@@ -68,6 +68,7 @@ def convert_to_app_format(youtube_transcript):
         segment = {
             "text": cleaned_text,
             "speaker": "Speaker 1",
+            "translation": "",
             "startTime": seconds_to_timestamp(start_seconds),
             "endTime": seconds_to_timestamp(end_seconds)
         }

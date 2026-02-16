@@ -15,6 +15,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
   final ScrollController _scrollController = ScrollController();
   final Map<int, GlobalKey> _segmentKeys = {};
   int? _previousSegmentIndex;
+  bool? _previousShowTranslation;
 
   @override
   void dispose() {
@@ -53,8 +54,14 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
           }
         }
 
-        // Auto-scroll when segment changes
-        if (provider.currentSegmentIndex != null &&
+        // Check if only translation state changed (not segment)
+        final translationChanged = _previousShowTranslation != null &&
+            _previousShowTranslation != provider.showTranslation;
+        _previousShowTranslation = provider.showTranslation;
+
+        // Auto-scroll when segment changes (but not when only translation toggles)
+        if (!translationChanged &&
+            provider.currentSegmentIndex != null &&
             provider.currentSegmentIndex != _previousSegmentIndex) {
           _previousSegmentIndex = provider.currentSegmentIndex;
           WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -73,6 +80,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
               key: _segmentKeys[index],
               segment: segment,
               isActive: isActive,
+              showTranslation: provider.showTranslation,
               onTap: () => provider.seekToSegment(segment),
             );
           },

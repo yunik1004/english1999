@@ -70,6 +70,25 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
           onPressed: () => context.go('/story/${widget.chapterId}'),
         ),
         title: Text(widget.subchapterTitle),
+        actions: [
+          Consumer<VideoPlayerProvider>(
+            builder: (context, provider, _) {
+              return Padding(
+                padding: const EdgeInsets.only(right: 8.0),
+                child: IconButton(
+                  icon: Icon(
+                    Icons.translate,
+                    color: provider.showTranslation
+                        ? Theme.of(context).colorScheme.primary
+                        : null,
+                  ),
+                  tooltip: provider.showTranslation ? 'Hide translation' : 'Show translation',
+                  onPressed: provider.toggleTranslation,
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: _isLoading
           ? Center(

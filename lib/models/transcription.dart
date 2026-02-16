@@ -30,12 +30,14 @@ class Transcription {
 class TranscriptionSegment {
   final String text;
   final String speaker;
+  final String translation;
   final Duration startTime;
   final Duration endTime;
 
   TranscriptionSegment({
     required this.text,
     required this.speaker,
+    required this.translation,
     required this.startTime,
     required this.endTime,
   });
@@ -44,6 +46,7 @@ class TranscriptionSegment {
     return TranscriptionSegment(
       text: json['text'] as String,
       speaker: json['speaker'] as String? ?? 'Speaker 1',
+      translation: json['translation'] as String? ?? '',
       startTime: _parseTime(json['startTime'] as String),
       endTime: _parseTime(json['endTime'] as String),
     );
@@ -53,6 +56,7 @@ class TranscriptionSegment {
     return {
       'text': text,
       'speaker': speaker,
+      'translation': translation,
       'startTime': _formatTime(startTime),
       'endTime': _formatTime(endTime),
     };
