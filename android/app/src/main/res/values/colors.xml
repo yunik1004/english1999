@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reverse: 1999 inspired dark theme colors -->
+    <color name="launch_background">#0D0A08</color>
+    <color name="primary">#B8956A</color>
+</resources>

@@ -82,6 +82,11 @@ class MyApp extends StatelessWidget {
             color: Color(0xFFD4AF7A),
           ),
 
+          progressIndicatorTheme: const ProgressIndicatorThemeData(
+            color: Color(0xFFB8956A), // Warm golden bronze for loading indicators
+            circularTrackColor: Color(0xFF2A2219),
+          ),
+
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color(0xFFB8956A),

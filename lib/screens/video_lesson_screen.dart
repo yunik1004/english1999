@@ -63,8 +63,10 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
         title: Text(widget.videoLesson.title),
       ),
       body: _isLoading
-          ? const Center(
-              child: CircularProgressIndicator(),
+          ? Center(
+              child: CircularProgressIndicator(
+                color: Theme.of(context).colorScheme.primary,
+              ),
             )
           : _errorMessage != null
               ? Center(

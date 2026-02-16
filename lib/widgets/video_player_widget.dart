@@ -96,18 +96,20 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
                   return AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Container(
-                      color: Colors.black,
-                      child: const Center(
+                      color: const Color(0xFF0D0A08),
+                      child: Center(
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             CircularProgressIndicator(
-                              color: Colors.white,
+                              color: Theme.of(context).colorScheme.primary,
                             ),
-                            SizedBox(height: 16),
+                            const SizedBox(height: 16),
                             Text(
                               'Loading video...',
-                              style: TextStyle(color: Colors.white),
+                              style: TextStyle(
+                                color: Theme.of(context).colorScheme.onSurface,
+                              ),
                             ),
                           ],
                         ),
@@ -155,9 +157,11 @@ class _StableYoutubePlayerState extends State<_StableYoutubePlayer>
       return AspectRatio(
         aspectRatio: 16 / 9,
         child: Container(
-          color: Colors.black,
-          child: const Center(
-            child: CircularProgressIndicator(color: Colors.white),
+          color: const Color(0xFF0D0A08),
+          child: Center(
+            child: CircularProgressIndicator(
+              color: Theme.of(context).colorScheme.primary,
+            ),
           ),
         ),
       );
