@@ -21,10 +21,10 @@ class TranscriptionSegmentItem extends StatelessWidget {
         duration: const Duration(milliseconds: 300),
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         decoration: BoxDecoration(
-          color: isActive ? const Color(0xFFE3F2FD) : Colors.transparent,
+          color: isActive ? const Color(0xFF2A2219) : Colors.transparent,
           border: Border(
             bottom: BorderSide(
-              color: Colors.grey.shade300,
+              color: const Color(0xFF2A2219),
               width: 0.5,
             ),
           ),
@@ -34,7 +34,7 @@ class TranscriptionSegmentItem extends StatelessWidget {
           style: TextStyle(
             fontSize: isActive ? 18 : 16,
             fontWeight: isActive ? FontWeight.bold : FontWeight.normal,
-            color: isActive ? const Color(0xFF1976D2) : Colors.black87,
+            color: isActive ? const Color(0xFFD4AF7A) : const Color(0xFFF5E6D3),
             height: 1.5,
           ),
         ),

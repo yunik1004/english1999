@@ -61,7 +61,6 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.videoLesson.title),
-        backgroundColor: Colors.blue,
       ),
       body: _isLoading
           ? const Center(

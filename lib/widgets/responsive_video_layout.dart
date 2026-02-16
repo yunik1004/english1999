@@ -201,7 +201,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
                     child: Center(
                       child: Container(
                         height: 1,
-                        color: Colors.grey.shade300,
+                        color: const Color(0xFF8B6F47),
                       ),
                     ),
                   ),
@@ -211,7 +211,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
                   child: IgnorePointer(
                     ignoring: _isDraggingVerticalDivider,
                     child: Container(
-                      color: Colors.grey.shade50,
+                      color: const Color(0xFF1C1410),
                       child: widget.transcriptionList,
                     ),
                   ),
@@ -282,7 +282,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
   /// Builds the horizontal layout for tablets and desktop.
   ///
   /// Layout structure:
-  /// - Video player on left (resizable width, height-constrained to fit screen)
+  /// - Video player on left (resizable width, full height available)
   /// - Draggable vertical divider
   /// - Transcription list on right (resizable width, scrollable)
   ///
@@ -290,7 +290,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
   Widget _buildHorizontalLayout(int videoFlex, int transcriptionFlex) {
     final screenHeight = MediaQuery.of(context).size.height;
     final appBarHeight = kToolbarHeight;
-    final maxVideoHeight = (screenHeight - appBarHeight) * 0.85;
+    final maxVideoHeight = screenHeight - appBarHeight;
 
     return LayoutBuilder(
       builder: (context, constraints) {
@@ -331,7 +331,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
                     child: Center(
                       child: Container(
                         width: 1,
-                        color: Colors.grey.shade300,
+                        color: const Color(0xFF8B6F47),
                       ),
                     ),
                   ),
@@ -342,7 +342,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
                   child: IgnorePointer(
                     ignoring: _isDraggingDivider,
                     child: Container(
-                      color: Colors.grey.shade50,
+                      color: const Color(0xFF1C1410),
                       child: widget.transcriptionList,
                     ),
                   ),

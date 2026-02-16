@@ -21,7 +21,7 @@ class ResponsiveHelper {
   static const double maxVideoWidthMobile = 720;
 
   /// Maximum video width on desktop to prevent excessive sizing
-  static const double maxVideoWidthDesktop = 1280;
+  static const double maxVideoWidthDesktop = 2560;
 
   /// Determines if the screen is in mobile size range.
   ///
@@ -52,13 +52,11 @@ class ResponsiveHelper {
   /// Returns appropriate max width based on screen size:
   /// - Mobile portrait (< 600px): Full screen width
   /// - Mobile landscape (600-900px): 720px
-  /// - Tablet/Small desktop (900-1536px): 60% of screen width
-  /// - Large desktop (≥ 1536px): 1280px fixed maximum
+  /// - Tablet/Desktop (≥ 900px): No width constraint (use available space)
   static double getVideoMaxWidth(double screenWidth) {
     if (screenWidth < mobileBreakpoint) return screenWidth;
     if (screenWidth < tabletBreakpoint) return maxVideoWidthMobile;
-    if (screenWidth < largeDesktopBreakpoint) return screenWidth * 0.6;
-    return maxVideoWidthDesktop;
+    return double.infinity; // No width constraint for larger screens
   }
 
   /// Gets the flex ratio for the video player in horizontal layout.

@@ -59,7 +59,7 @@ class TranscriptionSegment {
   }
 
   bool isActive(Duration currentTime) {
-    return currentTime >= startTime && currentTime <= endTime;
+    return currentTime >= startTime && currentTime < endTime;
   }
 
   static Duration _parseTime(String timeString) {

@@ -76,7 +76,8 @@ class VideoPlayerProvider extends ChangeNotifier {
     if (_controller == null) return;
 
     try {
-      final seekTime = segment.startTime.inSeconds.toDouble();
+      // Add 0.1 seconds to ensure we're inside the target segment
+      final seekTime = (segment.startTime.inMilliseconds + 100) / 1000.0;
 
       // Try direct seek with allowSeekAhead flag
       await _controller!.seekTo(seconds: seekTime, allowSeekAhead: true);
@@ -87,8 +88,8 @@ class VideoPlayerProvider extends ChangeNotifier {
       // Play the video
       await _controller!.playVideo();
 
-      // Update state
-      _currentPosition = segment.startTime;
+      // Update state with the adjusted time
+      _currentPosition = Duration(milliseconds: segment.startTime.inMilliseconds + 100);
       _currentSegmentId = segment.id;
       notifyListeners();
 
