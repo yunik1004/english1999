@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:provider/provider.dart';
-import 'models/video_lesson.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'providers/video_player_provider.dart';
-import 'screens/video_lesson_screen.dart';
+import 'router/app_router.dart';
 
 void main() {
+  // Use path-based URL strategy instead of hash-based (#)
+  usePathUrlStrategy();
   runApp(const MyApp());
 }
 
@@ -15,7 +18,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (_) => VideoPlayerProvider(),
-      child: MaterialApp(
+      child: MaterialApp.router(
+        routerConfig: appRouter,
         title: 'English 1999',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
@@ -36,11 +40,18 @@ class MyApp extends StatelessWidget {
 
           scaffoldBackgroundColor: const Color(0xFF0D0A08),
 
-          appBarTheme: const AppBarTheme(
-            backgroundColor: Color(0xFF1C1410),
-            foregroundColor: Color(0xFFF5E6D3),
+          appBarTheme: AppBarTheme(
+            backgroundColor: const Color(0xFF1C1410),
+            foregroundColor: const Color(0xFFF5E6D3),
             elevation: 0,
+            scrolledUnderElevation: 0,
             centerTitle: true,
+            titleTextStyle: GoogleFonts.cinzel(
+              fontSize: 20,
+              fontWeight: FontWeight.w600,
+              color: const Color(0xFFF5E6D3),
+              letterSpacing: 0.8,
+            ),
           ),
 
           cardTheme: CardThemeData(
@@ -55,26 +66,32 @@ class MyApp extends StatelessWidget {
             ),
           ),
 
-          textTheme: const TextTheme(
-            headlineLarge: TextStyle(
+          textTheme: TextTheme(
+            headlineLarge: GoogleFonts.cinzel(
               fontSize: 32,
               fontWeight: FontWeight.bold,
-              color: Color(0xFFF5E6D3),
-              letterSpacing: 0.5,
+              color: const Color(0xFFF5E6D3),
+              letterSpacing: 1.5,
             ),
-            headlineMedium: TextStyle(
+            headlineMedium: GoogleFonts.cinzel(
               fontSize: 24,
               fontWeight: FontWeight.w600,
-              color: Color(0xFFF5E6D3),
+              color: const Color(0xFFF5E6D3),
+              letterSpacing: 1.0,
             ),
-            bodyLarge: TextStyle(
+            bodyLarge: GoogleFonts.lora(
               fontSize: 16,
-              color: Color(0xFFF5E6D3),
+              color: const Color(0xFFF5E6D3),
+              height: 1.6,
+            ),
+            bodyMedium: GoogleFonts.lora(
+              fontSize: 14,
+              color: const Color(0xFFC9B69A),
               height: 1.5,
             ),
-            bodyMedium: TextStyle(
-              fontSize: 14,
-              color: Color(0xFFC9B69A),
+            bodySmall: GoogleFonts.lora(
+              fontSize: 12,
+              color: const Color(0xFFD4AF7A),
             ),
           ),
 
@@ -114,16 +131,6 @@ class MyApp extends StatelessWidget {
               borderRadius: BorderRadius.circular(8),
               borderSide: const BorderSide(color: Color(0xFFB8956A), width: 2),
             ),
-          ),
-        ),
-        home: VideoLessonScreen(
-          videoLesson: VideoLesson(
-            id: 'sample-001',
-            youtubeVideoId: 'r0x4k0yxd8s',
-            title: 'Sample English Lesson',
-            description: 'Sample video for testing',
-            transcriptionPath: 'assets/data/transcriptions/sample_lesson.json',
-            level: 'beginner',
           ),
         ),
       ),

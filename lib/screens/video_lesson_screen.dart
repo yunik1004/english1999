@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import '../models/video_lesson.dart';
 import '../providers/video_player_provider.dart';
@@ -9,10 +10,14 @@ import '../widgets/responsive_video_layout.dart';
 
 class VideoLessonScreen extends StatefulWidget {
   final VideoLesson videoLesson;
+  final String chapterId;
+  final String subchapterTitle;
 
   const VideoLessonScreen({
     super.key,
     required this.videoLesson,
+    required this.chapterId,
+    required this.subchapterTitle,
   });
 
   @override
@@ -60,7 +65,11 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.videoLesson.title),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => context.go('/story/${widget.chapterId}'),
+        ),
+        title: Text(widget.subchapterTitle),
       ),
       body: _isLoading
           ? Center(
