@@ -1,0 +1,8 @@
+[project]
+name = "english1999-transcription-fetcher"
+version = "0.1.0"
+description = "Fetch YouTube transcriptions for English1999 app"
+requires-python = ">=3.8"
+dependencies = [
+    "youtube-transcript-api==1.2.4",
+]

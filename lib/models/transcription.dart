@@ -28,22 +28,22 @@ class Transcription {
 }
 
 class TranscriptionSegment {
-  final int id;
   final String text;
+  final String speaker;
   final Duration startTime;
   final Duration endTime;
 
   TranscriptionSegment({
-    required this.id,
     required this.text,
+    required this.speaker,
     required this.startTime,
     required this.endTime,
   });
 
   factory TranscriptionSegment.fromJson(Map<String, dynamic> json) {
     return TranscriptionSegment(
-      id: json['id'] as int,
       text: json['text'] as String,
+      speaker: json['speaker'] as String? ?? 'Speaker 1',
       startTime: _parseTime(json['startTime'] as String),
       endTime: _parseTime(json['endTime'] as String),
     );
@@ -51,8 +51,8 @@ class TranscriptionSegment {
 
   Map<String, dynamic> toJson() {
     return {
-      'id': id,
       'text': text,
+      'speaker': speaker,
       'startTime': _formatTime(startTime),
       'endTime': _formatTime(endTime),
     };
@@ -67,8 +67,15 @@ class TranscriptionSegment {
     if (parts.length == 3) {
       final hours = int.parse(parts[0]);
       final minutes = int.parse(parts[1]);
-      final seconds = int.parse(parts[2]);
-      return Duration(hours: hours, minutes: minutes, seconds: seconds);
+      final secondsWithDecimal = double.parse(parts[2]);
+      final seconds = secondsWithDecimal.floor();
+      final milliseconds = ((secondsWithDecimal - seconds) * 1000).round();
+      return Duration(
+        hours: hours,
+        minutes: minutes,
+        seconds: seconds,
+        milliseconds: milliseconds,
+      );
     }
     return Duration.zero;
   }

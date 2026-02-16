@@ -8,13 +8,13 @@ class VideoPlayerProvider extends ChangeNotifier {
   Timer? _positionTimer;
   Transcription? _transcription;
   Duration _currentPosition = Duration.zero;
-  int? _currentSegmentId;
+  int? _currentSegmentIndex;
   bool _isInitialized = false;
   String? _errorMessage;
 
   YoutubePlayerController? get controller => _controller;
   Duration get currentPosition => _currentPosition;
-  int? get currentSegmentId => _currentSegmentId;
+  int? get currentSegmentIndex => _currentSegmentIndex;
   Transcription? get transcription => _transcription;
   bool get isInitialized => _isInitialized;
   String? get errorMessage => _errorMessage;
@@ -51,7 +51,7 @@ class VideoPlayerProvider extends ChangeNotifier {
 
     try {
       final position = await _controller!.currentTime;
-      final positionDuration = Duration(seconds: position.toInt());
+      final positionDuration = Duration(milliseconds: (position * 1000).round());
 
       if (positionDuration != _currentPosition) {
         _currentPosition = positionDuration;
@@ -67,13 +67,21 @@ class VideoPlayerProvider extends ChangeNotifier {
     if (_transcription == null) return;
 
     final segment = _transcription!.getCurrentSegment(_currentPosition);
-    if (segment != null && segment.id != _currentSegmentId) {
-      _currentSegmentId = segment.id;
+    if (segment != null) {
+      final index = _transcription!.segments.indexOf(segment);
+      if (index != -1 && index != _currentSegmentIndex) {
+        _currentSegmentIndex = index;
+      }
+    } else {
+      // No active segment - clear current segment
+      if (_currentSegmentIndex != null) {
+        _currentSegmentIndex = null;
+      }
     }
   }
 
   void seekToSegment(TranscriptionSegment segment) async {
-    if (_controller == null) return;
+    if (_controller == null || _transcription == null) return;
 
     try {
       // Add 0.1 seconds to ensure we're inside the target segment
@@ -90,7 +98,10 @@ class VideoPlayerProvider extends ChangeNotifier {
 
       // Update state with the adjusted time
       _currentPosition = Duration(milliseconds: segment.startTime.inMilliseconds + 100);
-      _currentSegmentId = segment.id;
+      final index = _transcription!.segments.indexOf(segment);
+      if (index != -1) {
+        _currentSegmentIndex = index;
+      }
       notifyListeners();
 
       debugPrint('Seeked to ${seekTime}s for segment: ${segment.text}');

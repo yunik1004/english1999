@@ -14,7 +14,7 @@ class TranscriptionListWidget extends StatefulWidget {
 class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
   final ScrollController _scrollController = ScrollController();
   final Map<int, GlobalKey> _segmentKeys = {};
-  int? _previousSegmentId;
+  int? _previousSegmentIndex;
 
   @override
   void dispose() {
@@ -22,8 +22,8 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
     super.dispose();
   }
 
-  void _scrollToSegment(int segmentId) {
-    final key = _segmentKeys[segmentId];
+  void _scrollToSegment(int segmentIndex) {
+    final key = _segmentKeys[segmentIndex];
     if (key?.currentContext != null) {
       Scrollable.ensureVisible(
         key!.currentContext!,
@@ -47,18 +47,18 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
         final segments = provider.transcription!.segments;
 
         // Initialize keys for all segments
-        for (var segment in segments) {
-          if (!_segmentKeys.containsKey(segment.id)) {
-            _segmentKeys[segment.id] = GlobalKey();
+        for (int i = 0; i < segments.length; i++) {
+          if (!_segmentKeys.containsKey(i)) {
+            _segmentKeys[i] = GlobalKey();
           }
         }
 
         // Auto-scroll when segment changes
-        if (provider.currentSegmentId != null &&
-            provider.currentSegmentId != _previousSegmentId) {
-          _previousSegmentId = provider.currentSegmentId;
+        if (provider.currentSegmentIndex != null &&
+            provider.currentSegmentIndex != _previousSegmentIndex) {
+          _previousSegmentIndex = provider.currentSegmentIndex;
           WidgetsBinding.instance.addPostFrameCallback((_) {
-            _scrollToSegment(provider.currentSegmentId!);
+            _scrollToSegment(provider.currentSegmentIndex!);
           });
         }
 
@@ -67,10 +67,10 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
           itemCount: segments.length,
           itemBuilder: (context, index) {
             final segment = segments[index];
-            final isActive = segment.id == provider.currentSegmentId;
+            final isActive = index == provider.currentSegmentIndex;
 
             return TranscriptionSegmentItem(
-              key: _segmentKeys[segment.id],
+              key: _segmentKeys[index],
               segment: segment,
               isActive: isActive,
               onTap: () => provider.seekToSegment(segment),
