@@ -24,9 +24,9 @@ class VideoPlayerProvider extends ChangeNotifier {
   void initializePlayer(String youtubeVideoId, Transcription transcription) {
     _transcription = transcription;
 
-    _controller = YoutubePlayerController.fromVideoId(
-      videoId: youtubeVideoId,
-      autoPlay: false,
+    // Create controller without using videoId as key to avoid JavaScript syntax errors
+    // when video IDs contain special characters like dashes
+    _controller = YoutubePlayerController(
       params: const YoutubePlayerParams(
         showControls: true,
         mute: false,
@@ -35,6 +35,9 @@ class VideoPlayerProvider extends ChangeNotifier {
         enableCaption: false,
       ),
     );
+
+    // Manually cue the video after controller creation
+    _controller!.cueVideoById(videoId: youtubeVideoId);
 
     _isInitialized = true;
     notifyListeners();
