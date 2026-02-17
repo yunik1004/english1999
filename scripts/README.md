@@ -1,85 +1,91 @@
-# Transcription Fetcher Scripts
+# Transcription Scripts
 
-Python scripts to automatically fetch YouTube video transcriptions and convert them to the app's JSON format.
+웹사이트에서 대사와 나레이션을 추출하고 한국어 번역을 매칭하는 스크립트입니다.
 
-## Setup
+## 주요 스크립트: `extract_all.py` ⭐
 
-1. Install [uv](https://docs.astral.sh/uv/) (fast Python package manager):
+**모든 기능을 포함한 통합 스크립트입니다:**
+- 웹에서 자동 fetch
+- 나레이션 + 대사 추출
+- 영어/한국어 자동 매칭
+- JSON 생성
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-2. Install dependencies:
-
-```bash
-cd scripts
-uv sync
-```
-
-## Usage
-
-### Fetch Single Transcription
-
-Fetch transcription for a single video:
+### 설치
 
 ```bash
-uv run fetch_transcriptions.py <video_id> <output_id>
+pip install requests beautifulsoup4 lxml
 ```
 
-Example:
+### 사용법
 
 ```bash
-uv run fetch_transcriptions.py y-m56nn4LeQ 1
+python extract_all.py <chapter_number> -o <output_file>
 ```
 
-This will:
-
-- Fetch the transcript from YouTube video `y-m56nn4LeQ`
-- Convert it to the app's JSON format
-- Save it to `assets/data/transcriptions/1.json`
-
-### Fetch All Transcriptions
-
-Fetch transcriptions for all videos listed in `versions.json`:
+### 예시
 
 ```bash
-uv run fetch_all_transcriptions.py
+# Chapter 0 (Prologue) 추출
+python extract_all.py 0 -o ../assets/data/transcriptions/0_complete.json
+
+# Chapter 1 추출  
+python extract_all.py 1 -o ../assets/data/transcriptions/1_complete.json
 ```
 
-This will:
-
-- Read all video IDs from `assets/data/versions.json`
-- Fetch transcripts for each video
-- Skip videos that already have transcription files
-- Save each transcription to `assets/data/transcriptions/<story_id>.json`
-
-## Output Format
-
-The scripts convert YouTube transcripts to this JSON format:
+### 출력 형식
 
 ```json
 {
   "segments": [
     {
-      "id": 1,
-      "text": "Hello everyone, and welcome to today's English lesson.",
-      "startTime": "00:00:00",
-      "endTime": "00:00:03"
+      "id": 0,
+      "startTime": 0.0,
+      "endTime": 3.5,
+      "text": "It's raining.",
+      "speaker": "",  
+      "translation": "비소리가 들려."
     },
     {
-      "id": 2,
-      "text": "Today we're going to learn about...",
-      "startTime": "00:00:03",
-      "endTime": "00:00:07"
+      "id": 1,
+      "startTime": 3.5,
+      "endTime": 6.0,
+      "text": "Captain! There is...",
+      "speaker": "APPLe",
+      "translation": "뒤에 검은 배..."
     }
   ]
 }
 ```
 
-## Notes
+- `speaker`: 빈 문자열("")이면 나레이션, 있으면 대사
+- `translation`: 한국어 번역
+- `startTime`, `endTime`: placeholder 타임스탬프 (수동 수정 필요)
 
-- The scripts prioritize English transcripts
-- If English is not available, they will use auto-generated transcripts
-- Time format: `HH:MM:SS`
-- Existing transcription files are skipped by `fetch_all_transcriptions.py`
+## 기타 스크립트
+
+### `apply_translations.py`
+기존 JSON에 번역만 추가할 때 사용
+
+```bash
+python apply_translations.py <input.json> <translations.json> <output.json>
+```
+
+### `fetch_and_match.py`
+BeautifulSoup 기반 추출 (backup)
+
+## 데이터 소스
+
+- 영어: https://uttu.merui.net/story/en/main/chapter-{N}/transcript
+- 한국어: https://uttu.merui.net/story/kr/main/chapter-{N}/transcript
+
+## 타임스탬프 수정
+
+생성된 타임스탬프는 placeholder입니다:
+1. YouTube 비디오 시청하며 실제 타이밍 확인
+2. JSON의 `startTime`/`endTime` 수동 수정
+
+## 주의사항
+
+- 웹사이트 구조 변경 시 스크립트 수정 필요
+- 자동 매칭이 100% 정확하지 않을 수 있음
+- 추출 후 내용 검토 권장
