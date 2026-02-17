@@ -72,16 +72,21 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
         return ListView.builder(
           controller: _scrollController,
           itemCount: segments.length,
+          cacheExtent: 2000,
+          addAutomaticKeepAlives: false,
+          addRepaintBoundaries: true,
           itemBuilder: (context, index) {
             final segment = segments[index];
             final isActive = index == provider.currentSegmentIndex;
 
-            return TranscriptionSegmentItem(
-              key: _segmentKeys[index],
-              segment: segment,
-              isActive: isActive,
-              showTranslation: provider.showTranslation,
-              onTap: () => provider.seekToSegment(segment),
+            return RepaintBoundary(
+              child: TranscriptionSegmentItem(
+                key: _segmentKeys[index],
+                segment: segment,
+                isActive: isActive,
+                showTranslation: provider.showTranslation,
+                onTap: () => provider.seekToSegment(segment),
+              ),
             );
           },
         );

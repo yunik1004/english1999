@@ -15,22 +15,32 @@ class TranscriptionSegmentItem extends StatelessWidget {
     required this.onTap,
   });
 
+  static const _borderDecoration = BoxDecoration(
+    border: Border(
+      bottom: BorderSide(
+        color: Color(0xFF2A2219),
+        width: 0.5,
+      ),
+    ),
+  );
+
+  static const _activeBorderDecoration = BoxDecoration(
+    color: Color(0xFF2A2219),
+    border: Border(
+      bottom: BorderSide(
+        color: Color(0xFF2A2219),
+        width: 0.5,
+      ),
+    ),
+  );
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 300),
+      child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        decoration: BoxDecoration(
-          color: isActive ? const Color(0xFF2A2219) : Colors.transparent,
-          border: Border(
-            bottom: BorderSide(
-              color: const Color(0xFF2A2219),
-              width: 0.5,
-            ),
-          ),
-        ),
+        decoration: isActive ? _activeBorderDecoration : _borderDecoration,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -58,7 +68,6 @@ class TranscriptionSegmentItem extends StatelessWidget {
               Text(
                 segment.translation,
                 style: TextStyle(
-                  fontFamily: 'NotoSerifKR',
                   fontSize: isActive ? 16 : 14,
                   fontWeight: FontWeight.normal,
                   color: isActive ? const Color(0xFFA8896A) : const Color(0xFF9B8B7A),
