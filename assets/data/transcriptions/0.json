@@ -1,4127 +1,2664 @@
 {
   "segments": [
     {
-      "text": "it's",
-      "speaker": "Speaker 1",
-      "translation": "한글 번역입니다.",
-      "startTime": "00:00:19.28",
-      "endTime": "00:00:21.52"
+      "text": "It's raining.",
+      "speaker": "",
+      "translation": "비소리가 들려.",
+      "startTime": "00:00:18.94",
+      "endTime": "00:00:19.66"
     },
     {
-      "text": "raining no it is not it's the",
-      "speaker": "Speaker 1",
-      "translation": "한글 번역 테스트합니다.",
-      "startTime": "00:00:21.88",
-      "endTime": "00:00:28.08"
+      "text": "No,",
+      "speaker": "",
+      "translation": "아니,",
+      "startTime": "00:00:22.96",
+      "endTime": "00:00:23.44"
     },
     {
-      "text": "storm the storm is coming",
-      "speaker": "Speaker 1",
-      "translation": "그렇습니다.",
-      "startTime": "00:00:28.16",
-      "endTime": "00:00:31.96"
+      "text": "it is not.",
+      "speaker": "",
+      "translation": "아니야.",
+      "startTime": "00:00:23.44",
+      "endTime": "00:00:24.32"
     },
     {
-      "text": "coming aha are you feeling",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:00:45.56",
-      "endTime": "00:00:51.52"
+      "text": "It's the \"Storm.\"",
+      "speaker": "",
+      "translation": "폭풍우야.",
+      "startTime": "00:00:25.30",
+      "endTime": "00:00:26.30"
     },
     {
-      "text": "seasick open your eyes followers it's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:00:51.52",
-      "endTime": "00:00:54.56"
+      "text": "The \"Storm\" is coming.",
+      "speaker": "",
+      "translation": "폭풍우가 오고 있다.",
+      "startTime": "00:00:27.84",
+      "endTime": "00:00:30.08"
     },
     {
-      "text": "12: at noon and the rocking apple is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:00:54.56",
-      "endTime": "00:00:56.80"
+      "text": "Aha ... Are you feeling seasick?",
+      "speaker": "",
+      "translation": "아하... 배멀미를 하고 있는 건가?",
+      "startTime": "00:00:45.87",
+      "endTime": "00:00:50.26"
     },
     {
-      "text": "welcoming the most unwelcome visitors",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:00:56.80",
-      "endTime": "00:00:59.60"
+      "text": "Open your eyes, followers!",
+      "speaker": "",
+      "translation": "눈을 떠라, 신도들아!",
+      "startTime": "00:00:51.84",
+      "endTime": "00:00:53.74"
     },
     {
-      "text": "I'll of you a public hearing you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:00:59.60",
-      "endTime": "00:01:02.00"
+      "text": "It's 12 at noon and the rocking APPLe is welcoming the most unwelcome visitors ...",
+      "speaker": "",
+      "translation": "현재 시각은 정오 12시, 로큰롤 애플호가 불청객을 승객으로 맞이했다.",
+      "startTime": "00:00:53.74",
+      "endTime": "00:00:59.08"
     },
     {
-      "text": "stalkers stalking me the pirate for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:02.00",
-      "endTime": "00:01:05.72"
+      "text": "I'll hold of you a public hearing!",
+      "speaker": "",
+      "translation": "내가 해적의 이름으로 공개 심문을 하겠다!",
+      "startTime": "00:00:59.08",
+      "endTime": "00:01:01.34"
     },
     {
-      "text": "days get ready to be shocked Away by The",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:05.72",
-      "endTime": "00:01:08.96"
+      "text": "You stalkers, stalking me the Pirate for days.",
+      "speaker": "",
+      "translation": "며칠째 나를 쫓아다니는 스토커들아, 해적인 나를 말이야.",
+      "startTime": "00:01:01.34",
+      "endTime": "00:01:04.80"
     },
     {
-      "text": "Rock and rolling coasters night and day",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:08.96",
-      "endTime": "00:01:12.24"
+      "text": "Get ready to be shocked away by the rock'n'rolling coasters night and day!",
+      "speaker": "",
+      "translation": "이제 밤낮 없이 로큰롤을 만끽할 준비를 하도록!",
+      "startTime": "00:01:06.00",
+      "endTime": "00:01:10.28"
     },
     {
-      "text": "now listen to radio Apple come with me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:12.24",
-      "endTime": "00:01:15.80"
+      "text": "Now, listen to Radio APPLe, come with me! Let's count down to ecstasy!",
+      "speaker": "",
+      "translation": "자, 라디오 청취자 여러분, 나와 함께... 카운트 다운을 해볼까?",
+      "startTime": "00:01:12.26",
+      "endTime": "00:01:17.46"
     },
     {
-      "text": "let's count down to ecstasy 3 2 one say",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:15.80",
-      "endTime": "00:01:21.16"
+      "text": "Three!",
+      "speaker": "",
+      "translation": "셋!",
+      "startTime": "00:01:17.96",
+      "endTime": "00:01:18.42"
     },
     {
-      "text": "your names you British government stoes",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:21.16",
-      "endTime": "00:01:23.96"
+      "text": "Two!",
+      "speaker": "",
+      "translation": "둘!",
+      "startTime": "00:01:18.62",
+      "endTime": "00:01:19.22"
     },
     {
-      "text": "say your names you manath vindicta",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:23.96",
-      "endTime": "00:01:26.20"
+      "text": "One!",
+      "speaker": "",
+      "translation": "하나!",
+      "startTime": "00:01:19.60",
+      "endTime": "00:01:20.20"
     },
     {
-      "text": "robbers you ban music you robbed Traders",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:26.20",
-      "endTime": "00:01:29.92"
+      "text": "Say your names, you British government stooges!",
+      "speaker": "",
+      "translation": "이름을 말해, 영국 정부의 졸개들아!",
+      "startTime": "00:01:20.56",
+      "endTime": "00:01:23.38"
     },
     {
-      "text": "our lips are sealed and we wandered but",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:29.92",
-      "endTime": "00:01:32.28"
+      "text": "Say your names, you Manus Vindictae robbers!",
+      "speaker": "",
+      "translation": "이름을 말해, 날강도같은 재건의 손 녀석들!",
+      "startTime": "00:01:23.58",
+      "endTime": "00:01:26.50"
     },
     {
-      "text": "nothing going to change our love for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:32.28",
-      "endTime": "00:01:33.68"
+      "text": "You banned music?",
+      "speaker": "",
+      "translation": "음악을 금지했지?",
+      "startTime": "00:01:26.70",
+      "endTime": "00:01:27.68"
     },
     {
-      "text": "Freedom",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:33.68",
-      "endTime": "00:01:36.24"
+      "text": "You robbed traders?",
+      "speaker": "",
+      "translation": "상선도 약탈했잖아?",
+      "startTime": "00:01:28.00",
+      "endTime": "00:01:29.04"
     },
     {
-      "text": "ever what's going on what",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:39.80",
-      "endTime": "00:01:43.08"
+      "text": "Our lips are sealed and we wandered",
+      "speaker": "",
+      "translation": "우리는 입이 다물어진 채 떠돌아다닌다.",
+      "startTime": "00:01:29.44",
+      "endTime": "00:01:31.82"
     },
     {
-      "text": "happened Captain there was a huge black",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:43.08",
-      "endTime": "00:01:45.60"
+      "text": "but nothing's gonna change",
+      "speaker": "",
+      "translation": "바뀔 건 없어,",
+      "startTime": "00:01:32.14",
+      "endTime": "00:01:32.66"
     },
     {
-      "text": "ship behind us we're under",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:45.60",
-      "endTime": "00:01:48.40"
+      "text": "our love for freedom ever!",
+      "speaker": "",
+      "translation": "자유에 대한 우리의 사랑은 영원하다!",
+      "startTime": "00:01:32.68",
+      "endTime": "00:01:34.36"
     },
     {
-      "text": "attack bloody hell turn off the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:48.40",
-      "endTime": "00:01:53.24"
+      "text": "What's going on?! What happened?",
+      "speaker": "Regulus",
+      "translation": "무슨 일이야?! 뭔 일이 일어난 거지?",
+      "startTime": "00:01:39.84",
+      "endTime": "00:01:42.36"
     },
     {
-      "text": "microphone a bridge veined cannons what",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:54.76",
-      "endTime": "00:01:59.00"
+      "text": "Captain! There is a huge black ship behind us. We are under attack!",
+      "speaker": "APPLe",
+      "translation": "캡틴! 뒤에 거대한 검은 배가 있습니다. 공격받고 있어요!",
+      "startTime": "00:01:43.66",
+      "endTime": "00:01:47.44"
     },
     {
-      "text": "the hell is that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:01:59.00",
-      "endTime": "00:02:01.84"
+      "text": "Bloody hell! Turn off the microphone!",
+      "speaker": "Regulus",
+      "translation": "이런! 일단 마이크부터 꺼!",
+      "startTime": "00:01:49.02",
+      "endTime": "00:01:51.44"
     },
     {
-      "text": "you got to be kidding I only played a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:01.96",
-      "endTime": "00:02:05.64"
+      "text": "A bridge ...? Veined cannons ...? What the hell is that?!",
+      "speaker": "Regulus",
+      "translation": "함교...? 혈관이 달린 대포...? 저게 대체 뭐야?!",
+      "startTime": "00:01:55.14",
+      "endTime": "00:01:59.70"
     },
     {
-      "text": "song Captain that is the emblem of Manis",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:05.64",
-      "endTime": "00:02:10.72"
+      "text": "You've gotta be kidding! I only played a song!",
+      "speaker": "Regulus",
+      "translation": "장난해? 고작 노래 한 곡 틀었는데!",
+      "startTime": "00:02:01.22",
+      "endTime": "00:02:04.58"
     },
     {
-      "text": "VCT Manis vind those",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:13.68",
-      "endTime": "00:02:18.08"
+      "text": "Captain, that is the emblem of Manus Vindictae!",
+      "speaker": "APPLe",
+      "translation": "캡틴, 저건 재건의 손의 상징입니다!",
+      "startTime": "00:02:06.14",
+      "endTime": "00:02:09.08"
     },
     {
-      "text": "terrorists is it because of my little",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:18.08",
-      "endTime": "00:02:20.20"
+      "text": "The wind is wuthering.",
+      "speaker": "",
+      "translation": "바람이 거세게 불고 있다.",
+      "startTime": "00:02:09.08",
+      "endTime": "00:02:11.69"
     },
     {
-      "text": "thing",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:20.20",
-      "endTime": "00:02:22.44"
+      "text": "Manus Vindictae? Those terrorists?",
+      "speaker": "Regulus",
+      "translation": "재건의 손? 그 테러리스트들?",
+      "startTime": "00:02:14.30",
+      "endTime": "00:02:16.88"
     },
     {
-      "text": "or ah I get",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:22.44",
-      "endTime": "00:02:26.28"
+      "text": "Is it because of my \"little thing?\" Or ...",
+      "speaker": "Regulus",
+      "translation": "설마 내 작은 물건 때문인가?... 아니면...",
+      "startTime": "00:02:18.48",
+      "endTime": "00:02:22.16"
     },
     {
-      "text": "it your accomplices are are",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:27.96",
-      "endTime": "00:02:31.16"
+      "text": "Ha. I get it ...",
+      "speaker": "Regulus",
+      "translation": "하. 알겠다...",
+      "startTime": "00:02:22.80",
+      "endTime": "00:02:24.30"
     },
     {
-      "text": "here remember you're still captives of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:31.16",
-      "endTime": "00:02:34.16"
+      "text": "Your accomplices are here!",
+      "speaker": "Regulus",
+      "translation": "너희 동료가 온 거구나!",
+      "startTime": "00:02:28.42",
+      "endTime": "00:02:30.10"
     },
     {
-      "text": "the pirate regulus order them to hold",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:34.16",
-      "endTime": "00:02:36.76"
+      "text": "Remember, you're still captives of the Pirate Regulus! Order them to hold fire, or I'll ...",
+      "speaker": "Regulus",
+      "translation": "똑똑히 들어, 너희들은 아직 이 해적님의 포로야! 당장 공격을 멈추라고 전해, 아니면...",
+      "startTime": "00:02:31.66",
+      "endTime": "00:02:38.30"
     },
     {
-      "text": "fire or",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:36.76",
-      "endTime": "00:02:39.36"
+      "text": "Another bomb hits the ship. The smell of gunpowder and sparks soon fill the air.",
+      "speaker": "",
+      "translation": "또 다른 폭탄이 배에 명중한다. 화약 냄새와 불꽃이 곧 공기를 가득 채운다.",
+      "startTime": "00:02:38.30",
+      "endTime": "00:02:42.59"
     },
     {
-      "text": "I'll we're sinking please prepare to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:50.56",
-      "endTime": "00:02:53.80"
+      "text": "*coughs*",
+      "speaker": "Regulus",
+      "translation": "콜록, 콜록...!",
+      "startTime": "00:02:42.59",
+      "endTime": "00:02:46.89"
     },
     {
-      "text": "abandon the ship my Captain",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:02:53.80",
-      "endTime": "00:02:57.84"
+      "text": "We are sinking. Please prepare to abandon the ship, my captain.",
+      "speaker": "APPLe",
+      "translation": "배가 침몰하고 있습니다. 캡틴, 배를 버릴 준비를 해주세요.",
+      "startTime": "00:02:51.18",
+      "endTime": "00:02:54.96"
     },
     {
-      "text": "hey hey hey I'll let you go just please",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:06.36",
-      "endTime": "00:03:09.48"
+      "text": "Whoa ...",
+      "speaker": "Regulus",
+      "translation": "우와...",
+      "startTime": "00:02:54.96",
+      "endTime": "00:02:58.55"
     },
     {
-      "text": "don't sink my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:09.48",
-      "endTime": "00:03:11.48"
+      "text": "She scrambles to dispel the mute incantation on the captives.",
+      "speaker": "",
+      "translation": "그녀는 포로들에게 걸린 침묵 주문을 해제하려고 서둘러 마도술을 시전한다.",
+      "startTime": "00:02:58.55",
+      "endTime": "00:03:02.13"
     },
     {
-      "text": "ship my records are my most precious",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:11.48",
-      "endTime": "00:03:14.24"
+      "text": "Hey! Hey, hey! I'll let you go. Just please don't sink my ship!",
+      "speaker": "Regulus",
+      "translation": "이봐! 너희들! 풀어줄게... 그러니 내 배 만은 부수지 말아 줘!",
+      "startTime": "00:03:05.72",
+      "endTime": "00:03:10.46"
     },
     {
-      "text": "Treasures please no",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:14.24",
-      "endTime": "00:03:17.60"
+      "text": "My records are my most precious treasures ... Please, no violence!",
+      "speaker": "Regulus",
+      "translation": "내 레코드는 진짜 소중하단 말이야... 살살 좀 다뤄달라고!",
+      "startTime": "00:03:11.92",
+      "endTime": "00:03:16.26"
     },
     {
-      "text": "violence hey can you hear me say",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:17.60",
-      "endTime": "00:03:20.80"
+      "text": "Hey! Can you hear me? Say something!",
+      "speaker": "Regulus",
+      "translation": "이봐! 내 말 들려? 뭔가 말해봐!",
+      "startTime": "00:03:17.98",
+      "endTime": "00:03:20.86"
     },
     {
-      "text": "something",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:20.80",
-      "endTime": "00:03:23.80"
+      "text": "...",
+      "speaker": "Male Investigator",
+      "translation": "...",
+      "startTime": "00:03:20.86",
+      "endTime": "00:03:25.84"
     },
     {
-      "text": "we're not with them we tried to tell",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:31.24",
-      "endTime": "00:03:34.80"
+      "text": "*cough* ... We're not with them. We tried to tell you!",
+      "speaker": "Female Investigator",
+      "translation": "*기침* ... 우리는 그들과 한패가 아니야. 말하려고 했다고!",
+      "startTime": "00:03:30.82",
+      "endTime": "00:03:33.96"
     },
     {
-      "text": "you we're investigators from the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:34.80",
-      "endTime": "00:03:38.84"
+      "text": "We're investigators from the Foundation.",
+      "speaker": "Male Investigator",
+      "translation": "우리는 재단의 조사원이라고.",
+      "startTime": "00:03:35.12",
+      "endTime": "00:03:37.40"
     },
     {
-      "text": "foundation you've got the wrong",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:38.84",
-      "endTime": "00:03:42.84"
+      "text": "You've got the wrong people.",
+      "speaker": "Female Investigator",
+      "translation": "엄한 사람을 잡아왔어.",
+      "startTime": "00:03:39.12",
+      "endTime": "00:03:41.08"
     },
     {
-      "text": "people",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:42.92",
-      "endTime": "00:03:45.92"
+      "text": "Ahh ...",
+      "speaker": "Regulus",
+      "translation": "아...",
+      "startTime": "00:03:43.00",
+      "endTime": "00:03:43.88"
     },
     {
-      "text": "oh protect the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:46.44",
-      "endTime": "00:03:50.04"
+      "text": "Protect the records!!",
+      "speaker": "Regulus",
+      "translation": "레코드를 지켜!!",
+      "startTime": "00:03:46.68",
+      "endTime": "00:03:48.28"
     },
     {
-      "text": "records regulus's ship's been sunk",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:03:53.48",
-      "endTime": "00:03:58.80"
+      "text": "Regulus's ship's been sunk.",
+      "speaker": "Sonetto",
+      "translation": "레굴루스의 배가 침몰됐어.",
+      "startTime": "00:03:54.20",
+      "endTime": "00:03:55.96"
     },
     {
-      "text": "landed good they landed",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:03.72",
-      "endTime": "00:04:08.12"
+      "text": "Landed ... Good. They landed safely.",
+      "speaker": "Sonetto",
+      "translation": "내렸구나... 다행이야, 다들 무사해.",
+      "startTime": "00:03:55.96",
+      "endTime": "00:04:07.97"
     },
     {
-      "text": "safely ASP those riers are still after",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:08.12",
-      "endTime": "00:04:11.56"
+      "text": "Gosh! Those rioters are still after them! At this rate ...",
+      "speaker": "Sonetto",
+      "translation": "큰일이다, 아직도 폭도들에게 쫓기고 있어! 이대로라면...",
+      "startTime": "00:04:07.97",
+      "endTime": "00:04:19.99"
     },
     {
-      "text": "them at this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:11.56",
-      "endTime": "00:04:14.96"
+      "text": "My apologies, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "미안해요, 타임키퍼.",
+      "startTime": "00:04:32.00",
+      "endTime": "00:04:33.32"
     },
     {
-      "text": "rate my apologies",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:18.64",
-      "endTime": "00:04:21.88"
+      "text": "Are you feeling better?",
+      "speaker": "Sonetto",
+      "translation": "좀 괜찮아졌어요?",
+      "startTime": "00:04:33.32",
+      "endTime": "00:04:34.42"
     },
     {
-      "text": "timekeeper are you feeling better",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:21.88",
-      "endTime": "00:04:26.52"
+      "text": "Battersea Park. Chelsea is across the river.",
+      "speaker": "Sonetto",
+      "translation": "배터시 공원이에요. 첼시는 강 건너편에 있고요.",
+      "startTime": "00:04:34.42",
+      "endTime": "00:04:35.52"
     },
     {
-      "text": "of course timekeeper I must offer you my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:30.84",
-      "endTime": "00:04:34.40"
+      "text": "I sent the backup request without authorization, and you were teleported here ...",
+      "speaker": "Sonetto",
+      "translation": "제가 멋대로 지원 요청을 하는 바람에 이곳까지 오게 되셨네요...",
+      "startTime": "00:04:36.62",
+      "endTime": "00:04:39.30"
     },
     {
-      "text": "deepest",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:34.40",
-      "endTime": "00:04:36.16"
+      "text": "It was rushed. The ritual wasn't ready, and you fell into a coma.",
+      "speaker": "Sonetto",
+      "translation": "너무 서둘렀어요. 의식이 준비되지 않았고, 당신은 혼수상태에 빠졌고요.",
+      "startTime": "00:04:39.46",
+      "endTime": "00:04:31.98"
     },
     {
-      "text": "apologies I shouldn't have sent the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:36.16",
-      "endTime": "00:04:38.04"
+      "text": "... Of course! Timekeeper, I must offer you my deepest apologies.",
+      "speaker": "Sonetto",
+      "translation": "... 그럼요! 혹시 제가 실례한 건가요, 타임키퍼?",
+      "startTime": "00:04:32.00",
+      "endTime": "00:04:35.06"
     },
     {
-      "text": "backup request so hastily the ritual",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:38.04",
-      "endTime": "00:04:40.40"
+      "text": "I shouldn't have sent the backup request so hastily. The ritual wasn't ready.",
+      "speaker": "Sonetto",
+      "translation": "그렇게 서둘러서 지원요청을 하면 안 됐는데, 마법이 준비도 안 된 상태에서요.",
+      "startTime": "00:04:36.62",
+      "endTime": "00:04:40.76"
     },
     {
-      "text": "wasn't",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:40.40",
-      "endTime": "00:04:41.68"
+      "text": "But thank goodness you're awake now. There's no time to spare.",
+      "speaker": "Sonetto",
+      "translation": "그래도 깨어나셨으니 다행이에요. 시간이 없어요.",
+      "startTime": "00:04:42.48",
+      "endTime": "00:04:45.66"
     },
     {
-      "text": "ready but thank goodness you're awake",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:41.68",
-      "endTime": "00:04:44.04"
+      "text": "Please allow me to report and request backup.",
+      "speaker": "Sonetto",
+      "translation": "보고드리고 지원 요청을 하겠습니다.",
+      "startTime": "00:04:47.26",
+      "endTime": "00:04:49.72"
     },
     {
-      "text": "now there's no time to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:44.04",
-      "endTime": "00:04:46.72"
+      "text": "Go ahead.",
+      "speaker": "Vertin",
+      "translation": "어서 해봐.",
+      "startTime": "00:04:51.22",
+      "endTime": "00:04:51.98"
     },
     {
-      "text": "spare please allow me to report and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:46.72",
-      "endTime": "00:04:49.16"
+      "text": "Two days ago, we met heavy resistance on our mission to register Regulus. She's even captured two of our investigators.",
+      "speaker": "Sonetto",
+      "translation": "이틀 전에 레굴루스 등록 임무를 수행하던 중 큰 저항에 부딪혔어요. 심지어 우리 조사원 두 명이 붙잡혔고요.",
+      "startTime": "00:04:53.36",
+      "endTime": "00:04:59.94"
     },
     {
-      "text": "request",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:49.16",
-      "endTime": "00:04:50.72"
+      "text": "Unfortunately, she's now being pursued by Manus Vindictae.",
+      "speaker": "Sonetto",
+      "translation": "안타깝게도 지금 재건의 손에게 쫓기고 있어요.",
+      "startTime": "00:05:01.76",
+      "endTime": "00:05:05.28"
     },
     {
-      "text": "backup go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:50.72",
-      "endTime": "00:04:52.88"
+      "text": "Timekeeper, I formally request your aid. We must rescue the investigators, complete the registration of Regulus, and return to the research center before the arrival of the \"Storm.\"",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼, 정식으로 지원을 요청드립니다. 조사원들을 구출하고, 레굴루스의 등록을 완료한 뒤 폭풍우가 도착하기 전에 연구센터로 돌아가야 해요.",
+      "startTime": "00:05:06.94",
+      "endTime": "00:05:16.54"
     },
     {
-      "text": "ahead 2 days ago we met heavy resistance",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:52.88",
-      "endTime": "00:04:56.24"
+      "text": "You know I'm not like you, Sonetto. You've trained your whole life to battle with arcanum. I ... took a different path ...",
+      "speaker": "Vertin",
+      "translation": "알다시피 난 너와는 달라, 소네트. 넌 평생에 걸쳐 마도술 전투 훈련을 받았잖아. 난... 다른 길을 걸어왔어...",
+      "startTime": "00:05:21.10",
+      "endTime": "00:05:29.36"
     },
     {
-      "text": "on our mission to register regulus she's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:56.24",
-      "endTime": "00:04:58.56"
+      "text": "I know. You don't have to fight, Miss Vertin.",
+      "speaker": "Sonetto",
+      "translation": "알아요. 싸우실 필요는 없어요, 버틴 씨.",
+      "startTime": "00:05:30.82",
+      "endTime": "00:05:33.76"
     },
     {
-      "text": "even captured two of our",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:04:58.56",
-      "endTime": "00:05:01.12"
+      "text": "I just need you by my side. To guide me.",
+      "speaker": "Sonetto",
+      "translation": "제 곁에서 안내해 주시는 걸로도 충분해요.",
+      "startTime": "00:05:35.14",
+      "endTime": "00:05:38.18"
     },
     {
-      "text": "investigators unfortunately she's now",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:01.12",
-      "endTime": "00:05:03.64"
+      "text": "I've never known a person more perceptive in the arts of arcanum than you. And ...",
+      "speaker": "Sonetto",
+      "translation": "당신은 제가 아는 사람 중에서 마도학 감지 능력이 가장 뛰어나요! 그리고...",
+      "startTime": "00:05:39.60",
+      "endTime": "00:05:44.88"
     },
     {
-      "text": "being pursued by Manis",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:03.64",
-      "endTime": "00:05:06.16"
+      "text": "According to the Field Mission Evacuation Instructions, we can request your aid within 24 hours of the \"Storm.\"",
+      "speaker": "Sonetto",
+      "translation": "현장 임무 대피 지침에 따르면, 폭풍우가 오기 24시간 전까지는 당신에게 지원을 요청할 수 있어요.",
+      "startTime": "00:05:46.34",
+      "endTime": "00:05:52.42"
     },
     {
-      "text": "VCT timekeeper I formally request your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:06.16",
-      "endTime": "00:05:09.44"
+      "text": "Right, Timekeeper?",
+      "speaker": "Sonetto",
+      "translation": "그렇죠, 타임키퍼?",
+      "startTime": "00:05:54.22",
+      "endTime": "00:05:55.26"
     },
     {
-      "text": "Aid we must rescue the investigators",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:09.44",
-      "endTime": "00:05:12.08"
+      "text": "You are a careful reader.",
+      "speaker": "Vertin",
+      "translation": "꼼꼼히 읽는구나.",
+      "startTime": "00:05:56.70",
+      "endTime": "00:05:58.26"
     },
     {
-      "text": "complete the registration of regulus and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:12.08",
-      "endTime": "00:05:14.20"
+      "text": "I'll help you out. Don't worry.",
+      "speaker": "Vertin",
+      "translation": "도와줄게, 걱정하지 마.",
+      "startTime": "00:05:59.84",
+      "endTime": "00:06:01.86"
     },
     {
-      "text": "return to the research center before the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:14.20",
-      "endTime": "00:05:15.72"
+      "text": "Fifty minutes left. Come on, let's move.",
+      "speaker": "Vertin",
+      "translation": "앞으로 50분 남았어. 서두르는 게 좋겠네, 바로 출발하자.",
+      "startTime": "00:06:08.18",
+      "endTime": "00:06:11.00"
     },
     {
-      "text": "arrival of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:15.72",
-      "endTime": "00:05:18.36"
+      "text": "Please, use this. It'll send us directly to our destination.",
+      "speaker": "Sonetto",
+      "translation": "이걸 쓰세요. 우리를 목적지로 바로 데려다 줄 거예요.",
+      "startTime": "00:06:12.64",
+      "endTime": "00:06:15.76"
     },
     {
-      "text": "storm you know I'm not like you sonat",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:20.56",
-      "endTime": "00:05:23.88"
+      "text": "And this is ...?",
+      "speaker": "Vertin",
+      "translation": "그리고 이건...?",
+      "startTime": "00:06:17.60",
+      "endTime": "00:06:20.26"
     },
     {
-      "text": "you've trained your whole life to battle",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:23.88",
-      "endTime": "00:05:25.40"
+      "text": "A portable floppy disk containing the arcane skill \"Teleport.\" I used one just now to bring you here.",
+      "speaker": "Sonetto",
+      "translation": "순간 이동 마도술이 담긴 휴대용 플로피 디스크예요. 방금 이걸로 당신을 이곳으로 데려왔어요.",
+      "startTime": "00:06:20.90",
+      "endTime": "00:06:26.90"
     },
     {
-      "text": "with",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:25.40",
-      "endTime": "00:05:26.44"
+      "text": "Ahem ... They're still under experimentation, so they're not entirely stable. Madam Z only gave me three.",
+      "speaker": "Sonetto",
+      "translation": "음... 아직 실험 단계라서 완전히 안정적이지 않아요. Z 여사님께서 세 개만 주셨거든요.",
+      "startTime": "00:06:28.58",
+      "endTime": "00:06:35.60"
     },
     {
-      "text": "Arcanum I took a different path",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:26.44",
-      "endTime": "00:05:31.40"
+      "text": "But if everything goes well, they'll save us a lot of time.",
+      "speaker": "Sonetto",
+      "translation": "하지만 모든 게 순조롭게 진행된다면 시간을 많이 아낄 수 있을 거예요.",
+      "startTime": "00:06:35.60",
+      "endTime": "00:06:39.60"
     },
     {
-      "text": "I know you don't have to fight Miss",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:31.40",
-      "endTime": "00:05:34.72"
+      "text": "Envision the destination, speak its name, and the \"Teleport\" ritual will begin.",
+      "speaker": "Sonetto",
+      "translation": "목적지 이름을 생각하고, 환상에 서명을 하면 순간 이동 술식이 시작될 거예요.",
+      "startTime": "00:06:41.40",
+      "endTime": "00:06:46.14"
     },
     {
-      "text": "verton I just need you by my side to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:34.72",
-      "endTime": "00:05:37.88"
+      "text": "Yes, that's right. Everyone is waiting to serve you.",
+      "speaker": "\"Teleport\"",
+      "translation": "네, 맞습니다. 모든 분들이 당신을 모시기 위해 기다리고 있습니다.",
+      "startTime": "00:06:46.14",
+      "endTime": "00:06:56.03"
     },
     {
-      "text": "guide",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:37.88",
-      "endTime": "00:05:39.04"
+      "text": "Ms. Vertin ...",
+      "speaker": "\"Teleport\"",
+      "translation": "버틴 씨...",
+      "startTime": "00:06:56.03",
+      "endTime": "00:07:05.92"
     },
     {
-      "text": "me I've never known a person more",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:39.04",
-      "endTime": "00:05:41.40"
+      "text": "Yes, that's right. I've seen you before. This name is permitted.",
+      "speaker": "\"Teleport\"",
+      "translation": "네, 맞습니다. 이전에 뵌 적이 있습니다, 이는 허가된 이름입니다.",
+      "startTime": "00:07:05.92",
+      "endTime": "00:07:15.82"
     },
     {
-      "text": "perceptive in the Arts of Arcanum than",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:41.40",
-      "endTime": "00:05:43.64"
+      "text": "Wait, something is different ... Your name is, Vertin?",
+      "speaker": "\"Teleport\"",
+      "translation": "잠시만요, 뭔가 다른 것 같은데... 당신의 이름은 버틴인가요?",
+      "startTime": "00:07:15.82",
+      "endTime": "00:07:25.71"
     },
     {
-      "text": "you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:43.64",
-      "endTime": "00:05:45.72"
+      "text": "There are too many of them! I can't hold on much longer! What's your status?",
+      "speaker": "Female Investigator",
+      "translation": "적들이 너무 많아! 더 이상 버틸 수가 없겠어! 그쪽 상황은 어때?",
+      "startTime": "00:07:35.60",
+      "endTime": "00:07:38.68"
     },
     {
-      "text": "and according to the Fiel Mission",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:45.72",
-      "endTime": "00:05:48.04"
+      "text": "The way back is blocked! I-I'm still trying to break through!",
+      "speaker": "Male Investigator",
+      "translation": "퇴로가 막혀버렸어! 아, 아직 뚫고 나가보려는 중이야!",
+      "startTime": "00:07:40.92",
+      "endTime": "00:07:45.06"
     },
     {
-      "text": "evacuation instructions we can request",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:48.04",
-      "endTime": "00:05:50.32"
+      "text": "Can we get back ... before the \"Storm\" ...?",
+      "speaker": "Female Investigator",
+      "translation": "우리... 폭풍우가 오기 전에 돌아갈 수는 있을까?",
+      "startTime": "00:07:46.42",
+      "endTime": "00:07:49.66"
     },
     {
-      "text": "your Aid within 24 hours of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:50.32",
-      "endTime": "00:05:53.56"
+      "text": "Oh, sugar! Sugar!",
+      "speaker": "Regulus",
+      "translation": "제길, 제기랄!!",
+      "startTime": "00:07:57.06",
+      "endTime": "00:07:58.34"
     },
     {
-      "text": "storm right",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:53.56",
-      "endTime": "00:05:56.20"
+      "text": "All the money I saved ... My beloved APPLe ... And ...",
+      "speaker": "Regulus",
+      "translation": "내가 모은 돈... 내 소중한 APPLe호... 그리고...",
+      "startTime": "00:07:59.70",
+      "endTime": "00:08:03.74"
     },
     {
-      "text": "timekeeper you are a careful reader",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:05:56.20",
-      "endTime": "00:06:00.20"
+      "text": "The tape drive I bought just yesterday ... All sunk to the bottom of the ocean!",
+      "speaker": "Regulus",
+      "translation": "그리고 어제 산 테이프 리더기까지... 흑! 전부 다 물속으로 가라앉아 버렸어!",
+      "startTime": "00:08:05.06",
+      "endTime": "00:08:10.44"
     },
     {
-      "text": "I'll help you out don't",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:00.20",
-      "endTime": "00:06:03.76"
+      "text": "Don't be so smug! If I hadn't been protecting the records, I would've beaten the lot of you to a pulp!",
+      "speaker": "Regulus",
+      "translation": "잘난 척하지 마! 내가 기록을 지키느라 바빴던 게 아니었다면 너희 모두 박살내 버렸을 거야!",
+      "startTime": "00:08:12.60",
+      "endTime": "00:08:18.46"
     },
     {
-      "text": "worry 50 minutes left come on let's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:07.44",
-      "endTime": "00:06:12.12"
+      "text": "Give ... stone ...",
+      "speaker": "The Manus Disciple",
+      "translation": "돌을... 내놔...",
+      "startTime": "00:08:18.46",
+      "endTime": "00:08:23.38"
     },
     {
-      "text": "move please use this it'll send us",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:12.12",
-      "endTime": "00:06:14.88"
+      "text": "Ah!! What are you doing you bastard!",
+      "speaker": "Regulus",
+      "translation": "악! 뭐하는 짓이야!",
+      "startTime": "00:08:28.30",
+      "endTime": "00:08:30.24"
     },
     {
-      "text": "directly to our",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:14.88",
-      "endTime": "00:06:17.16"
+      "text": "My records! Pete Townshend! The John \"Thunderfingers\" live show!!!",
+      "speaker": "Regulus",
+      "translation": "내 레코드, 피트 타운센드, 존의 3연음 트레몰로 베이스 라이브!",
+      "startTime": "00:08:30.24",
+      "endTime": "00:08:36.88"
     },
     {
-      "text": "destination and this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:17.16",
-      "endTime": "00:06:20.48"
+      "text": "I'm gonna kill you!!",
+      "speaker": "Regulus",
+      "translation": "죽여버리겠어!!",
+      "startTime": "00:08:38.44",
+      "endTime": "00:08:40.30"
     },
     {
-      "text": "is a portable floppy disc containing the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:20.48",
-      "endTime": "00:06:23.16"
+      "text": "Captain, behind you!",
+      "speaker": "APPLe",
+      "translation": "캡틴, 뒤를 조심해요!",
+      "startTime": "00:08:41.68",
+      "endTime": "00:08:43.22"
     },
     {
-      "text": "Arcane skill teleport I used one just",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:23.16",
-      "endTime": "00:06:25.88"
+      "text": "Found them.",
+      "speaker": "Vertin",
+      "translation": "찾았다.",
+      "startTime": "00:08:49.51",
+      "endTime": "00:08:50.80"
     },
     {
-      "text": "now to bring you here",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:25.88",
-      "endTime": "00:06:29.88"
+      "text": "Enemy ahead. Now!",
+      "speaker": "Vertin",
+      "translation": "앞에 적이 있어. 지금이야!",
+      "startTime": "00:08:52.31",
+      "endTime": "00:08:53.78"
     },
     {
-      "text": "they're still under experimentation so",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:30.12",
-      "endTime": "00:06:32.32"
+      "text": "Ascoltare. Capire. Pregare. Perdonare.",
+      "speaker": "Sonetto",
+      "translation": "경청하고 통찰하며, 간구하고 사하노라!",
+      "startTime": "00:08:56.08",
+      "endTime": "00:08:59.84"
     },
     {
-      "text": "they're not entirely stable Madame Z",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:32.32",
-      "endTime": "00:06:34.84"
+      "text": "Ed è subito sera！",
+      "speaker": "Sonetto",
+      "translation": "Ed è subito sera!",
+      "startTime": "00:09:01.30",
+      "endTime": "00:09:02.66"
     },
     {
-      "text": "only gave me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:34.84",
-      "endTime": "00:06:36.40"
+      "text": "As the light shines, the enemies disappear in the blink of an eye.",
+      "speaker": "",
+      "translation": "빛이 비치자, 적들이 눈 깜짝할 사이에 사라진다.",
+      "startTime": "00:09:02.66",
+      "endTime": "00:09:06.79"
     },
     {
-      "text": "three but if everything goes well",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:36.40",
-      "endTime": "00:06:38.64"
+      "text": "Huh? Who's there?",
+      "speaker": "Regulus",
+      "translation": "어... 누구지?",
+      "startTime": "00:09:10.92",
+      "endTime": "00:09:12.32"
     },
     {
-      "text": "they'll save us a lot of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:38.64",
-      "endTime": "00:06:40.64"
+      "text": "That incantation ... could it be ...?",
+      "speaker": "Female Investigator",
+      "translation": "이 주문은... 설마...",
+      "startTime": "00:09:14.26",
+      "endTime": "00:09:16.68"
     },
     {
-      "text": "time Envision the destination speak its",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:40.64",
-      "endTime": "00:06:43.96"
+      "text": "It's the Chief Investigator! Yes! The Chief's here!",
+      "speaker": "Male Investigator",
+      "translation": "수석 조사관님이다! 그래! 수석님이 오셨어!",
+      "startTime": "00:09:18.06",
+      "endTime": "00:09:21.76"
     },
     {
-      "text": "name and the teleport ritual will begin",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:06:43.96",
-      "endTime": "00:06:49.04"
+      "text": "The light of \"Teleport\" fades away. Two figures show up on the shore.",
+      "speaker": "",
+      "translation": "순간 이동의 빛이 사라진다. 해안가에 두 명의 인물이 나타난다.",
+      "startTime": "00:09:21.76",
+      "endTime": "00:09:28.26"
     },
     {
-      "text": "there are too many of them I can't hold",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:34.20",
-      "endTime": "00:07:36.64"
-    },
-    {
-      "text": "on much longer what's your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:36.64",
-      "endTime": "00:07:40.44"
-    },
-    {
-      "text": "status the way back is blocked I I'm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:40.52",
-      "endTime": "00:07:44.04"
-    },
-    {
-      "text": "still trying to break",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:44.04",
-      "endTime": "00:07:46.04"
-    },
-    {
-      "text": "through can we get back before the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:46.04",
-      "endTime": "00:07:51.40"
-    },
-    {
-      "text": "storm sugar sugar",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:07:56.80",
-      "endTime": "00:08:00.24"
-    },
-    {
-      "text": "all the money I saved my beloved apple",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:00.24",
-      "endTime": "00:08:04.52"
-    },
-    {
-      "text": "and oh the tape drive I bought just",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:04.52",
-      "endTime": "00:08:07.60"
-    },
-    {
-      "text": "yesterday all sunk to the bottom of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:07.60",
-      "endTime": "00:08:11.84"
-    },
-    {
-      "text": "ocean don't be so smug if I hadn't been",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:11.84",
-      "endTime": "00:08:15.52"
-    },
-    {
-      "text": "protecting the records I would have",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:15.52",
-      "endTime": "00:08:17.08"
-    },
-    {
-      "text": "beaten the lot of you to a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:17.08",
-      "endTime": "00:08:20.36"
-    },
-    {
-      "text": "pulp",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:20.88",
-      "endTime": "00:08:21.98"
-    },
-    {
-      "text": "give",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:23.12",
-      "endTime": "00:08:25.10"
-    },
-    {
-      "text": "Stone oh what are you doing you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:27.80",
-      "endTime": "00:08:31.72"
-    },
-    {
-      "text": "bastard my records Pete towns in the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:31.72",
-      "endTime": "00:08:35.32"
-    },
-    {
-      "text": "John thunderfingers life",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:35.32",
-      "endTime": "00:08:38.20"
-    },
-    {
-      "text": "show I'm going to kill",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:38.20",
-      "endTime": "00:08:41.40"
-    },
-    {
-      "text": "you Captain behind",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:41.40",
-      "endTime": "00:08:45.20"
-    },
-    {
-      "text": "you found",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:49.48",
-      "endTime": "00:08:51.60"
-    },
-    {
-      "text": "them enemy ahead",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:51.60",
-      "endTime": "00:08:55.84"
-    },
-    {
-      "text": "now",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:08:58.44",
-      "endTime": "00:08:59.72"
-    },
-    {
-      "text": "for huh who's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:10.36",
-      "endTime": "00:09:13.40"
-    },
-    {
-      "text": "there that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:13.40",
-      "endTime": "00:09:15.28"
-    },
-    {
-      "text": "incantation could it",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:15.28",
-      "endTime": "00:09:17.56"
-    },
-    {
-      "text": "be it's the chief investigator yes the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:17.56",
-      "endTime": "00:09:21.36"
-    },
-    {
-      "text": "chief's here",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:21.36",
-      "endTime": "00:09:24.80"
-    },
-    {
-      "text": "Chief you arrived just in time how did",
-      "speaker": "Speaker 1",
-      "translation": "",
+      "text": "Chief! You arrived just in time! How did you know!?",
+      "speaker": "Male Investigator",
+      "translation": "대장님! 딱 맞춰서 오셨네요! 어떻게 알고 오신 거예요!?",
       "startTime": "00:09:34.76",
-      "endTime": "00:09:38.12"
+      "endTime": "00:09:38.36"
     },
     {
-      "text": "you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:38.12",
-      "endTime": "00:09:40.28"
+      "text": "I didn't. It's all thanks to the Timekeeper ...",
+      "speaker": "Sonetto",
+      "translation": "난 별로 한게 없어. 전부 타임키퍼의 도움 덕분이지...",
+      "startTime": "00:09:40.84",
+      "endTime": "00:09:43.72"
     },
     {
-      "text": "know I didn't it's all thanks to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:40.32",
-      "endTime": "00:09:44.76"
+      "text": "Predicting the enemy's movement mid-teleportation ... you're even more perceptive than I thought!",
+      "speaker": "Sonetto",
+      "translation": "순간 이동 중에 적의 움직임을 예측하다니... 생각했던 것보다 훨씬 뛰어나시네요!",
+      "startTime": "00:09:45.66",
+      "endTime": "00:09:50.90"
     },
     {
-      "text": "timekeeper predicting the enemy's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:44.76",
-      "endTime": "00:09:46.84"
+      "text": "You're ... the Timekeeper?",
+      "speaker": "Female Investigator",
+      "translation": "당신이... 타임키퍼예요?",
+      "startTime": "00:09:53.22",
+      "endTime": "00:09:55.96"
     },
     {
-      "text": "movement mid",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:46.84",
-      "endTime": "00:09:48.16"
+      "text": "Hm. So the \"Storm\" is coming soon.",
+      "speaker": "Female Investigator",
+      "translation": "흠. 그럼 폭풍우가 곧 온다는 거네.",
+      "startTime": "00:09:57.46",
+      "endTime": "00:10:01.34"
     },
     {
-      "text": "teleportation you're even more",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:48.16",
-      "endTime": "00:09:49.92"
+      "text": "Indeed. We have 45 minutes.",
+      "speaker": "Vertin",
+      "translation": "맞아. 아직 45분 남았어.",
+      "startTime": "00:10:05.70",
+      "endTime": "00:10:08.34"
     },
     {
-      "text": "perceptive than I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:49.92",
-      "endTime": "00:09:52.64"
+      "text": "I'll do my best to help before the \"Storm\" arrives.",
+      "speaker": "Vertin",
+      "translation": "폭풍우가 오기 전까지 최대한 도와줄게.",
+      "startTime": "00:10:09.72",
+      "endTime": "00:10:12.74"
     },
     {
-      "text": "thought",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:52.64",
-      "endTime": "00:09:54.20"
+      "text": "Now everyone, get ready to break through!",
+      "speaker": "Vertin",
+      "translation": "이제 모두들, 돌파 준비해!",
+      "startTime": "00:10:14.14",
+      "endTime": "00:10:16.98"
     },
     {
-      "text": "you're the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:54.20",
-      "endTime": "00:09:57.20"
+      "text": "Regulus, you're doing this too.",
+      "speaker": "Vertin",
+      "translation": "레굴루스, 너도 함께 말이야.",
+      "startTime": "00:10:19.42",
+      "endTime": "00:10:21.60"
     },
     {
-      "text": "timekeeper h so the storm is coming",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:09:57.20",
-      "endTime": "00:10:03.16"
+      "text": "Huh?",
+      "speaker": "Regulus",
+      "translation": "어?",
+      "startTime": "00:10:23.24",
+      "endTime": "00:10:23.58"
     },
     {
-      "text": "soon indeed we have 45",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:05.28",
-      "endTime": "00:10:09.32"
+      "text": "She carefully hides her records behind a stone, joining the team unwillingly.",
+      "speaker": "",
+      "translation": "그녀는 자신의 기록을 돌 뒤에 조심스럽게 숨기고, 마지못해 팀에 합류한다.",
+      "startTime": "00:10:23.58",
+      "endTime": "00:10:31.69"
     },
     {
-      "text": "minutes I'll do my best to help before",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:09.32",
-      "endTime": "00:10:12.08"
+      "text": "Sonetto, your assistance please.",
+      "speaker": "Vertin",
+      "translation": "버틸, 도와줘.",
+      "startTime": "00:10:39.80",
+      "endTime": "00:10:41.92"
     },
     {
-      "text": "the storm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:12.08",
-      "endTime": "00:10:13.76"
+      "text": "The enemies are attacking. We're counting on you, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "적들이 공격해오고 있어요. 타임키퍼, 당신이 필요해요.",
+      "startTime": "00:10:41.92",
+      "endTime": "00:10:55.74"
     },
     {
-      "text": "arrives now everyone get ready to break",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:13.76",
-      "endTime": "00:10:18.72"
+      "text": "Timekeeper, allow me to go through the basic principles anddeployment method of arcanum battle again!",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼, 마도학 전투의 기본 원리와 전개 방법을 다시 한번 설명드리겠습니다!",
+      "startTime": "00:10:55.74",
+      "endTime": "00:11:09.56"
     },
     {
-      "text": "through regulus you're doing this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:18.72",
-      "endTime": "00:10:22.68"
+      "text": "It shows the incantations that have been generated here.",
+      "speaker": "Sonetto",
+      "translation": "여기서 생성된 주문들을 보여주는 거예요.",
+      "startTime": "00:11:23.38",
+      "endTime": "00:11:25.66"
     },
     {
-      "text": "too",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:22.68",
-      "endTime": "00:10:25.68"
+      "text": "Tap to select an incantation and summon its ritual.",
+      "speaker": "Sonetto",
+      "translation": "주문을 선택하고 터치해서 의식을 소환하세요.",
+      "startTime": "00:11:25.66",
+      "endTime": "00:11:13.66"
     },
     {
-      "text": "huh fine but only because you saved me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:26.16",
-      "endTime": "00:10:30.76"
+      "text": "Tap and hold an incantation to check details of this arcane skill",
+      "speaker": "Sonetto",
+      "translation": "주문을 길게 눌러서 이 마도술의 세부 정보를 확인하세요",
+      "startTime": "00:11:13.68",
+      "endTime": "00:11:15.98"
     },
     {
-      "text": "then we're",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:30.76",
-      "endTime": "00:10:33.20"
+      "text": "Tap again to select an incantation.",
+      "speaker": "Sonetto",
+      "translation": "다시 탭해서 주문을 선택하세요.",
+      "startTime": "00:11:20.38",
+      "endTime": "00:11:22.88"
     },
     {
-      "text": "even senetto your assistance",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:39.12",
-      "endTime": "00:10:42.76"
+      "text": "It shows our AP here. Choosing an incantation consumes I AP. When you're done choosing, the rituals shall begin.",
+      "speaker": "Sonetto",
+      "translation": "여기에 우리 AP가 표시돼요. 주문을 선택하면 1 AP를 소모해요. 선택이 끝나면 의식이 시작될 거예요.",
+      "startTime": "00:11:23.38",
+      "endTime": "00:11:31.30"
     },
     {
-      "text": "please the breach is behind us the alley",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:42.76",
-      "endTime": "00:10:46.00"
+      "text": "Timekeeper, this is our chance.",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼, 지금이 기회예요.",
+      "startTime": "00:11:32.26",
+      "endTime": "00:11:34.22"
     },
     {
-      "text": "towards King's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:46.00",
-      "endTime": "00:10:48.72"
+      "text": "We're prepared for the change.",
+      "speaker": "Sonetto",
+      "translation": "변화에 대비하고 있어요.",
+      "startTime": "00:11:48.04",
+      "endTime": "00:11:49.80"
     },
     {
-      "text": "Road I can't wait",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:50.40",
-      "endTime": "00:10:53.80"
+      "text": "Look, it shows the star levels of the incantations here.",
+      "speaker": "Sonetto",
+      "translation": "봐, 여기에 주문의 성급이 표시되어 있어.",
+      "startTime": "00:11:51.42",
+      "endTime": "00:11:54.98"
     },
     {
-      "text": "anymore the enemies are attacking we are",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:53.80",
-      "endTime": "00:10:57.00"
+      "text": "When two identical incantations of the same star level meet each other, they will be merged into one of a higher star level.",
+      "speaker": "",
+      "translation": "동일한 성급의 같은 주문 두 개가 만나면, 더 높은 성급의 주문 하나로 합쳐진다.",
+      "startTime": "00:11:54.98",
+      "endTime": "00:11:58.22"
     },
     {
-      "text": "counting on you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:57.00",
-      "endTime": "00:10:58.24"
+      "text": "Tap on a proper incantation to link the neighboring ones and improve its power.",
+      "speaker": "Sonetto",
+      "translation": "적절한 주문을 눌러서 인접한 주문들과 연결하고 위력을 높이세요.",
+      "startTime": "00:12:01.46",
+      "endTime": "00:12:05.74"
     },
     {
-      "text": "timekeeper timekeeper allow me to go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:10:58.24",
-      "endTime": "00:11:00.88"
+      "text": "We can now summon the ritual, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "이제 의식을 소환할 수 있어요, 타임키퍼.",
+      "startTime": "00:12:07.76",
+      "endTime": "00:12:09.64"
     },
     {
-      "text": "through the basic principles and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:00.88",
-      "endTime": "00:11:02.16"
+      "text": "We did it ...! We broke out of the enemy's encirclement ...",
+      "speaker": "Sonetto",
+      "translation": "해냈어요...! 적의 포위망을 뚫고 나왔어요...",
+      "startTime": "00:12:22.80",
+      "endTime": "00:12:26.40"
     },
     {
-      "text": "deployment method of Arcanum battle",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:02.16",
-      "endTime": "00:11:04.04"
+      "text": "Thank you for your decisiveness, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "결단력 있는 판단에 감사드려요, 타임키퍼.",
+      "startTime": "00:12:27.74",
+      "endTime": "00:12:30.12"
     },
     {
-      "text": "again it shows the incantations that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:04.04",
-      "endTime": "00:11:06.48"
+      "text": "We've got some distance from them for now ...",
+      "speaker": "Sonetto",
+      "translation": "일단 어느정도 따돌렸어...",
+      "startTime": "00:12:36.88",
+      "endTime": "00:12:38.96"
     },
     {
-      "text": "have been generated here tap to select",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:06.48",
-      "endTime": "00:11:09.48"
+      "text": "Chief, are there any \"Teleport\" floppy disks left? We need to go now!",
+      "speaker": "Female Investigator",
+      "translation": "대장님! 순간 이동 플로피 디스크 남은 거 있나요? 지금 당장 가야 해요!",
+      "startTime": "00:12:40.52",
+      "endTime": "00:12:45.20"
     },
     {
-      "text": "an incantation and summon its ritual I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:09.48",
-      "endTime": "00:11:12.60"
+      "text": "This is the last one. Let's take Regulus back.",
+      "speaker": "Sonetto",
+      "translation": "딱 한 장 남았어. 레굴루스 씨도 같이 데려가면 되겠네.",
+      "startTime": "00:12:46.80",
+      "endTime": "00:12:49.80"
     },
     {
-      "text": "believe tap and hold an incantation to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:12.60",
-      "endTime": "00:11:14.52"
+      "text": "Umm? Where are we going?",
+      "speaker": "Regulus",
+      "translation": "응? 어딜 가려고?",
+      "startTime": "00:12:52.36",
+      "endTime": "00:12:53.98"
     },
     {
-      "text": "check details of this Arcane",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:14.52",
-      "endTime": "00:11:17.84"
+      "text": "Somewhere safe. We won't hurt you.",
+      "speaker": "Sonetto",
+      "translation": "안전한 곳으로요. 당신에게 해를 끼치지 않을 겁니다.",
+      "startTime": "00:12:56.50",
+      "endTime": "00:12:58.88"
     },
     {
-      "text": "skill tap again to select an",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:20.00",
-      "endTime": "00:11:23.32"
+      "text": "We are investigators from the St. Pavlov Foundation. As far as we are aware, you have not registered for the arcanum license.",
+      "speaker": "Sonetto",
+      "translation": "저희는 성 파블로프 재단 소속 조사원입니다. 저희가 알기로는 당신이 마도술 사용 허가를 등록하지 않으신 것 같은데요.",
+      "startTime": "00:13:00.34",
+      "endTime": "00:13:07.04"
     },
     {
-      "text": "incantation it shows our action points",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:23.32",
-      "endTime": "00:11:25.68"
+      "text": "Unauthorized use of arcanum is a violation of the Public Security Law. You are required to cooperate with our investigation and registration process.",
+      "speaker": "Sonetto",
+      "translation": "마도술 무허가 사용은 치안법 위반이에요. 저희 조사와 등록 절차에 협조해 주셔야 합니다.",
+      "startTime": "00:13:09.04",
+      "endTime": "00:13:17.12"
     },
     {
-      "text": "here choosing an incantation consumes",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:25.68",
-      "endTime": "00:11:28.04"
+      "text": "Just come back with us to the research center and—",
+      "speaker": "Sonetto",
+      "translation": "저희와 함께 연구소로 가시면 됩니다. 그리고...",
+      "startTime": "00:13:18.60",
+      "endTime": "00:13:21.64"
     },
     {
-      "text": "one AP when you are done choosing the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:28.04",
-      "endTime": "00:11:30.60"
+      "text": "Sonetto looks at the sky, where thunder is bursting constantly.",
+      "speaker": "",
+      "translation": "소네트는 천둥이 끊임없이 터지는 하늘을 올려다본다.",
+      "startTime": "00:13:21.64",
+      "endTime": "00:13:24.23"
     },
     {
-      "text": "ritual shall begin timekeeper this is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:30.60",
-      "endTime": "00:11:33.88"
+      "text": "We need to move quickly.",
+      "speaker": "Sonetto",
+      "translation": "어서 서둘러야 해요.",
+      "startTime": "00:13:26.82",
+      "endTime": "00:13:28.40"
     },
     {
-      "text": "our",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:33.88",
-      "endTime": "00:11:35.96"
+      "text": "Huh? Are you ... recruiting me?",
+      "speaker": "Regulus",
+      "translation": "응? 그러니까 나를... 영입하려는 거야?",
+      "startTime": "00:13:30.06",
+      "endTime": "00:13:32.62"
     },
     {
-      "text": "chance",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:35.96",
-      "endTime": "00:11:38.96"
+      "text": "Fine! Fine! I'll go with you. But, could you show me the floppy disk first?",
+      "speaker": "Regulus",
+      "translation": "알겠어, 알겠다고. 너희를 따라가긴 할텐데, 우선 그 플로피 디스크부터 보여줄래~?☆",
+      "startTime": "00:13:34.54",
+      "endTime": "00:13:39.64"
     },
     {
-      "text": "simp peace and loved we are prepared for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:45.96",
-      "endTime": "00:11:49.52"
+      "text": "Sure. Go ahead.",
+      "speaker": "Sonetto",
+      "translation": "네, 그러세요.",
+      "startTime": "00:13:41.48",
+      "endTime": "00:13:42.88"
     },
     {
-      "text": "the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:49.52",
-      "endTime": "00:11:51.00"
+      "text": "Wow ... so incantations can really be recorded and read!",
+      "speaker": "Regulus",
+      "translation": "와... 정말 주문을 기록하거나 불러올 수 있구나!",
+      "startTime": "00:13:44.88",
+      "endTime": "00:13:48.92"
     },
     {
-      "text": "change look it shows the star levels of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:51.00",
-      "endTime": "00:11:54.00"
+      "text": "A floppy disk that stores advanced arcane skills. Awesome! If only I could take a look inside ...",
+      "speaker": "Regulus",
+      "translation": "고급 마도술이 저장된 플로피 디스크라고? 대박! 안에 뭐가 들어있는지 한번 볼 수만 있다면...",
+      "startTime": "00:13:50.36",
+      "endTime": "00:13:58.48"
     },
     {
-      "text": "the incantations here",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:11:54.00",
-      "endTime": "00:11:58.00"
+      "text": "Hmm ... so this is where you start the ritual ... looks like a signature will work ...",
+      "speaker": "Regulus",
+      "translation": "흠... 여기가 술식이 시작되는 곳이군... 서명만 하면 되겠는데...",
+      "startTime": "00:14:00.22",
+      "endTime": "00:14:05.94"
     },
     {
-      "text": "tap on a proper incantation to link the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:01.92",
-      "endTime": "00:12:04.04"
+      "text": "That's right. I heard you were a fan of technolo- ...",
+      "speaker": "Sonetto",
+      "translation": "맞아요. 레굴루스 씨도 기술에 관심이 많다고 들었어요.",
+      "startTime": "00:14:07.44",
+      "endTime": "00:14:10.10"
     },
     {
-      "text": "neighboring ones and improve its power I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:04.04",
-      "endTime": "00:12:07.00"
+      "text": "Everyone—get down!",
+      "speaker": "Female Investigator",
+      "translation": "모두—엎드려!",
+      "startTime": "00:14:10.10",
+      "endTime": "00:14:13.70"
     },
     {
-      "text": "sold shot we can now summon the ritual",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:07.00",
-      "endTime": "00:12:10.12"
+      "text": "Ambush!",
+      "speaker": "Sonetto",
+      "translation": "매복이다!",
+      "startTime": "00:14:13.70",
+      "endTime": "00:14:19.26"
     },
     {
-      "text": "timekeeper stop me up I know the mo and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:10.12",
-      "endTime": "00:12:14.64"
+      "text": "Careful! There's another gang of rioters! They're blocking the way ahead!",
+      "speaker": "Vertin",
+      "translation": "조심해! 또 다른 폭도 무리가 있어! 앞길을 막고 있다고!",
+      "startTime": "00:14:24.82",
+      "endTime": "00:14:36.16"
     },
     {
-      "text": "this is an alien",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:14.64",
-      "endTime": "00:12:16.84"
+      "text": "Manus Vindictae has been silent for some time ... Why are there so many of them now?",
+      "speaker": "Sonetto",
+      "translation": "재건의 손이 한동안 조용했는데... 왜 지금 이렇게 많이 나타난 거죠?",
+      "startTime": "00:14:38.78",
+      "endTime": "00:14:42.82"
     },
     {
-      "text": "City left hands up now right hands",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:16.84",
-      "endTime": "00:12:22.40"
+      "text": "We need to take them down first. Sonetto, your assistance, please!",
+      "speaker": "Vertin",
+      "translation": "먼저 저들부터 처리해야 해. 소네트, 도와줘!",
+      "startTime": "00:14:44.26",
+      "endTime": "00:14:48.50"
     },
     {
-      "text": "up we did it we broke out of the enemy's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:22.40",
-      "endTime": "00:12:27.28"
+      "text": "These enemies look stranger than before, and even more dangerous.",
+      "speaker": "",
+      "translation": "이 적들은 전보다 더 기이해 보이고, 훨씬 더 위험하다.",
+      "startTime": "00:14:48.50",
+      "endTime": "00:14:54.75"
     },
     {
-      "text": "encirclement thank you for your dis",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:27.28",
-      "endTime": "00:12:29.16"
-    },
-    {
-      "text": "decisiveness",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:29.16",
-      "endTime": "00:12:31.80"
-    },
-    {
-      "text": "timekeeper we've got some distance from",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:36.32",
-      "endTime": "00:12:38.56"
-    },
-    {
-      "text": "them for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:38.56",
-      "endTime": "00:12:39.92"
-    },
-    {
-      "text": "now Chief are there any teleport floppy",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:39.92",
-      "endTime": "00:12:43.08"
-    },
-    {
-      "text": "discs left we need to go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:43.08",
-      "endTime": "00:12:46.24"
-    },
-    {
-      "text": "now this is the last one let's take",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:46.24",
-      "endTime": "00:12:49.20"
-    },
-    {
-      "text": "regulus",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:49.20",
-      "endTime": "00:12:51.80"
-    },
-    {
-      "text": "back um where are we",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:51.84",
-      "endTime": "00:12:55.72"
-    },
-    {
-      "text": "going somewhere safe we won't hurt you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:12:55.72",
-      "endTime": "00:13:00.80"
-    },
-    {
-      "text": "we are investigators from the St Pavo",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:00.80",
-      "endTime": "00:13:02.80"
-    },
-    {
-      "text": "Foundation as far as we are aware you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:02.80",
-      "endTime": "00:13:05.28"
-    },
-    {
-      "text": "have not registered for the Arcanum",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:05.28",
-      "endTime": "00:13:08.04"
-    },
-    {
-      "text": "license unauthorized use of Arcanum is a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:08.04",
-      "endTime": "00:13:10.96"
-    },
-    {
-      "text": "violation of the public security law you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:10.96",
-      "endTime": "00:13:13.80"
-    },
-    {
-      "text": "are required to cooperate with our",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:13.80",
-      "endTime": "00:13:15.44"
-    },
-    {
-      "text": "investigation and registration",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:15.44",
-      "endTime": "00:13:18.16"
-    },
-    {
-      "text": "process just come back with us to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:18.16",
-      "endTime": "00:13:20.36"
-    },
-    {
-      "text": "research center",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:20.36",
-      "endTime": "00:13:23.28"
-    },
-    {
-      "text": "and we need to move quickly",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:26.52",
-      "endTime": "00:13:30.44"
-    },
-    {
-      "text": "huh are you recruiting",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:30.44",
-      "endTime": "00:13:33.88"
-    },
-    {
-      "text": "me fine fine I'll go with you but could",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:33.88",
-      "endTime": "00:13:38.04"
-    },
-    {
-      "text": "you show me the floppy disc",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:38.04",
-      "endTime": "00:13:40.80"
-    },
-    {
-      "text": "first sure go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:40.80",
-      "endTime": "00:13:44.08"
-    },
-    {
-      "text": "ahead wow so incantations can really be",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:44.08",
-      "endTime": "00:13:48.04"
-    },
-    {
-      "text": "recorded and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:48.04",
-      "endTime": "00:13:49.96"
-    },
-    {
-      "text": "read a floppy disc that stores Advanced",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:49.96",
-      "endTime": "00:13:52.80"
-    },
-    {
-      "text": "Arcane",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:52.80",
-      "endTime": "00:13:54.00"
-    },
-    {
-      "text": "skills",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:54.00",
-      "endTime": "00:13:55.96"
-    },
-    {
-      "text": "awesome if only I could take a look",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:55.96",
-      "endTime": "00:13:58.28"
-    },
-    {
-      "text": "inside",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:13:58.28",
-      "endTime": "00:14:00.84"
-    },
-    {
-      "text": "H so this is where you start the ritual",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:00.84",
-      "endTime": "00:14:04.48"
-    },
-    {
-      "text": "looks like a signature will",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:04.48",
-      "endTime": "00:14:06.96"
-    },
-    {
-      "text": "work that's right I heard you a fan of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:06.96",
-      "endTime": "00:14:11.84"
-    },
-    {
-      "text": "techn everyone get",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:11.84",
-      "endTime": "00:14:15.56"
-    },
-    {
-      "text": "down",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:17.40",
-      "endTime": "00:14:20.40"
-    },
-    {
-      "text": "Ambush is anyone",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:23.08",
-      "endTime": "00:14:26.68"
-    },
-    {
-      "text": "hurt give",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:27.52",
-      "endTime": "00:14:31.04"
-    },
-    {
-      "text": "careful there's another gang of riers",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:32.72",
-      "endTime": "00:14:35.24"
-    },
-    {
-      "text": "they're blocking the way",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:35.24",
-      "endTime": "00:14:37.96"
-    },
-    {
-      "text": "ahead Manus VCT has been silent for some",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:37.96",
-      "endTime": "00:14:40.96"
-    },
-    {
-      "text": "time why are there so many of them",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:40.96",
-      "endTime": "00:14:43.68"
-    },
-    {
-      "text": "now we need to take them down first",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:43.68",
-      "endTime": "00:14:46.72"
-    },
-    {
-      "text": "senat your assistance",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:46.72",
-      "endTime": "00:14:50.44"
-    },
-    {
-      "text": "please May the peace be with us",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:14:52.12",
-      "endTime": "00:14:57.48"
-    },
-    {
-      "text": "timekeeper we need to go one step",
-      "speaker": "Speaker 1",
-      "translation": "",
+      "text": "Timekeeper, we need to go one step further. Observe, meditate, and create stronger incantations.",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼, 한 단계 더 나아가야 해요. 관찰하고, 명상하고, 더 강한 주문을 만들어내는 거예요.",
       "startTime": "00:15:01.00",
-      "endTime": "00:15:03.28"
+      "endTime": "00:15:07.38"
     },
     {
-      "text": "further observe meditate and create",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:03.28",
-      "endTime": "00:15:06.48"
+      "text": "Move the incantation to merge 2 into 1. Incantations can be leveled up to 3-star at most.",
+      "speaker": "",
+      "translation": "주문을 이동시켜 2개를 1개로 합성하세요. 주문은 최대 3성까지 레벨업할 수 있습니다.",
+      "startTime": "00:15:07.38",
+      "endTime": "00:15:10.36"
     },
     {
-      "text": "stronger",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:06.48",
-      "endTime": "00:15:08.44"
+      "text": "I'll leave the rest to you, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "나머지는 타임키퍼 씨에게 맡길게요.",
+      "startTime": "00:15:13.34",
+      "endTime": "00:15:15.24"
     },
     {
-      "text": "incantations I'll leave the rest to you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:12.76",
-      "endTime": "00:15:15.70"
+      "text": "Well done! I knew it ... You are gifted as a commander!",
+      "speaker": "Sonetto",
+      "translation": "잘했어요! 역시... 당신은 지휘관으로서 타고난 재능이 있어요!",
+      "startTime": "00:15:19.98",
+      "endTime": "00:15:24.06"
     },
     {
-      "text": "timekeeper well done I knew it you're",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:19.56",
-      "endTime": "00:15:23.24"
+      "text": "Our AP is invaluable. Moving incantations will cost AP as well.",
+      "speaker": "Sonetto",
+      "translation": "우리의 AP는 소중해요. 이동 주문을 쓸 때도 AP가 소모될 거예요.",
+      "startTime": "00:15:25.12",
+      "endTime": "00:15:29.98"
     },
     {
-      "text": "gifted as a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:23.24",
-      "endTime": "00:15:24.56"
+      "text": "You must play the cards right based on the situation. You've been pretty good at that.",
+      "speaker": "Sonetto",
+      "translation": "상황에 맞게 카드를 잘 써야 해요. 지금까지 잘하고 계시네요.",
+      "startTime": "00:15:31.30",
+      "endTime": "00:15:36.24"
     },
     {
-      "text": "commander our AP is invaluable moving",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:24.56",
-      "endTime": "00:15:28.08"
+      "text": "We're now fully prepared to face the enemy.",
+      "speaker": "Sonetto",
+      "translation": "이제 적과 맞설 준비가 완전히 끝났어요.",
+      "startTime": "00:15:37.62",
+      "endTime": "00:15:39.88"
     },
     {
-      "text": "incantations will cost AP as",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:28.08",
-      "endTime": "00:15:30.80"
+      "text": "That was close. We finally got rid of them.",
+      "speaker": "Sonetto",
+      "translation": "위험했네요. 겨우 따돌렸군요.",
+      "startTime": "00:16:28.06",
+      "endTime": "00:16:31.04"
     },
     {
-      "text": "well you must play the cards right based",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:30.80",
-      "endTime": "00:15:33.44"
+      "text": "Let's get a move on. Time is of the essence.",
+      "speaker": "Sonetto",
+      "translation": "어서 서두르죠. 시간이 촉박해요.",
+      "startTime": "00:16:32.58",
+      "endTime": "00:16:34.82"
     },
     {
-      "text": "on the situation you've been pretty good",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:33.44",
-      "endTime": "00:15:36.00"
+      "text": "Please hand me the floppy disk, Regulus. I'll start the ritual ...",
+      "speaker": "Sonetto",
+      "translation": "플로피 디스크 좀 건네줘, 레굴루스. 의식을 시작할게...",
+      "startTime": "00:16:36.56",
+      "endTime": "00:16:39.76"
     },
     {
-      "text": "at",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:36.00",
-      "endTime": "00:15:37.04"
+      "text": "Hm? Regulus ... Where is she?",
+      "speaker": "Sonetto",
+      "translation": "어? 레굴루스는... 어디 있지?",
+      "startTime": "00:16:42.42",
+      "endTime": "00:16:45.00"
     },
     {
-      "text": "that we're now fully prepared to face",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:37.04",
-      "endTime": "00:15:39.60"
+      "text": "It appears she triggered the ritual and disappeared in the chaos.",
+      "speaker": "Male Investigator",
+      "translation": "그녀가 의식을 발동시키고 혼란 속에서 사라진 것 같아.",
+      "startTime": "00:16:47.28",
+      "endTime": "00:16:51.34"
     },
     {
-      "text": "the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:39.60",
-      "endTime": "00:15:40.48"
+      "text": "...",
+      "speaker": "Sonetto",
+      "translation": "...",
+      "startTime": "00:16:51.34",
+      "endTime": "00:16:55.30"
     },
     {
-      "text": "enemy everybody let me see your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:40.48",
-      "endTime": "00:15:45.12"
+      "text": "A beam of dim light flashes behind the rock in the distance.",
+      "speaker": "",
+      "translation": "저 멀리 바위 뒤편에서 희미한 빛줄기가 번쩍인다.",
+      "startTime": "00:16:55.30",
+      "endTime": "00:16:59.26"
     },
     {
-      "text": "hand you found the right burst for me L",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:15:56.12",
-      "endTime": "00:16:01.96"
+      "text": "She must've been in a rush, leaving all that behind.",
+      "speaker": "Vertin",
+      "translation": "급하게 나가느라 이것저것 다 두고 간 모양이네.",
+      "startTime": "00:17:03.22",
+      "endTime": "00:17:05.86"
     },
     {
-      "text": "Ino peace and love peace and love",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:05.44",
-      "endTime": "00:16:09.96"
+      "text": "We'll have to make our way back on foot ... Chief, we need to give up the Regulus mission.",
+      "speaker": "Male Investigator",
+      "translation": "걸어서 가는 수밖에 없겠군요... 대장님, 레굴루스 임무는 포기하시죠.",
+      "startTime": "00:17:08.38",
+      "endTime": "00:17:14.16"
     },
     {
-      "text": "they're just little games start me up",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:09.96",
-      "endTime": "00:16:14.08"
+      "text": "The longer we stay here, the more likely we are to be caught in the \"Storm.\" As I'm sure you know, Chief, if that happens ...",
+      "speaker": "Female Investigator",
+      "translation": "여기 더 오래 있을수록 폭풍우에 휘말릴 가능성이 높아져요. 대장님도 아시다시피, 그렇게 되면...",
+      "startTime": "00:17:15.66",
+      "endTime": "00:17:22.94"
     },
     {
-      "text": "left hands up now right hands",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:14.08",
-      "endTime": "00:16:17.92"
+      "text": "... you'll be disqualified as an investigator.",
+      "speaker": "Female Investigator",
+      "translation": "... 조사원 자격까지 박탈당할 수 있다는 걸 잊지 마세요.",
+      "startTime": "00:17:24.34",
+      "endTime": "00:17:26.66"
     },
     {
-      "text": "up woohoo",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:17.92",
-      "endTime": "00:16:21.52"
+      "text": "Let's split up.",
+      "speaker": "Sonetto",
+      "translation": "두 팀으로 흩어지자.",
+      "startTime": "00:17:29.40",
+      "endTime": "00:17:30.22"
     },
     {
-      "text": "release that was close we finally got",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:27.72",
-      "endTime": "00:16:30.72"
+      "text": "You return to the Foundation and make the report. As Chief Investigator, I will stay until the last moment.",
+      "speaker": "Sonetto",
+      "translation": "당신은 재단으로 돌아가서 보고서를 작성하세요. 수석 조사원인 제가 마지막까지 남아있겠습니다.",
+      "startTime": "00:17:31.56",
+      "endTime": "00:17:37.32"
     },
     {
-      "text": "rid of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:30.72",
-      "endTime": "00:16:31.84"
+      "text": "What are you going to do after Regulus's registration? The \"Storm\" is about to come.",
+      "speaker": "Vertin",
+      "translation": "레굴루스 등록 후에 어떻게 할 거야? 폭풍우가 곧 올 텐데.",
+      "startTime": "00:17:38.90",
+      "endTime": "00:17:44.04"
     },
     {
-      "text": "them let's get a move on time is of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:31.84",
-      "endTime": "00:16:35.96"
+      "text": "\"Express gratitude, salute, and see them off. Never disturb the lives of the registrants.\"",
+      "speaker": "Sonetto",
+      "translation": "감사 인사 후 배웅해 줘야죠. 등록자들의 삶에는 절대 간섭하지 않아요.",
+      "startTime": "00:17:45.74",
+      "endTime": "00:17:51.14"
     },
     {
-      "text": "essence please hand me the floppy disc",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:35.96",
-      "endTime": "00:16:38.20"
+      "text": "You haven't seen the \"Storm\" yet, have you?",
+      "speaker": "Vertin",
+      "translation": "폭풍우를 한 번도 본 적이 없나 보군?",
+      "startTime": "00:17:52.74",
+      "endTime": "00:17:55.52"
     },
     {
-      "text": "regulus I'll start the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:38.20",
-      "endTime": "00:16:40.80"
+      "text": "I-I am not qualified. Thus far, you are the only one who can move freely during the \"Storm.\"",
+      "speaker": "Sonetto",
+      "translation": "전, 전 아직 자격이 없어요... 현재 폭풍우 동안 자유롭게 다닐 수 있는 사람은 당신뿐이에요.",
+      "startTime": "00:17:57.72",
+      "endTime": "00:18:03.48"
     },
     {
-      "text": "ritual hm regulus where is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:40.80",
-      "endTime": "00:16:46.72"
+      "text": "Have you found out where Regulus usually spends her time? Or anyone who knows her?",
+      "speaker": "Vertin",
+      "translation": "레굴루스가 평소에 어디서 시간을 보내는지 알아냈어? 아니면 그녀를 아는 사람이라도?",
+      "startTime": "00:18:07.54",
+      "endTime": "00:18:12.00"
     },
     {
-      "text": "she it appears she triggered the ritual",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:46.72",
-      "endTime": "00:16:49.96"
+      "text": "Yes. She often turns up in the West End, hanging around Carnaby Street and King's Road.",
+      "speaker": "Male Investigator",
+      "translation": "네. 그녀는 웨스트엔드에 자주 나타나는데, 카나비 스트리트와 킹스 로드 근처를 어슬렁거리고 있어요.",
+      "startTime": "00:18:12.00",
+      "endTime": "00:18:19.02"
     },
     {
-      "text": "and disappeared in the chaos",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:16:49.96",
-      "endTime": "00:16:54.16"
+      "text": "She used to buy records at the store on Kingly Court. She may've returned there.",
+      "speaker": "Male Investigator",
+      "translation": "그녀가 킹글리 코트에 있는 가게에서 레코드를 사곤 했어. 그곳으로 돌아갔을지도 몰라.",
+      "startTime": "00:18:20.58",
+      "endTime": "00:18:25.08"
     },
     {
-      "text": "she must have been in a rush leaving all",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:03.84",
-      "endTime": "00:17:05.52"
+      "text": "Oh, and be careful! She can control light with her arcane skills.",
+      "speaker": "Female Investigator",
+      "translation": "참, 레굴루스의 마도술은 빛을 다룰 수 있어요! 조심하셔야 합니다!",
+      "startTime": "00:18:26.64",
+      "endTime": "00:18:30.78"
     },
     {
-      "text": "that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:05.52",
-      "endTime": "00:17:07.68"
+      "text": "I see. Let's go, Sonetto.",
+      "speaker": "Vertin",
+      "translation": "알겠어. 출발하자, 소네트.",
+      "startTime": "00:18:33.26",
+      "endTime": "00:18:35.94"
     },
     {
-      "text": "behind we'll have to make our way back",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:07.68",
-      "endTime": "00:17:09.92"
+      "text": "Are you coming with me? I thought you would leave after we defeated those Manus Vindictae ... Ahh, thank you!",
+      "speaker": "Sonetto",
+      "translation": "저와 함께 가실 건가요? 재건의 손을 물리친 후에는 떠나실 줄 알았는데... 아, 고마워요!",
+      "startTime": "00:18:37.18",
+      "endTime": "00:18:44.56"
     },
     {
-      "text": "on foot Chief we need to give up the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:09.92",
-      "endTime": "00:17:13.56"
+      "text": "It's nothing. I have my own mission ...",
+      "speaker": "Vertin",
+      "translation": "천만에... 나도 내 임무가 있으니까.",
+      "startTime": "00:18:46.22",
+      "endTime": "00:18:49.08"
     },
     {
-      "text": "regulars",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:13.56",
-      "endTime": "00:17:15.16"
+      "text": "... also in Kingly Court.",
+      "speaker": "Vertin",
+      "translation": "...킹리 코트에도 말이야.",
+      "startTime": "00:18:51.04",
+      "endTime": "00:18:52.68"
     },
     {
-      "text": "Mission the longer we stay here the more",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:15.16",
-      "endTime": "00:17:17.76"
+      "text": "When did it start to rain?",
+      "speaker": "",
+      "translation": "언제부터 비가 내리기 시작했을까?",
+      "startTime": "00:18:52.68",
+      "endTime": "00:18:59.01"
     },
     {
-      "text": "likely we are to be caught in the storm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:17.76",
-      "endTime": "00:17:20.36"
+      "text": "The cityscape is reflected in the puddle, swaying cheerfully with the ripples. The fashionable city, the optimistic people—looks as if the prosperity would last through all eras and never die.",
+      "speaker": "",
+      "translation": "웅덩이에 비친 도시 풍경이 물결과 함께 경쾌하게 흔들린다. 세련된 도시, 낙관적인 사람들—마치 이 번영이 모든 시대를 관통해 영원히 지속될 것처럼 보인다.",
+      "startTime": "00:18:59.01",
+      "endTime": "00:19:05.33"
     },
     {
-      "text": "as I'm sure you know Chief if that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:20.36",
-      "endTime": "00:17:23.60"
+      "text": "EXTRA! EXTRA! READ ALL ABOUT IT!",
+      "speaker": "Newsboy",
+      "translation": "호외요, 호외! 오늘 엄청난 특종이 있어요!",
+      "startTime": "00:19:11.66",
+      "endTime": "00:19:14.66"
     },
     {
-      "text": "happens you'll be disqualified as an",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:23.60",
-      "endTime": "00:17:26.36"
+      "text": "The story of The Hero Pickles will be brought to the big screen! Rule, Britannia!",
+      "speaker": "Newsboy",
+      "translation": "영웅 강아지 피클즈의 이야기가 곧 영화관에서 상영될 예정이에요! 승리의 여신이 잉글랜드의 손을 들어줬어요!",
+      "startTime": "00:19:16.00",
+      "endTime": "00:19:21.66"
     },
     {
-      "text": "investigator",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:26.36",
-      "endTime": "00:17:29.36"
+      "text": "The Hero Pickles ... This is ...",
+      "speaker": "Sonetto",
+      "translation": "영웅 강아지라니... 이건...",
+      "startTime": "00:19:24.04",
+      "endTime": "00:19:27.10"
     },
     {
-      "text": "let's split",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:29.68",
-      "endTime": "00:17:30.92"
+      "text": "Hey, coming through! Tommy, is Regulus not here again today? If she doesn't show up, I'm taking that motorbike of hers.",
+      "speaker": "Rockin' Girl",
+      "translation": "잠깐만요, 좀 지나갈게요! 토미, 레굴루스는 오늘도 안 왔죠? 또 안 오면 그 여자 오토바이는 제가 가져갈게요!",
+      "startTime": "00:19:28.94",
+      "endTime": "00:19:39.04"
     },
     {
-      "text": "up you return to the foundation and make",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:30.92",
-      "endTime": "00:17:33.52"
+      "text": "Hey, don't be such a louse! Didn't you listen to the radio this morning? Her ship's been sunk!",
+      "speaker": "Newsboy",
+      "translation": "쉿! 너무하잖아요! 오늘 아침 라디오 못 들었어요? 그녀의 배가 침몰했다잖아요!",
+      "startTime": "00:19:40.44",
+      "endTime": "00:19:47.64"
     },
     {
-      "text": "the report as Chief investigator I will",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:33.52",
-      "endTime": "00:17:36.28"
+      "text": "Are you talking about Regulus of the APPLe?",
+      "speaker": "Vertin",
+      "translation": "APPLe호의 레굴루스 이야기인가?",
+      "startTime": "00:19:49.20",
+      "endTime": "00:19:51.54"
     },
     {
-      "text": "stay until the last",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:36.28",
-      "endTime": "00:17:38.32"
+      "text": "Who's asking?",
+      "speaker": "Newsboy",
+      "translation": "누구...신데요?",
+      "startTime": "00:19:53.14",
+      "endTime": "00:19:54.32"
     },
     {
-      "text": "moment what are you going to do after",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:38.32",
-      "endTime": "00:17:40.52"
+      "text": "I'm her friend. She left something.",
+      "speaker": "Vertin",
+      "translation": "나는 그녀의 친구야. 물건을 두고 갔어.",
+      "startTime": "00:19:55.86",
+      "endTime": "00:19:58.46"
     },
     {
-      "text": "regulus's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:40.52",
-      "endTime": "00:17:41.92"
+      "text": "Huh! These are ...!",
+      "speaker": "Newsboy",
+      "translation": "헉! 이건...!",
+      "startTime": "00:20:00.60",
+      "endTime": "00:20:01.88"
     },
     {
-      "text": "registration the storm is about to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:41.92",
-      "endTime": "00:17:45.04"
+      "text": "Looking at the records, the newsboy lets down his guard.",
+      "speaker": "",
+      "translation": "기록을 살펴본 신문팔이 소년이 경계심을 늦춘다.",
+      "startTime": "00:20:01.88",
+      "endTime": "00:20:04.67"
     },
     {
-      "text": "come Express gratitude salute and see",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:45.04",
-      "endTime": "00:17:48.36"
+      "text": "There's a good chance she's in the cafe over there. Just don't draw the attention of the coppers, eh?",
+      "speaker": "Newsboy",
+      "translation": "그 사람 십중팔구 저기 카페에 있을 거예요. 그냥 경찰들한테 들키지만 않으면 돼요, 알겠죠?",
+      "startTime": "00:20:07.46",
+      "endTime": "00:20:13.72"
     },
     {
-      "text": "them off never disturb the lives of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:48.36",
-      "endTime": "00:17:52.20"
+      "text": "Thank you very much for your assistance.",
+      "speaker": "Vertin",
+      "translation": "도와주셔서 정말 감사합니다.",
+      "startTime": "00:20:15.28",
+      "endTime": "00:20:16.96"
     },
     {
-      "text": "registrants you haven't seen the storm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:52.20",
-      "endTime": "00:17:54.40"
+      "text": "You're very serious. If you really wanna thank me, just buy a copy of The Times.",
+      "speaker": "Newsboy",
+      "translation": "정말 정중하시네요. 고마우시면 타임스지 하나 사시는 건 어때요?",
+      "startTime": "00:20:18.74",
+      "endTime": "00:20:24.88"
     },
     {
-      "text": "yet have",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:54.40",
-      "endTime": "00:17:56.56"
+      "text": "See, it's all good news on the first two pages. That only comes along once in a thousand years!",
+      "speaker": "Newsboy",
+      "translation": "보세요, 첫 두 페이지는 온통 좋은 소식뿐이에요. 천 년에 한 번 나올까 말까 한 일이라고요!",
+      "startTime": "00:20:26.54",
+      "endTime": "00:20:33.04"
     },
     {
-      "text": "you I I'm not not qualified thus far you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:17:56.56",
-      "endTime": "00:18:01.28"
+      "text": "I-I'll take a copy, please.",
+      "speaker": "Sonetto",
+      "translation": "하, 한 부만 줘요.",
+      "startTime": "00:20:36.30",
+      "endTime": "00:20:38.42"
     },
     {
-      "text": "are the only one who can move freely",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:01.28",
-      "endTime": "00:18:02.88"
+      "text": "Sonetto puts away the newspaper carefully and runs towards the cafe while forcing herself to calm down.",
+      "speaker": "",
+      "translation": "소네트는 신문을 조심스럽게 정리하고 마음을 진정시키려 애쓰며 카페를 향해 뛰어간다.",
+      "startTime": "00:20:38.42",
+      "endTime": "00:20:44.59"
     },
     {
-      "text": "during the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:02.88",
-      "endTime": "00:18:05.32"
+      "text": "Do you like the world outside, Sonetto?",
+      "speaker": "Vertin",
+      "translation": "바깥세상이 마음에 들어, 소네트?",
+      "startTime": "00:20:50.76",
+      "endTime": "00:20:53.34"
     },
     {
-      "text": "storm have you found out where regulus",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:07.04",
-      "endTime": "00:18:09.40"
+      "text": "...!",
+      "speaker": "Sonetto",
+      "translation": "...!",
+      "startTime": "00:20:53.34",
+      "endTime": "00:20:55.31"
     },
     {
-      "text": "usually spends her time or anyone who",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:09.40",
-      "endTime": "00:18:11.72"
+      "text": "No ... I am just ...",
+      "speaker": "Sonetto",
+      "translation": "아, 아뇨... 전 그냥...",
+      "startTime": "00:20:57.28",
+      "endTime": "00:21:01.36"
     },
     {
-      "text": "knows",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:11.72",
-      "endTime": "00:18:13.12"
+      "text": "I'm just curious. I'll throw it away when I've finished. Please don't think too much of it.",
+      "speaker": "Sonetto",
+      "translation": "그냥 궁금해서 그래요. 다 보고 나면 버릴 거예요. 너무 신경 쓰지 마세요.",
+      "startTime": "00:21:01.82",
+      "endTime": "00:21:05.74"
     },
     {
-      "text": "her yes she often turns up in the West",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:13.12",
-      "endTime": "00:18:16.12"
+      "text": "Hmm? That voice ...",
+      "speaker": "Sonetto",
+      "translation": "응? 이 목소리는...",
+      "startTime": "00:21:13.48",
+      "endTime": "00:21:14.50"
     },
     {
-      "text": "End hanging around carnaby Street in",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:16.12",
-      "endTime": "00:18:18.60"
+      "text": "Timekeeper, look at that table!",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼, 어서 저 테이블을 보세요!",
+      "startTime": "00:21:16.40",
+      "endTime": "00:21:18.28"
     },
     {
-      "text": "King's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:18.60",
-      "endTime": "00:18:20.04"
+      "text": "A piece of bread is floating in the air above a table of the cafe's, disappearing little by little.",
+      "speaker": "",
+      "translation": "카페 테이블 위 공중에 떠 있던 빵 한 조각이 조금씩 사라져 간다.",
+      "startTime": "00:21:18.28",
+      "endTime": "00:21:22.93"
     },
     {
-      "text": "Road she used to buy records at a store",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:20.04",
-      "endTime": "00:18:22.52"
+      "text": "Mmm Mhm! Yummy! Mmm, so good!",
+      "speaker": "Regulus",
+      "translation": "음! 맛있어! 음, 정말 좋다!",
+      "startTime": "00:21:27.58",
+      "endTime": "00:21:33.72"
     },
     {
-      "text": "on kingley court she may have returned",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:22.52",
-      "endTime": "00:18:26.00"
+      "text": "One more Earl Grey with brown sugar, please! ♪",
+      "speaker": "Regulus",
+      "translation": "얼 그레이에 흑설탕 넣은 걸로 하나 더 주세요! ♪",
+      "startTime": "00:21:35.58",
+      "endTime": "00:21:38.56"
     },
     {
-      "text": "there oh and be careful she can control",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:26.00",
-      "endTime": "00:18:29.60"
+      "text": "Oh, now I understand! She's using an optical arcane skill to make herself invisible.",
+      "speaker": "Sonetto",
+      "translation": "아, 이제 알겠어! 투명 인간으로 변하는 광학 마도술을 쓰고 있는 거야.",
+      "startTime": "00:21:43.56",
+      "endTime": "00:21:48.90"
     },
     {
-      "text": "light with her Arcane",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:29.60",
-      "endTime": "00:18:32.68"
+      "text": "Sonetto takes out her pen quickly and points it at the cup held by \"the invisible one.\"",
+      "speaker": "",
+      "translation": "소네트가 재빠르게 펜을 꺼내 보이지 않는 자가 들고 있는 컵을 향해 겨눈다.",
+      "startTime": "00:21:48.90",
+      "endTime": "00:21:53.41"
     },
     {
-      "text": "skills I see let's go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:32.76",
-      "endTime": "00:18:36.80"
+      "text": "Am himmel wechselt man die bühnenbilder!",
+      "speaker": "Sonetto",
+      "translation": "Am himmel wechselt man die bühnenbilder!",
+      "startTime": "00:21:53.41",
+      "endTime": "00:21:57.91"
     },
     {
-      "text": "senetto are you coming with me I thought",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:36.80",
-      "endTime": "00:18:39.84"
+      "text": "Whoa ...! Wh-what?!",
+      "speaker": "Regulus",
+      "translation": "으악...! 뭐, 뭐야?!",
+      "startTime": "00:22:02.42",
+      "endTime": "00:22:03.52"
     },
     {
-      "text": "you would leave after we defeated those",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:39.84",
-      "endTime": "00:18:41.48"
+      "text": "Ah! My tea!",
+      "speaker": "Regulus",
+      "translation": "아! 내 차!",
+      "startTime": "00:22:05.32",
+      "endTime": "00:22:06.92"
     },
     {
-      "text": "Manis M",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:41.48",
-      "endTime": "00:18:42.56"
+      "text": "Regulus, will you cooperate or not? I need your answer.",
+      "speaker": "Sonetto",
+      "translation": "레굴루스, 협조할 건가요, 안 할 건가요? 답변이 필요해요.",
+      "startTime": "00:22:09.50",
+      "endTime": "00:22:13.16"
     },
     {
-      "text": "dict ah thank",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:42.56",
-      "endTime": "00:18:45.60"
+      "text": "...",
+      "speaker": "Regulus",
+      "translation": "...",
+      "startTime": "00:22:13.16",
+      "endTime": "00:22:15.52"
     },
     {
-      "text": "you it's nothing I have my own",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:45.60",
-      "endTime": "00:18:50.00"
+      "text": "The Foundation is an authority working with the government!",
+      "speaker": "Regulus",
+      "translation": "재단은 정부와 손잡은 권력 기관이라고!",
+      "startTime": "00:22:17.88",
+      "endTime": "00:22:21.10"
     },
     {
-      "text": "mission also in kingly court",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:18:50.00",
-      "endTime": "00:18:55.56"
+      "text": "If I register with you, my location will be exposed. You'll know where I am, no matter where I go.",
+      "speaker": "Regulus",
+      "translation": "너희한테 등록하면 내 위치가 노출돼. 내가 어디를 가든 너희가 알게 될 거라고.",
+      "startTime": "00:22:22.60",
+      "endTime": "00:22:28.74"
     },
     {
-      "text": "extra extra Read All About",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:12.20",
-      "endTime": "00:19:15.64"
+      "text": "I am not doing it!",
+      "speaker": "Regulus",
+      "translation": "난 그러기 싫거든!",
+      "startTime": "00:22:30.28",
+      "endTime": "00:22:31.52"
     },
     {
-      "text": "It the story of the hero pickles will be",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:15.64",
-      "endTime": "00:19:18.80"
+      "text": "Sonetto sighs and looks at the sky.",
+      "speaker": "",
+      "translation": "소네트가 한숨을 쉬며 하늘을 바라본다.",
+      "startTime": "00:22:31.52",
+      "endTime": "00:22:34.73"
     },
     {
-      "text": "brought to the big screen R",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:18.80",
-      "endTime": "00:19:22.44"
+      "text": "It seems to be her habit before a battle.",
+      "speaker": "",
+      "translation": "전투 전 그녀의 습관인 것 같다.",
+      "startTime": "00:22:34.73",
+      "endTime": "00:22:37.93"
     },
     {
-      "text": "britania the hero pickles this is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:23.72",
-      "endTime": "00:19:29.68"
+      "text": "... May the peace be with us.",
+      "speaker": "Sonetto",
+      "translation": "... 평화가 우리와 함께하길.",
+      "startTime": "00:22:41.14",
+      "endTime": "00:22:49.38"
     },
     {
-      "text": "hey coming through Tommy is regulus not",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:29.72",
-      "endTime": "00:19:34.08"
+      "text": "Hmph! So you sabotaged my arcane skills, who cares? I'll just go invisible again!",
+      "speaker": "Regulus",
+      "translation": "흥! 내 마도술을 방해했다고? 그게 뭐 어쨌다고? 다시 투명해지면 그만이야!",
+      "startTime": "00:22:50.88",
+      "endTime": "00:22:56.12"
     },
     {
-      "text": "here again today if she doesn't show up",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:34.08",
-      "endTime": "00:19:37.24"
+      "text": "No weakness will give me away this time! Catch me if you can!",
+      "speaker": "Regulus",
+      "translation": "이번엔 약점 따위로 들키지 않을 거야! 할 수 있다면 잡아봐!",
+      "startTime": "00:22:56.88",
+      "endTime": "00:23:00.62"
     },
     {
-      "text": "I'm taking that motorbike of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:37.24",
-      "endTime": "00:19:40.24"
+      "text": "Well ... time to change my strategy.",
+      "speaker": "Sonetto",
+      "translation": "음... 이제 전략을 바꿔야겠어.",
+      "startTime": "00:23:01.78",
+      "endTime": "00:23:04.04"
     },
     {
-      "text": "hers hey don't be such a Lous didn't you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:40.24",
-      "endTime": "00:19:43.92"
+      "text": "Please guide me.",
+      "speaker": "Sonetto",
+      "translation": "인도해 주세요.",
+      "startTime": "00:23:13.94",
+      "endTime": "00:23:15.08"
     },
     {
-      "text": "listen to The Rao this morning her",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:43.92",
-      "endTime": "00:19:46.52"
+      "text": "Ouch! It hurts! Hahaha ... If that's what you got, this pirate will not be caught!",
+      "speaker": "Regulus",
+      "translation": "아야! 아파! 하하하... 고작 그 정도로는 이 해적님을 잡을 수 없어!",
+      "startTime": "00:23:20.30",
+      "endTime": "00:23:27.92"
     },
     {
-      "text": "ship's been",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:46.52",
-      "endTime": "00:19:48.76"
+      "text": "You better listen up! Now's the time to rock your world!",
+      "speaker": "Regulus",
+      "translation": "똑똑히 들어! 이제 너희들을 제대로 놀라게 해줄 시간이야!",
+      "startTime": "00:23:28.90",
+      "endTime": "00:23:32.74"
     },
     {
-      "text": "sunk are you talking about regulus of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:48.76",
-      "endTime": "00:19:51.32"
+      "text": "Don't worry, Timekeeper. I now have enough Moxie.",
+      "speaker": "Sonetto",
+      "translation": "걱정 마세요, 타임키퍼. 이제 용기가 충분해요.",
+      "startTime": "00:23:45.70",
+      "endTime": "00:23:48.92"
     },
     {
-      "text": "the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:51.32",
-      "endTime": "00:19:52.52"
+      "text": "I can see further and hear better. I can now summon a stronger ritual capable of unveiling the useless facades.",
+      "speaker": "Sonetto",
+      "translation": "더 멀리 볼 수 있고 더 잘 들을 수 있어요. 이제 무의미한 가면들을 벗겨낼 수 있는 더 강력한 의식을 소환할 수 있어요.",
+      "startTime": "00:23:50.20",
+      "endTime": "00:23:58.00"
     },
     {
-      "text": "Apple who's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:52.52",
-      "endTime": "00:19:55.40"
+      "text": "Turn your eyes on me and listen to my incantation. Witness my Ultimate!",
+      "speaker": "Sonetto",
+      "translation": "내 눈을 바라보고 주문을 들어라. 내 궁극기를 목격하라!",
+      "startTime": "00:23:58.96",
+      "endTime": "00:24:03.80"
     },
     {
-      "text": "asking I'm her friend she left something",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:19:55.40",
-      "endTime": "00:20:00.64"
+      "text": "This ... seems pretty dangerous.",
+      "speaker": "Vertin",
+      "translation": "이거... 꽤 위험해 보이는데.",
+      "startTime": "00:24:07.82",
+      "endTime": "00:24:10.20"
     },
     {
-      "text": "these",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:01.24",
-      "endTime": "00:20:02.36"
+      "text": "Do not worry, Timekeeper. I will keep things in check.",
+      "speaker": "Sonetto",
+      "translation": "걱정 마세요, 타임키퍼. 제가 상황을 통제하겠습니다.",
+      "startTime": "00:24:11.48",
+      "endTime": "00:24:15.10"
     },
     {
-      "text": "are there's a good chance she's in the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:06.80",
-      "endTime": "00:20:09.24"
+      "text": "Ouch! It hurts ... really hurts ...",
+      "speaker": "Regulus",
+      "translation": "아야야! 아파, 너무 아프다고...",
+      "startTime": "00:24:33.24",
+      "endTime": "00:24:37.60"
     },
     {
-      "text": "cafe over there just don't draw the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:09.24",
-      "endTime": "00:20:12.36"
+      "text": "Regulus jumps back and falls heavily to the ground. She seems to be hurt badly.",
+      "speaker": "",
+      "translation": "레굴루스가 뒤로 물러나더니 땅에 크게 넘어진다. 심하게 다친 것 같다.",
+      "startTime": "00:24:37.60",
+      "endTime": "00:24:41.29"
     },
     {
-      "text": "attention of the coppers",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:12.36",
-      "endTime": "00:20:14.68"
+      "text": "Huh?!",
+      "speaker": "Sonetto",
+      "translation": "응?!",
+      "startTime": "00:24:44.98",
+      "endTime": "00:24:45.72"
     },
     {
-      "text": "eh thank you very much for your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:14.68",
-      "endTime": "00:20:18.12"
+      "text": "I'm not finished yet. Stand up and continue the fight!",
+      "speaker": "Sonetto",
+      "translation": "아직 끝나지 않았어요. 일어나서 계속 싸우세요!",
+      "startTime": "00:24:47.08",
+      "endTime": "00:24:50.56"
     },
     {
-      "text": "assistance you're very",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:18.12",
-      "endTime": "00:20:20.80"
+      "text": "Arm's broken! Oh! Bugger!",
+      "speaker": "Regulus",
+      "translation": "팔이 부러졌어! 아! 젠장!",
+      "startTime": "00:24:52.92",
+      "endTime": "00:24:55.74"
     },
     {
-      "text": "serious if you really want to thank me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:20.80",
-      "endTime": "00:20:23.60"
+      "text": "Her face has gone pale ... Let me check her out.",
+      "speaker": "Vertin",
+      "translation": "안색이 창백해졌네... 내가 확인해볼게.",
+      "startTime": "00:24:57.58",
+      "endTime": "00:25:00.92"
     },
     {
-      "text": "just buy a copy of the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:23.60",
-      "endTime": "00:20:26.00"
+      "text": "Vertin squats next to Regulus and blocks Sonetto's eyesight.",
+      "speaker": "",
+      "translation": "버틴이 레굴루스 옆에 쪼그려 앉아 소네트의 시야를 가린다.",
+      "startTime": "00:25:00.92",
+      "endTime": "00:25:06.47"
     },
     {
-      "text": "times see it's all good news news on the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:26.00",
-      "endTime": "00:20:29.24"
+      "text": "Wh-what are you doing?",
+      "speaker": "Regulus",
+      "translation": "뭐, 뭐 하는 거야?",
+      "startTime": "00:25:12.02",
+      "endTime": "00:25:13.26"
     },
     {
-      "text": "first two pages that only comes along",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:29.24",
-      "endTime": "00:20:31.88"
+      "text": "It's a Misty Bubble Ball. You know how to use it, right?",
+      "speaker": "Vertin",
+      "translation": "연막 버블볼이야. 어떻게 쓰는지 알지?",
+      "startTime": "00:25:15.00",
+      "endTime": "00:25:18.46"
     },
     {
-      "text": "once in a thousand",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:31.88",
-      "endTime": "00:20:35.00"
+      "text": "Huh ...?",
+      "speaker": "Regulus",
+      "translation": "응...?",
+      "startTime": "00:25:19.94",
+      "endTime": "00:25:20.50"
     },
     {
-      "text": "years I I'll take a copy",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:35.20",
-      "endTime": "00:20:40.28"
+      "text": "I need your help. So until you can give it to me, I'll help you out.",
+      "speaker": "Vertin",
+      "translation": "네 도움이 필요해. 그러니 일단 여기서 빠져나갈 수 있게 해줄게.",
+      "startTime": "00:25:20.94",
+      "endTime": "00:25:26.38"
     },
     {
-      "text": "please do you like the world outside",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:50.20",
-      "endTime": "00:20:55.00"
+      "text": "Meet me at the bookstore on Oxford Street.",
+      "speaker": "Vertin",
+      "translation": "나중에 옥스포드 스트리트에 있는 서점에서 보자.",
+      "startTime": "00:25:27.86",
+      "endTime": "00:25:29.88"
     },
     {
-      "text": "senetto no I'm just",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:56.28",
-      "endTime": "00:20:59.68"
+      "text": "Now, push me.",
+      "speaker": "Vertin",
+      "translation": "지금이야, 날 넘어뜨려.",
+      "startTime": "00:25:31.84",
+      "endTime": "00:25:33.04"
     },
     {
-      "text": "just I'm just curious I'll throw it away",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:20:59.68",
-      "endTime": "00:21:03.12"
+      "text": "Shocked for half a second, Regulus pushes Vertin away with great strength.",
+      "speaker": "",
+      "translation": "순간 충격을 받은 레굴루스가 강한 힘으로 버틴을 밀어낸다.",
+      "startTime": "00:25:33.04",
+      "endTime": "00:25:36.42"
     },
     {
-      "text": "when I finished please don't think too",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:03.12",
-      "endTime": "00:21:05.28"
+      "text": "\"Bang!\"",
+      "speaker": "",
+      "translation": "쾅!",
+      "startTime": "00:25:36.42",
+      "endTime": "00:25:39.80"
     },
     {
-      "text": "much of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:05.28",
-      "endTime": "00:21:07.60"
+      "text": "Huh! Timekeeper ...!",
+      "speaker": "Sonetto",
+      "translation": "앗, 타임키퍼...!",
+      "startTime": "00:25:43.18",
+      "endTime": "00:25:43.66"
     },
     {
-      "text": "it h that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:12.40",
-      "endTime": "00:21:15.64"
+      "text": "I was careless. But ... we should be fine.",
+      "speaker": "Sonetto",
+      "translation": "제 실수예요. 하지만... 괜찮아요.",
+      "startTime": "00:25:54.50",
+      "endTime": "00:25:58.68"
     },
     {
-      "text": "voice timekeeper look at that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:15.64",
-      "endTime": "00:21:20.12"
+      "text": "The effects of the Misty Bubble Ball only last so long. She can't have gotten far.",
+      "speaker": "Sonetto",
+      "translation": "미스티 버블 볼의 효과는 그리 오래 지속되지 않아. 멀리 가지 못했을 거야.",
+      "startTime": "00:26:00.10",
+      "endTime": "00:26:04.48"
     },
     {
-      "text": "table h",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:26.28",
-      "endTime": "00:21:29.73"
+      "text": "Sonetto ... are you really going to continue the mission?",
+      "speaker": "Vertin",
+      "translation": "소네트... 정말 임무를 계속할 거야?",
+      "startTime": "00:26:07.22",
+      "endTime": "00:26:09.94"
     },
     {
-      "text": "yummy so",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:31.84",
-      "endTime": "00:21:35.00"
+      "text": "The \"Storm\" will arrive shortly.",
+      "speaker": "Vertin",
+      "translation": "곧 폭풍우가 올 거야.",
+      "startTime": "00:26:11.42",
+      "endTime": "00:26:13.22"
     },
     {
-      "text": "good one more El gry with brown sugar",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:35.00",
-      "endTime": "00:21:40.48"
+      "text": "If you don't go back now, it'll be too late.",
+      "speaker": "Vertin",
+      "translation": "지금 안 돌아가면 늦어버릴 거야.",
+      "startTime": "00:26:14.72",
+      "endTime": "00:26:17.88"
     },
     {
-      "text": "please oh now I understand she's using",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:43.24",
-      "endTime": "00:21:46.72"
+      "text": "At least ... let me search these stores again.",
+      "speaker": "Sonetto",
+      "translation": "그래도... 이곳에 있는 서점들 좀 살펴볼게요.",
+      "startTime": "00:26:19.12",
+      "endTime": "00:26:22.64"
     },
     {
-      "text": "an optical Arcane skill to make herself",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:46.72",
-      "endTime": "00:21:50.72"
+      "text": "It's the same determined face. She put it on before every exam.",
+      "speaker": "",
+      "translation": "똑같은 결의에 찬 표정이다. 시험을 볼 때마다 짓던 그 표정을 하고 있다.",
+      "startTime": "00:26:22.64",
+      "endTime": "00:26:26.24"
     },
     {
-      "text": "invisible I'm heo backel man de and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:21:56.96",
-      "endTime": "00:22:01.88"
+      "text": "Sonetto strides over the rising puddles on the ground and runs into the department store.",
+      "speaker": "",
+      "translation": "소네트가 바닥에 고인 물웅덩이를 밟으며 성큼성큼 걸어가 백화점으로 뛰어 들어간다.",
+      "startTime": "00:26:26.24",
+      "endTime": "00:26:29.83"
     },
     {
-      "text": "Builder whoa",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:02.12",
-      "endTime": "00:22:05.04"
+      "text": "Where to go now?",
+      "speaker": "",
+      "translation": "이제 어디로 가야 할까?",
+      "startTime": "00:26:29.83",
+      "endTime": "00:26:33.43"
     },
     {
-      "text": "what ah my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:05.04",
-      "endTime": "00:22:08.84"
+      "text": "The bookstore on Oxford Street? No, of course not.",
+      "speaker": "",
+      "translation": "옥스퍼드 거리의 서점? 아니, 당연히 아니지.",
+      "startTime": "00:26:33.43",
+      "endTime": "00:26:37.03"
     },
     {
-      "text": "tea regular will you cooperate or not I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:08.84",
-      "endTime": "00:22:12.48"
+      "text": "The bookstore in Oxford Street? No, of course not.",
+      "speaker": "",
+      "translation": "옥스퍼드 스트리트의 서점? 아니, 당연히 아니지.",
+      "startTime": "00:26:37.03",
+      "endTime": "00:26:40.63"
     },
     {
-      "text": "need your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:12.48",
-      "endTime": "00:22:14.96"
+      "text": "But to the place which she never agreed to meet at.",
+      "speaker": "",
+      "translation": "하지만 그녀가 만나기로 동의한 적 없는 장소로.",
+      "startTime": "00:26:40.63",
+      "endTime": "00:26:44.22"
     },
     {
-      "text": "answer the foundation is an authority",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:17.84",
-      "endTime": "00:22:20.24"
+      "text": "Whoa! You scared me! Didn't we say the bookstore ...?",
+      "speaker": "Regulus",
+      "translation": "우와! 깜짝이야! 서점은...이라고 하지 않았나?",
+      "startTime": "00:26:47.82",
+      "endTime": "00:26:52.34"
     },
     {
-      "text": "working with the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:20.24",
-      "endTime": "00:22:22.24"
+      "text": "Exactly. Isn't this the bookstore?",
+      "speaker": "Vertin",
+      "translation": "맞아. 여기가 그 서점이잖아.",
+      "startTime": "00:26:54.34",
+      "endTime": "00:26:56.58"
     },
     {
-      "text": "government if I register with you my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:22.24",
-      "endTime": "00:22:24.56"
+      "text": "Misty Bubble Balls have an easily traceable scent. Sonetto will be here any minute.",
+      "speaker": "Vertin",
+      "translation": "개량이 안된 버블볼은 특유의 냄새를 풍기지. 소네트도 곧 이곳을 찾아낼 거야.",
+      "startTime": "00:26:58.34",
+      "endTime": "00:27:03.10"
     },
     {
-      "text": "location will be exposed you'll know",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:24.56",
-      "endTime": "00:22:27.20"
+      "text": "So ... So what do you want from me?! I-I don't want any part of this!",
+      "speaker": "Regulus",
+      "translation": "그, 그럼 나한테 뭘 원하는 거야?! 난, 난 이런 일에 끼고 싶지 않아!",
+      "startTime": "00:27:05.06",
+      "endTime": "00:27:10.82"
     },
     {
-      "text": "where I am no matter where I I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:27.20",
-      "endTime": "00:22:29.76"
+      "text": "Relax. I'm not going to take you to the Foundation. I simply ask that you go somewhere safe with me.",
+      "speaker": "Vertin",
+      "translation": "안심해. 널 재단으로 데려갈 생각은 없어. 그냥 나와 함께 안전한 곳으로 가자는 거야.",
+      "startTime": "00:27:12.58",
+      "endTime": "00:27:18.84"
     },
     {
-      "text": "go I'm not doing",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:29.76",
-      "endTime": "00:22:33.44"
+      "text": "Regulus, I need you to brave the \"Storm\" with me.",
+      "speaker": "Vertin",
+      "translation": "레굴루스, 넌 나와 함께 폭풍우를 뚫고 나가야 해.",
+      "startTime": "00:27:21.46",
+      "endTime": "00:27:26.02"
     },
     {
-      "text": "it May the peace be with",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:40.68",
-      "endTime": "00:22:44.88"
+      "text": "Brave the \"Storm\"?",
+      "speaker": "Regulus",
+      "translation": "폭풍우를 뚫는다고?",
+      "startTime": "00:27:27.58",
+      "endTime": "00:27:29.06"
     },
     {
-      "text": "us May the peace be with",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:46.80",
-      "endTime": "00:22:50.24"
+      "text": "Shh! She's here.",
+      "speaker": "Vertin",
+      "translation": "쉿...! 소네트다.",
+      "startTime": "00:27:30.92",
+      "endTime": "00:27:32.82"
     },
     {
-      "text": "us H so you sabotage my Arcane skills",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:50.24",
-      "endTime": "00:22:54.24"
+      "text": "Fluctuation of arcane skills comes from outside. Vertin takes a mustache from the table and sticks it to Regulus's face immediately.",
+      "speaker": "",
+      "translation": "마도술의 동요가 밖에서 감지된다. 버틴이 테이블에서 콧수염을 집어 들고 즉시 레굴루스의 얼굴에 붙인다.",
+      "startTime": "00:27:32.82",
+      "endTime": "00:27:37.17"
     },
     {
-      "text": "who cares I'll just go invisible again",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:54.24",
-      "endTime": "00:22:57.40"
+      "text": "Timekeeper! Any progress ... on your end?",
+      "speaker": "Sonetto",
+      "translation": "타임키퍼! 성과가... 있으셨나요?",
+      "startTime": "00:27:41.52",
+      "endTime": "00:27:45.56"
     },
     {
-      "text": "no weakness will give me away this time",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:57.40",
-      "endTime": "00:22:59.92"
+      "text": "I'm sorry ...",
+      "speaker": "Vertin",
+      "translation": "미안해...",
+      "startTime": "00:27:46.98",
+      "endTime": "00:27:47.96"
     },
     {
-      "text": "Catch Me If You Can well time to change",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:22:59.92",
-      "endTime": "00:23:03.60"
+      "text": "You're shaking your head ... That means ...",
+      "speaker": "Sonetto",
+      "translation": "고개를 젓는다는 건... 그러니까...",
+      "startTime": "00:27:49.58",
+      "endTime": "00:27:53.12"
     },
     {
-      "text": "my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:03.60",
-      "endTime": "00:23:05.80"
+      "text": "The mission ... We've ... failed ...?",
+      "speaker": "Sonetto",
+      "translation": "임무가... 우리가... 실패한 건가요...?",
+      "startTime": "00:27:54.24",
+      "endTime": "00:27:57.54"
     },
     {
-      "text": "strategy please guide me my sword",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:13.48",
-      "endTime": "00:23:19.08"
+      "text": "The thunder has brought her back to reality. She looks down at her leather boots which are already soaked by the \"rain.\"",
+      "speaker": "",
+      "translation": "천둥소리가 그녀를 현실로 되돌려 놓았다. 그녀는 이미 비에 흠뻑 젖어버린 가죽 부츠를 내려다본다.",
+      "startTime": "00:27:57.54",
+      "endTime": "00:28:01.49"
     },
     {
-      "text": "sharp ouch it",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:21.80",
-      "endTime": "00:23:24.56"
+      "text": "A thunder brings Regulus back to her senses. She looks at her leather boots. They are already soaked by the \"raindrops.\"",
+      "speaker": "",
+      "translation": "천둥소리가 레굴루스를 정신차리게 한다. 그녀가 자신의 가죽 부츠를 내려다본다. 이미 빗방울에 흠뻑 젖어있었다.",
+      "startTime": "00:28:01.49",
+      "endTime": "00:28:05.44"
     },
     {
-      "text": "hurts if that's what you got this pirate",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:24.56",
-      "endTime": "00:23:27.16"
+      "text": "Pink raindrops, yellow raindrops, and blue raindrops are spreading like paints in water.",
+      "speaker": "",
+      "translation": "분홍색 빗방울, 노란색 빗방울, 그리고 파란색 빗방울이 물 속 물감처럼 번져나간다.",
+      "startTime": "00:28:05.44",
+      "endTime": "00:28:09.39"
     },
     {
-      "text": "will not be caught",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:27.16",
-      "endTime": "00:23:29.48"
+      "text": "The edges of the buildings begin to melt. So bizarre, like the patterns in comic books.",
+      "speaker": "",
+      "translation": "건물들의 가장자리가 녹기 시작한다. 마치 만화책 속 그림처럼 기이하다.",
+      "startTime": "00:28:09.39",
+      "endTime": "00:28:13.34"
     },
     {
-      "text": "you better listen up Now's the Time to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:29.48",
-      "endTime": "00:23:31.92"
+      "text": "Ti-Timekeeper ...",
+      "speaker": "Sonetto",
+      "translation": "타... 타임키퍼...",
+      "startTime": "00:28:13.34",
+      "endTime": "00:28:17.29"
     },
     {
-      "text": "rock your world are you ready to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:31.92",
-      "endTime": "00:23:35.92"
+      "text": "Her face is pale.",
+      "speaker": "",
+      "translation": "그녀의 얼굴이 창백하다.",
+      "startTime": "00:28:17.29",
+      "endTime": "00:28:21.23"
     },
     {
-      "text": "shake woohoo",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:40.72",
-      "endTime": "00:23:43.48"
+      "text": "When will the \"Storm\" begin?",
+      "speaker": "Sonetto",
+      "translation": "폭풍우 시작까지 얼마나 남았죠?",
+      "startTime": "00:28:21.23",
+      "endTime": "00:28:25.18"
     },
     {
-      "text": "release it's all right do not worry",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:43.48",
-      "endTime": "00:23:46.72"
+      "text": "In ten minutes.",
+      "speaker": "Vertin",
+      "translation": "앞으로 10분.",
+      "startTime": "00:28:25.18",
+      "endTime": "00:28:29.13"
     },
     {
-      "text": "timekeeper I now have enough",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:46.72",
-      "endTime": "00:23:49.88"
+      "text": "The collage of Richard Hamilton falls from the sky, splashing rain all over her.",
+      "speaker": "",
+      "translation": "리처드 해밀턴의 콜라주가 하늘에서 떨어져 내리며 그녀에게 빗물을 튀긴다.",
+      "startTime": "00:28:29.13",
+      "endTime": "00:28:33.08"
     },
     {
-      "text": "Moxy I can see further and hear better I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:49.88",
-      "endTime": "00:23:54.08"
+      "text": "But she just nods in a hasty manner, her eyes seemingly frozen.",
+      "speaker": "",
+      "translation": "하지만 그녀는 서둘러 고개만 끄덕일 뿐, 그 눈은 얼어붙은 듯 보인다.",
+      "startTime": "00:28:33.08",
+      "endTime": "00:28:37.03"
     },
     {
-      "text": "can now summon a stronger ritual capable",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:54.08",
-      "endTime": "00:23:56.28"
+      "text": "I should go. I have to go back.",
+      "speaker": "Sonetto",
+      "translation": "가봐야겠어요. 어서 돌아가야 해요.",
+      "startTime": "00:28:40.98",
+      "endTime": "00:28:43.22"
     },
     {
-      "text": "of unveiling the useless facades",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:56.28",
-      "endTime": "00:23:59.16"
+      "text": "... Thank you very much for your support, Timekeeper.",
+      "speaker": "Sonetto",
+      "translation": "... 타임키퍼님의 도움에 정말 감사드려요.",
+      "startTime": "00:28:44.64",
+      "endTime": "00:28:47.24"
     },
     {
-      "text": "turn your eyes on me and listen to my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:23:59.16",
-      "endTime": "00:24:01.96"
+      "text": "Sonetto turns around and runs the way back.",
+      "speaker": "",
+      "translation": "소네트가 돌아서서 왔던 길로 뛰어간다.",
+      "startTime": "00:28:47.24",
+      "endTime": "00:28:50.17"
     },
     {
-      "text": "incantation witness My",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:01.96",
-      "endTime": "00:24:04.60"
+      "text": "The rain ... is it rising from the ground?",
+      "speaker": "Regulus",
+      "translation": "비가... 땅에서 올라오고 있는 거야?",
+      "startTime": "00:28:53.10",
+      "endTime": "00:28:57.48"
     },
     {
-      "text": "ultimate depict the world I have never",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:04.60",
-      "endTime": "00:24:07.12"
+      "text": "No more escaping. Regulus stands at the door, totally frozen with shock.",
+      "speaker": "",
+      "translation": "더 이상 도망칠 수 없다. 레굴루스가 문 앞에 서서 충격에 완전히 얼어붙어 있다.",
+      "startTime": "00:28:57.48",
+      "endTime": "00:29:02.13"
     },
     {
-      "text": "seen before this seems pretty",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:07.12",
-      "endTime": "00:24:11.04"
+      "text": "She reaches out for the raindrops and watches them flying towards the sky through her fingers, feeling confused.",
+      "speaker": "",
+      "translation": "그녀는 빗방울을 향해 손을 뻗고, 손가락 사이로 하늘을 향해 날아가는 빗방울들을 바라보며 혼란스러워한다.",
+      "startTime": "00:29:02.13",
+      "endTime": "00:29:06.77"
     },
     {
-      "text": "dangerous do not worry timekeeper I will",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:11.04",
-      "endTime": "00:24:14.40"
+      "text": "Why is everyone acting as if nothing's happening? Are my eyes playing tricks on me?",
+      "speaker": "Regulus",
+      "translation": "다들 왜... 아무런 반응이 없지? 내 눈이 잘못된 건가?",
+      "startTime": "00:29:11.42",
+      "endTime": "00:29:18.32"
     },
     {
-      "text": "keep things in",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:14.40",
-      "endTime": "00:24:16.52"
+      "text": "This is really, really weird.",
+      "speaker": "Regulus",
+      "translation": "정말, 정말 이상하다.",
+      "startTime": "00:29:19.78",
+      "endTime": "00:29:23.38"
     },
     {
-      "text": "check each moment now night",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:16.52",
-      "endTime": "00:24:21.92"
+      "text": "You can see it too, which proves you're the one I'm looking for.",
+      "speaker": "Vertin",
+      "translation": "너도 볼 수 있다는 걸 보니... 내가 찾던 사람이 맞구나.",
+      "startTime": "00:29:24.96",
+      "endTime": "00:29:29.86"
     },
     {
-      "text": "ouch it hurts really",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:34.12",
-      "endTime": "00:24:39.44"
+      "text": "She draws back in haste until falling down in a puddle behind her.",
+      "speaker": "",
+      "translation": "그녀는 급하게 뒤로 물러서다가 뒤쪽 웅덩이에 넘어진다.",
+      "startTime": "00:29:29.86",
+      "endTime": "00:29:33.56"
     },
     {
-      "text": "hurts",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:44.84",
-      "endTime": "00:24:46.72"
+      "text": "Looking for me? No. No way ...",
+      "speaker": "Regulus",
+      "translation": "나를 찾았다고? 아니야, 그럴 리가...",
+      "startTime": "00:29:37.26",
+      "endTime": "00:29:40.62"
     },
     {
-      "text": "huh I'm not finished yet stand up and",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:46.72",
-      "endTime": "00:24:49.92"
+      "text": "Are these hallucinations? Did you use a potion on me?!",
+      "speaker": "Regulus",
+      "translation": "설마 이건... 환각제구나! 나한테 환각제를 먹인 거야?!",
+      "startTime": "00:29:42.08",
+      "endTime": "00:29:47.76"
     },
     {
-      "text": "continue the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:49.92",
-      "endTime": "00:24:52.16"
+      "text": "Why? I don't even have that \"little thing\" anymore!",
+      "speaker": "Regulus",
+      "translation": "대체 왜! 작은 물건은 이제 나한테 없단 말이야...!",
+      "startTime": "00:29:50.42",
+      "endTime": "00:29:52.76"
     },
     {
-      "text": "fight arms broken oh",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:52.16",
-      "endTime": "00:24:56.96"
+      "text": "Enough! Stop running!",
+      "speaker": "Vertin",
+      "translation": "그만! 도망치지 마!",
+      "startTime": "00:29:54.52",
+      "endTime": "00:29:56.76"
     },
     {
-      "text": "bucker her face has gone pale let me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:24:56.96",
-      "endTime": "00:25:00.44"
+      "text": "The \"Storm\" is here.",
+      "speaker": "Vertin",
+      "translation": "폭풍우가 시작됐어.",
+      "startTime": "00:29:58.24",
+      "endTime": "00:29:59.78"
     },
     {
-      "text": "check her",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:00.44",
-      "endTime": "00:25:02.84"
+      "text": "At the last moment, Vertin finally manages to open the suitcase and push Regulus inside.",
+      "speaker": "",
+      "translation": "마지막 순간, 버틴이 마침내 가방을 열고 레굴루스를 안으로 밀어넣는다.",
+      "startTime": "00:29:59.78",
+      "endTime": "00:30:03.57"
     },
     {
-      "text": "out what what are you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:10.92",
-      "endTime": "00:25:14.32"
+      "text": "Look at the world through your own eyes!",
+      "speaker": "Vertin",
+      "translation": "네 자신의 눈으로 세상을 봐!",
+      "startTime": "00:30:07.36",
+      "endTime": "00:30:10.60"
     },
     {
-      "text": "doing it's a misty bubble ball you know",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:14.32",
-      "endTime": "00:25:17.52"
+      "text": "What ...",
+      "speaker": "",
+      "translation": "뭐...",
+      "startTime": "00:30:25.04",
+      "endTime": "00:30:25.02"
     },
     {
-      "text": "how to use it",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:17.52",
-      "endTime": "00:25:19.64"
+      "text": "What?",
+      "speaker": "",
+      "translation": "뭐...",
+      "startTime": "00:30:25.04",
+      "endTime": "00:30:25.50"
     },
     {
-      "text": "right",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:19.64",
-      "endTime": "00:25:21.60"
+      "text": "I'm not like them.",
+      "speaker": "",
+      "translation": "나는 저들과 달라.",
+      "startTime": "00:30:36.68",
+      "endTime": "00:30:37.76"
     },
     {
-      "text": "huh I need your help so until you can",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:21.60",
-      "endTime": "00:25:24.60"
+      "text": "I am here to protect you.",
+      "speaker": "",
+      "translation": "당신을 지키기 위해 여기 있다.",
+      "startTime": "00:30:40.22",
+      "endTime": "00:30:41.86"
     },
     {
-      "text": "give it to me I'll help you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:24.60",
-      "endTime": "00:25:27.32"
+      "text": "I ... This is ...",
+      "speaker": "Regulus",
+      "translation": "난... 이곳은...",
+      "startTime": "00:31:17.20",
+      "endTime": "00:31:20.66"
     },
     {
-      "text": "out meet me at the bookstore in Oxford",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:27.32",
-      "endTime": "00:25:30.88"
+      "text": "I ... I don't get it ...",
+      "speaker": "Regulus",
+      "translation": "나... 나는 이해가 안 돼...",
+      "startTime": "00:31:24.08",
+      "endTime": "00:31:26.06"
     },
     {
-      "text": "Street now push",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:30.88",
-      "endTime": "00:25:34.96"
+      "text": "It's alright. It's just ... the end of an era.",
+      "speaker": "Vertin",
+      "translation": "괜찮아, 그저... 한 시대가 사라진 것뿐이야.",
+      "startTime": "00:31:27.48",
+      "endTime": "00:31:32.16"
     },
     {
-      "text": "me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:42.28",
-      "endTime": "00:25:45.28"
+      "text": "And you survived.",
+      "speaker": "Vertin",
+      "translation": "넌 살아남은 거고.",
+      "startTime": "00:31:33.60",
+      "endTime": "00:31:34.76"
     },
     {
-      "text": "timekeeper protect her",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:47.88",
-      "endTime": "00:25:51.56"
+      "text": "...",
+      "speaker": "Vertin",
+      "translation": "...",
+      "startTime": "00:31:34.76",
+      "endTime": "00:31:36.65"
     },
     {
-      "text": "eyes I was careless but always should",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:54.36",
-      "endTime": "00:25:58.32"
+      "text": "You've braved the \"Storm.\" My experiment succeeded. Thank you for your help.",
+      "speaker": "Vertin",
+      "translation": "넌 폭풍우를 지나온 거야. 내 실험이 성공했네... 도와줘서 고마워.",
+      "startTime": "00:31:38.54",
+      "endTime": "00:31:45.30"
     },
     {
-      "text": "should be",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:58.32",
-      "endTime": "00:25:59.64"
+      "text": "What experiment? The end of an era ... What do you mean ...? I-I don't understand what you're talking about!",
+      "speaker": "Regulus",
+      "translation": "실험이라니? 시대의 종말... 그게 무슨 뜻이야...? 나-난 네가 무슨 말을 하는 건지 모르겠어!",
+      "startTime": "00:31:46.72",
+      "endTime": "00:31:54.44"
     },
     {
-      "text": "fine the effects of the Misty bubble",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:25:59.64",
-      "endTime": "00:26:01.92"
+      "text": "Relax, Regulus. I will tell you, but not here.",
+      "speaker": "Vertin",
+      "translation": "긴장 풀어, 레굴루스. 내가 다 설명해줄게, 일단 장소를 옮기자.",
+      "startTime": "00:31:56.18",
+      "endTime": "00:32:00.44"
     },
     {
-      "text": "ball only last so long she can't have",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:01.92",
-      "endTime": "00:26:04.16"
+      "text": "Say this with me ...",
+      "speaker": "Vertin",
+      "translation": "나와 함께 말해봐...",
+      "startTime": "00:32:01.86",
+      "endTime": "00:32:03.12"
     },
     {
-      "text": "gotten",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:04.16",
-      "endTime": "00:26:05.48"
+      "text": "\"Ne iru milde en tiun bonan nokton.\"",
+      "speaker": "Vertin",
+      "translation": "Ne iru milde en tiun bonan nokton\".",
+      "startTime": "00:32:03.12",
+      "endTime": "00:32:05.44"
     },
     {
-      "text": "far",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:05.48",
-      "endTime": "00:26:07.20"
+      "text": "Hold my hand. Let me take you into the suitcase.",
+      "speaker": "Vertin",
+      "translation": "내 손 잡아, 널 여행 가방 안으로 데려갈 거니까.",
+      "startTime": "00:32:07.76",
+      "endTime": "00:32:11.70"
     },
     {
-      "text": "sonat are you really going to continue",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:07.20",
-      "endTime": "00:26:09.68"
+      "text": "The ... suitcase?",
+      "speaker": "Regulus",
+      "translation": "그... 가방?",
+      "startTime": "00:32:13.44",
+      "endTime": "00:32:14.64"
     },
     {
-      "text": "the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:09.68",
-      "endTime": "00:26:10.92"
+      "text": "Close your eyes.",
+      "speaker": "Vertin",
+      "translation": "눈을 감아.",
+      "startTime": "00:32:16.44",
+      "endTime": "00:32:17.74"
     },
     {
-      "text": "mission the storm will arrive",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:10.92",
-      "endTime": "00:26:14.28"
+      "text": "Follow me. All the way down to the end of the path and into the depths.",
+      "speaker": "Vertin",
+      "translation": "날 따라와. 길 끝까지 쭉 가서 깊은 곳으로 들어가자.",
+      "startTime": "00:32:20.78",
+      "endTime": "00:32:25.78"
     },
     {
-      "text": "shortly if you don't go back now it'll",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:14.28",
-      "endTime": "00:26:17.36"
+      "text": "It's dark. I ... I can't see anything ...",
+      "speaker": "Regulus",
+      "translation": "어두워. 아무것도... 아무것도 안 보여...",
+      "startTime": "00:32:30.26",
+      "endTime": "00:32:33.82"
     },
     {
-      "text": "be too",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:17.36",
-      "endTime": "00:26:18.84"
+      "text": "Where, where are you taking me?",
+      "speaker": "Regulus",
+      "translation": "어디로... 어디로 데려가는 거야...?",
+      "startTime": "00:32:36.24",
+      "endTime": "00:32:38.42"
     },
     {
-      "text": "late at least let me search these stores",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:18.84",
-      "endTime": "00:26:22.60"
+      "text": "A safe place. An \"ark\" ... sailing in the \"Storm.\"",
+      "speaker": "Vertin",
+      "translation": "안전한 곳이야. 폭풍우 속을 항해하는 방주...",
+      "startTime": "00:32:46.74",
+      "endTime": "00:32:52.36"
     },
     {
-      "text": "again",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:22.60",
-      "endTime": "00:26:25.60"
+      "text": "...!",
+      "speaker": "Regulus",
+      "translation": "...!",
+      "startTime": "00:32:52.36",
+      "endTime": "00:32:53.79"
     },
     {
-      "text": "whoa you scared me didn't we say the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:48.44",
-      "endTime": "00:26:52.08"
+      "text": "No one can follow us here. We can speak freely.",
+      "speaker": "Vertin",
+      "translation": "여긴 아무도 따라올 수 없어. 마음 놓고 얘기하자.",
+      "startTime": "00:32:55.22",
+      "endTime": "00:32:59.08"
     },
     {
-      "text": "book",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:52.08",
-      "endTime": "00:26:53.68"
+      "text": "Wow ... Giant stone statues, huge electronic machines, a whole wall of photos ...",
+      "speaker": "Regulus",
+      "translation": "우와... 거대한 석상들에, 엄청난 전자 기계들, 그리고 사진으로 가득한 벽까지...",
+      "startTime": "00:33:00.98",
+      "endTime": "00:33:09.74"
     },
     {
-      "text": "store exactly isn't this the bookstore",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:53.68",
-      "endTime": "00:26:58.56"
+      "text": "Please allow me to re-introduce myself.",
+      "speaker": "Vertin",
+      "translation": "다시 한번 자기소개를 하겠어.",
+      "startTime": "00:33:13.36",
+      "endTime": "00:33:16.22"
     },
     {
-      "text": "Misty bubble balls have an easily",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:26:58.56",
-      "endTime": "00:27:00.20"
+      "text": "I'm from the St. Pavlov Foundation—the same place as the investigators you just met. We actually grew up there together.",
+      "speaker": "Vertin",
+      "translation": "난 성 파블로프 재단 출신이야. 방금 만난 조사원들과 같은 곳이지. 사실 우리는 그곳에서 함께 자랐어.",
+      "startTime": "00:33:18.01",
+      "endTime": "00:33:25.06"
     },
     {
-      "text": "traceable scent senetta will be here any",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:00.20",
-      "endTime": "00:27:04.24"
+      "text": "I am the Timekeeper. I keep track of time in the outside world.",
+      "speaker": "Vertin",
+      "translation": "난 타임키퍼야. 바깥 세상의 시간을 기록하는 사람이지.",
+      "startTime": "00:33:26.62",
+      "endTime": "00:33:30.64"
     },
     {
-      "text": "minute so so what do you want from me I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:04.24",
-      "endTime": "00:27:09.12"
+      "text": "... That is to say, I am the one who records the beginnings and ends of eras.",
+      "speaker": "Vertin",
+      "translation": "... 다시 말해, 시대의 시작과 끝을 기록하는 건 바로 나야.",
+      "startTime": "00:33:35.22",
+      "endTime": "00:33:40.38"
     },
     {
-      "text": "I don't want any part of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:09.12",
-      "endTime": "00:27:12.08"
+      "text": "You're saying that ... these photos here are ...",
+      "speaker": "Regulus",
+      "translation": "그러니까... 여기 있는 이 사진들은...",
+      "startTime": "00:33:43.70",
+      "endTime": "00:33:46.18"
     },
     {
-      "text": "this relax I'm not going to take you to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:12.08",
-      "endTime": "00:27:15.28"
+      "text": "... Huh? It's Lewis. I know him!",
+      "speaker": "Regulus",
+      "translation": "응? 이건 루이스잖아, 아는 사람이야!",
+      "startTime": "00:33:48.42",
+      "endTime": "00:33:51.02"
     },
     {
-      "text": "the foundation I simply ask that you go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:15.28",
-      "endTime": "00:27:18.00"
+      "text": "Yes. I took this photo several days ago. He was selling Hoover upright vacuum cleaners in the West End and thought photos would help business, so he gladly posed for it.",
+      "speaker": "Vertin",
+      "translation": "맞아. 며칠 전에 직접 찍은 사진이야. 그때 루이스는 웨스트 엔드에서 후버의 스탠드 진공청소기를 팔고 있었지. 사진이 판매 실적에 도움이 될 거라고 생각했는지 아주 협조적이었어.",
+      "startTime": "00:33:52.72",
+      "endTime": "00:34:02.72"
     },
     {
-      "text": "somewhere safe with",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:18.00",
-      "endTime": "00:27:19.60"
+      "text": "Why did you take a photo of him? How's he ...?",
+      "speaker": "Regulus",
+      "translation": "사진은 왜 찍어준 거야? 그럼, 루이스는 지금...",
+      "startTime": "00:34:04.94",
+      "endTime": "00:34:08.02"
     },
     {
-      "text": "me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:19.60",
-      "endTime": "00:27:21.76"
+      "text": "This is Marion Smith, a single mother. She worried if she could afford to feed her child every night, but she never gave up her dream of being a writer.",
+      "speaker": "Vertin",
+      "translation": "이 사람은 미혼모인 매리언 스미스 씨야. 매일 밤 아이를 먹일 수 있을지 걱정했지만 작가가 되는 꿈은 절대 포기하지 않았어.",
+      "startTime": "00:34:12.38",
+      "endTime": "00:34:22.42"
     },
     {
-      "text": "regulus I need you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:21.76",
-      "endTime": "00:27:23.84"
+      "text": "I met her at a snack bar at 2 a.m. Her one-act play about the Trans-Antarctic Expedition was a real masterpiece.",
+      "speaker": "Vertin",
+      "translation": "새벽 2시에 분식집에서 그녀를 만났어. 남극 횡단 탐험에 관한 그녀의 단막극은 정말 걸작이었지.",
+      "startTime": "00:34:23.86",
+      "endTime": "00:34:30.74"
     },
     {
-      "text": "to Brave the storm With",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:23.84",
-      "endTime": "00:27:26.84"
+      "text": "This is Julie, who once invited me to her house. Her bedroom wall was covered with posters of Rivaldo ...",
+      "speaker": "Vertin",
+      "translation": "이 사람은 줄리야, 예전에 나를 자기 집에 초대해준 적이 있어. 그 애 침실 벽은 온통 리발도 포스터로 도배되어 있었지...",
+      "startTime": "00:34:32.42",
+      "endTime": "00:34:38.76"
     },
     {
-      "text": "Me Brave the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:26.84",
-      "endTime": "00:27:30.44"
+      "text": "... the FIFA World Player of the Year, who then became a mass idol.",
+      "speaker": "Vertin",
+      "translation": "... 올해의 세계 축구 선수로 선정되었었고, 사람들의 우상이 되었지.",
+      "startTime": "00:34:40.24",
+      "endTime": "00:34:44.22"
     },
     {
-      "text": "storm shh she's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:30.44",
-      "endTime": "00:27:34.80"
+      "text": "Trans-Antarctica Expedition, Rivaldo, I've never heard of them.",
+      "speaker": "Regulus",
+      "translation": "남극대륙 횡단... 리발도... 전부 처음 듣는 이야기야.",
+      "startTime": "00:34:46.56",
+      "endTime": "00:34:52.12"
     },
     {
-      "text": "here timekeeper any progress on your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:41.28",
-      "endTime": "00:27:46.56"
+      "text": "They're stories from a long, long time to come.",
+      "speaker": "Vertin",
+      "translation": "아주 먼 미래의 이야기지.",
+      "startTime": "00:34:54.86",
+      "endTime": "00:34:58.20"
     },
     {
-      "text": "end I'm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:46.56",
-      "endTime": "00:27:48.96"
+      "text": "These photos date forward to 1999. My time.",
+      "speaker": "Vertin",
+      "translation": "이 사진들은 1999년도까지 거슬러 올라가. 내 시대 말이야.",
+      "startTime": "00:34:59.42",
+      "endTime": "00:35:05.06"
     },
     {
-      "text": "sorry you're shaking your head that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:48.96",
-      "endTime": "00:27:53.80"
+      "text": "Our time is going backwards, Regulus.",
+      "speaker": "Vertin",
+      "translation": "우리의 시대는 거꾸로 흘러가고 있어, 레굴루스.",
+      "startTime": "00:35:11.32",
+      "endTime": "00:35:13.88"
     },
     {
-      "text": "means the mission we've failed",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:27:53.80",
-      "endTime": "00:28:00.12"
+      "text": "At the countdown to the millennium, before the clock struck twelve, time reversed. We were sent back to the explosion of the supernova in the 80s, to the release of VHS ...",
+      "speaker": "Vertin",
+      "translation": "천년을 향한 카운트다운에서, 시계가 12시를 가리키기 전에 시간이 역행했어. 우리는 80년대 초신성 폭발로, VHS가 출시되던 때로 되돌아갔지...",
+      "startTime": "00:35:16.26",
+      "endTime": "00:35:27.44"
     },
     {
-      "text": "timekeeper when will the storm begin",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:25.28",
-      "endTime": "00:28:29.44"
+      "text": ".. and to the 1960s, where I met you.",
+      "speaker": "Vertin",
+      "translation": ".. 그리고 1960년대까지, 널 만났던 그때 말이야.",
+      "startTime": "00:35:28.64",
+      "endTime": "00:35:32.54"
     },
     {
-      "text": "in 10",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:29.44",
-      "endTime": "00:28:31.92"
+      "text": "Time is going backwards?",
+      "speaker": "Regulus",
+      "translation": "시간이... 거꾸로 흘러가고 있는 거야?",
+      "startTime": "00:35:34.12",
+      "endTime": "00:35:35.64"
     },
     {
-      "text": "minutes I should go I have to go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:40.52",
-      "endTime": "00:28:44.16"
+      "text": "So the people in the photos—people like me—where are they now? Have they all been \"reversed?\"",
+      "speaker": "Regulus",
+      "translation": "그럼 사진 속 사람들... 나 같은 사람들은 지금 어디 있는 거야? 전부 역행당한 건가?",
+      "startTime": "00:35:37.86",
+      "endTime": "00:35:45.64"
     },
     {
-      "text": "back thank you very much for your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:44.16",
-      "endTime": "00:28:46.40"
+      "text": "Like in the \"Storm\" just now?",
+      "speaker": "Regulus",
+      "translation": "방금 전 폭풍우에서처럼 말이야?",
+      "startTime": "00:35:47.44",
+      "endTime": "00:35:49.34"
     },
     {
-      "text": "support",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:46.40",
-      "endTime": "00:28:48.05"
+      "text": "Maybe.",
+      "speaker": "Vertin",
+      "translation": "아마도.",
+      "startTime": "00:35:52.74",
+      "endTime": "00:35:53.26"
     },
     {
-      "text": "timekeeper the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:52.56",
-      "endTime": "00:28:54.44"
+      "text": "I doubt I'll ever see them again.",
+      "speaker": "Vertin",
+      "translation": "다시는 그들을 볼 수 없을 것 같아.",
+      "startTime": "00:35:54.24",
+      "endTime": "00:35:56.52"
     },
     {
-      "text": "rain is it rising from the ground",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:28:54.44",
-      "endTime": "00:29:00.04"
+      "text": "Before meeting you, I had done so many experiments.",
+      "speaker": "Vertin",
+      "translation": "너를 만나기 전에, 난 정말 많은 실험을 했어.",
+      "startTime": "00:35:56.52",
+      "endTime": "00:36:01.28"
     },
     {
-      "text": "why is everyone acting as if nothing's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:12.20",
-      "endTime": "00:29:15.48"
+      "text": "At one point, I discovered that my suitcase was able to cut the \"Storm\" out. It can preserve items from the last era too, like these photos.",
+      "speaker": "Vertin",
+      "translation": "어느 순간 내 여행가방이 폭풍우를 차단할 수 있다는 걸 알게 됐어. 이 사진들처럼 지난 시대의 물건들도 보존할 수 있고.",
+      "startTime": "00:36:03.00",
+      "endTime": "00:36:12.48"
     },
     {
-      "text": "happening are my eyes playing tricks on",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:15.48",
-      "endTime": "00:29:19.56"
+      "text": "So I tried putting newspapers, mushrooms, even Wapaloosies into the case. They all succeeded. However, when it came to the friends I had made in the last era ...",
+      "speaker": "Vertin",
+      "translation": "그래서 신문지, 버섯, 심지어 와팔루시까지 케이스에 넣어봤어. 모두 성공했지. 하지만 지난 시대에서 사귄 친구들은...",
+      "startTime": "00:36:12.48",
+      "endTime": "00:36:26.92"
     },
     {
-      "text": "me this is really really",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:19.56",
-      "endTime": "00:29:24.64"
+      "text": "I failed.",
+      "speaker": "Vertin",
+      "translation": "실패했어.",
+      "startTime": "00:36:28.42",
+      "endTime": "00:36:28.40"
     },
     {
-      "text": "weird you can see it too",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:24.64",
-      "endTime": "00:29:28.20"
+      "text": "It doesn't work on ordinary people.",
+      "speaker": "Vertin",
+      "translation": "일반인들에게는 통하지 않아.",
+      "startTime": "00:36:28.42",
+      "endTime": "00:36:30.54"
     },
     {
-      "text": "which proves you're the one I'm looking",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:28.20",
-      "endTime": "00:29:31.68"
+      "text": "Maybe I should just record the time ... Be a silent, emotionless observer ... Act as the Foundation has asked me to.",
+      "speaker": "Vertin",
+      "translation": "그냥 시간만 기록해야 하나... 조용하고 감정 없는 관찰자가 되어서... 재단이 요구한 대로 행동하는 거지.",
+      "startTime": "00:36:32.08",
+      "endTime": "00:36:39.38"
     },
     {
-      "text": "for looking for me no no",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:36.84",
-      "endTime": "00:29:41.64"
+      "text": "But why are we ...",
+      "speaker": "Regulus",
+      "translation": "그런데 우리는 왜...",
+      "startTime": "00:36:41.58",
+      "endTime": "00:36:43.22"
     },
     {
-      "text": "way are these",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:41.64",
-      "endTime": "00:29:45.24"
+      "text": "Because we can see the mutation of the world? The unusual happenings before the \"Storm\" ... have left a deep impression on this APPLe.",
+      "speaker": "APPLe",
+      "translation": "우리가 세상의 변화를 볼 수 있기 때문일까요? 폭풍우 이전의 이상한 일들이... 이 APPLe에게 깊은 인상을 남겼거든요.",
+      "startTime": "00:36:44.54",
+      "endTime": "00:36:53.16"
     },
     {
-      "text": "hallucinations did you use a potion on",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:45.24",
-      "endTime": "00:29:48.92"
+      "text": "I think so.",
+      "speaker": "Vertin",
+      "translation": "그런 것 같아.",
+      "startTime": "00:36:55.40",
+      "endTime": "00:36:56.46"
     },
     {
-      "text": "me why I don't even have that little",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:48.92",
-      "endTime": "00:29:52.32"
+      "text": "When you were out at sea, broadcasting on the radio, Regulus cried out, \"Shout it to the full moon!\"",
+      "speaker": "Vertin",
+      "translation": "네가 바다에서 라디오 방송을 할 때, 레굴루스가 보름달을 향해 외쳐!라고 소리쳤어.",
+      "startTime": "00:36:57.88",
+      "endTime": "00:37:04.72"
     },
     {
-      "text": "thing",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:52.32",
-      "endTime": "00:29:54.16"
+      "text": "It was the beginning of the month. There couldn't have been a full moon that day. The real moon was to your west ... There were two that night.",
+      "speaker": "Vertin",
+      "translation": "달 초였어. 그날 보름달이 뜰 리 없었지. 진짜 달은 서쪽에 있었는데... 그날 밤엔 달이 두 개였어.",
+      "startTime": "00:37:06.26",
+      "endTime": "00:37:15.22"
     },
     {
-      "text": "anymore enough stop running",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:54.16",
-      "endTime": "00:29:58.88"
+      "text": "I realized that you could see what I see in this world. So ...",
+      "speaker": "Vertin",
+      "translation": "네가 이 세계에서 나와 같은 걸 볼 수 있다는 걸 깨달았어. 그래서...",
+      "startTime": "00:37:16.80",
+      "endTime": "00:37:21.46"
     },
     {
-      "text": "the storm is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:29:58.88",
-      "endTime": "00:30:01.80"
+      "text": "I decided to try it again.",
+      "speaker": "Vertin",
+      "translation": "다시 한번 해보기로 했어.",
+      "startTime": "00:37:21.48",
+      "endTime": "00:37:25.46"
     },
     {
-      "text": "here look at the world through your own",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:30:07.00",
-      "endTime": "00:30:11.56"
+      "text": "One last time.",
+      "speaker": "Vertin",
+      "translation": "마지막이야.",
+      "startTime": "00:37:26.96",
+      "endTime": "00:37:28.30"
     },
     {
-      "text": "eyes what what",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:30:24.56",
-      "endTime": "00:30:29.56"
+      "text": "Ah, umm ...?!",
+      "speaker": "Regulus",
+      "translation": "아, 음...?!",
+      "startTime": "00:37:33.66",
+      "endTime": "00:37:37.66"
     },
     {
-      "text": "I'm not like",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:30:37.00",
-      "endTime": "00:30:39.68"
+      "text": "Whoa, what's going on? Is that ... an earthquake?",
+      "speaker": "Regulus",
+      "translation": "어? 뭐야, 무슨 일이야? 저게... 지진인가?",
+      "startTime": "00:37:37.68",
+      "endTime": "00:37:39.96"
     },
     {
-      "text": "them I am here to protect you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:30:39.68",
-      "endTime": "00:30:44.80"
+      "text": "Not good. Seems our suitcase has been found.",
+      "speaker": "Vertin",
+      "translation": "좋지 않아. 우리 여행 가방이 발각된 것 같아.",
+      "startTime": "00:37:41.98",
+      "endTime": "00:37:45.02"
     },
     {
-      "text": "I this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:18.92",
-      "endTime": "00:31:21.64"
+      "text": "By critters maybe, or just someone passing by. Sorry, I need to leave for a while. Need to hide it somewhere safe.",
+      "speaker": "Vertin",
+      "translation": "동물들이 발견할 수도 있고, 아니면 그냥 지나가는 누군가가 볼 수도 있으니까. 미안, 잠깐 자리를 비워야 해. 안전한 곳에 숨겨둬야겠어.",
+      "startTime": "00:37:46.52",
+      "endTime": "00:37:55.30"
     },
     {
-      "text": "is I",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:21.64",
-      "endTime": "00:31:23.96"
+      "text": "Hey. Wait.",
+      "speaker": "Regulus",
+      "translation": "야. 잠깐.",
+      "startTime": "00:37:56.76",
+      "endTime": "00:37:58.02"
     },
     {
-      "text": "I I I don't get",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:23.96",
-      "endTime": "00:31:26.92"
+      "text": "... The things you're doing ... Does your boss know?",
+      "speaker": "Regulus",
+      "translation": "... 너희가 하고 있는 일들... 너희 상사가 알고 있는 거야?",
+      "startTime": "00:37:59.42",
+      "endTime": "00:38:01.76"
     },
     {
-      "text": "it it's all right it's just the end of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:26.92",
-      "endTime": "00:31:31.80"
+      "text": "This is my own will.",
+      "speaker": "Vertin",
+      "translation": "이건 내 의지야.",
+      "startTime": "00:38:05.80",
+      "endTime": "00:38:07.56"
     },
     {
-      "text": "an",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:31.80",
-      "endTime": "00:31:33.12"
+      "text": "I can't stand aside and watch you be taken away by Sonetto; have you disappear like the others in the \"Storm.\"",
+      "speaker": "Vertin",
+      "translation": "소네트가 널 데려가는 걸 그냥 지켜볼 수만은 없어. 다른 사람들처럼 네가 폭풍우 속에서 사라지게 둘 수는 없다고.",
+      "startTime": "00:38:08.92",
+      "endTime": "00:38:15.10"
     },
     {
-      "text": "era and you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:33.12",
-      "endTime": "00:31:36.07"
+      "text": "There's also something I need to find out for myself ...",
+      "speaker": "Vertin",
+      "translation": "나 역시 직접 알아봐야 할 일이 있어...",
+      "startTime": "00:38:16.48",
+      "endTime": "00:38:19.26"
     },
     {
-      "text": "survived you've braved the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:37.96",
-      "endTime": "00:31:40.56"
+      "text": "... The truth.",
+      "speaker": "Vertin",
+      "translation": "... 진실을.",
+      "startTime": "00:38:20.94",
+      "endTime": "00:38:21.76"
     },
     {
-      "text": "storm my experiment",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:40.56",
-      "endTime": "00:31:43.48"
+      "text": "Solid.",
+      "speaker": "Regulus",
+      "translation": "좋아.",
+      "startTime": "00:38:23.20",
+      "endTime": "00:38:23.68"
     },
     {
-      "text": "succeeded thank you for your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:43.48",
-      "endTime": "00:31:46.28"
+      "text": "Mr. APPLe, could you please give Vertin a hand?",
+      "speaker": "Regulus",
+      "translation": "APPLe씨, 버틴 좀 도와줄 수 있어?",
+      "startTime": "00:38:25.72",
+      "endTime": "00:38:28.30"
     },
     {
-      "text": "help what",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:46.28",
-      "endTime": "00:31:48.32"
+      "text": "I ... need some time to think about all this ...",
+      "speaker": "Regulus",
+      "translation": "난... 이 모든 걸 생각해볼 시간이 좀 필요해...",
+      "startTime": "00:38:30.84",
+      "endTime": "00:38:33.58"
     },
     {
-      "text": "experiment the end of an ear what do you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:48.32",
-      "endTime": "00:31:51.20"
-    },
-    {
-      "text": "mean I I don't understand what you're",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:51.20",
-      "endTime": "00:31:53.96"
-    },
-    {
-      "text": "talking",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:53.96",
-      "endTime": "00:31:55.40"
-    },
-    {
-      "text": "about relax regulus",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:55.40",
-      "endTime": "00:31:58.68"
-    },
-    {
-      "text": "I will tell you but not",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:31:58.68",
-      "endTime": "00:32:01.32"
-    },
-    {
-      "text": "here say this with",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:01.32",
-      "endTime": "00:32:03.24"
-    },
-    {
-      "text": "me hold my hand let me take you into the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:07.72",
-      "endTime": "00:32:13.00"
-    },
-    {
-      "text": "suitcase the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:13.00",
-      "endTime": "00:32:16.00"
-    },
-    {
-      "text": "suitcase close your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:16.00",
-      "endTime": "00:32:19.64"
-    },
-    {
-      "text": "eyes follow me all the way down to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:20.20",
-      "endTime": "00:32:23.64"
-    },
-    {
-      "text": "end of the path and Into the Depths",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:23.64",
-      "endTime": "00:32:28.56"
-    },
-    {
-      "text": "it's dark I I can't see",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:30.72",
-      "endTime": "00:32:35.20"
-    },
-    {
-      "text": "anything where where are you taking",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:35.20",
-      "endTime": "00:32:40.36"
-    },
-    {
-      "text": "me a safe",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:46.76",
-      "endTime": "00:32:48.88"
-    },
-    {
-      "text": "place an ark sailing in the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:48.88",
-      "endTime": "00:32:54.16"
-    },
-    {
-      "text": "storm no one can follow us here we can",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:55.28",
-      "endTime": "00:32:58.60"
-    },
-    {
-      "text": "speak",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:32:58.60",
-      "endTime": "00:33:00.32"
-    },
-    {
-      "text": "freely wow giant stone",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:00.32",
-      "endTime": "00:33:04.32"
-    },
-    {
-      "text": "statues huge electronic",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:04.32",
-      "endTime": "00:33:07.16"
-    },
-    {
-      "text": "machines a whole wall of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:07.16",
-      "endTime": "00:33:11.60"
-    },
-    {
-      "text": "photos please allow me to reintroduce",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:12.68",
-      "endTime": "00:33:17.32"
-    },
-    {
-      "text": "myself I'm from the St Pavlo Foundation",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:17.32",
-      "endTime": "00:33:20.64"
-    },
-    {
-      "text": "the same place as the investigators you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:20.64",
-      "endTime": "00:33:22.44"
-    },
-    {
-      "text": "just met we actually grew up there",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:22.44",
-      "endTime": "00:33:25.96"
-    },
-    {
-      "text": "together I'm the EP",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:25.96",
-      "endTime": "00:33:28.72"
-    },
-    {
-      "text": "I keep track of time in the outside",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:28.72",
-      "endTime": "00:33:32.48"
-    },
-    {
-      "text": "world that is to say I'm the one who",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:34.80",
-      "endTime": "00:33:38.40"
-    },
-    {
-      "text": "records the beginnings and ends of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:38.40",
-      "endTime": "00:33:42.04"
-    },
-    {
-      "text": "eras you're saying that these photos",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:43.04",
-      "endTime": "00:33:45.76"
-    },
-    {
-      "text": "here",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:45.76",
-      "endTime": "00:33:48.00"
-    },
-    {
-      "text": "are huh it's Louis I know",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:48.04",
-      "endTime": "00:33:52.08"
-    },
-    {
-      "text": "him yes I took this photo several days",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:52.08",
-      "endTime": "00:33:55.36"
-    },
-    {
-      "text": "ago he was selling ho upright that vacum",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:55.36",
-      "endTime": "00:33:58.04"
-    },
-    {
-      "text": "cleaners in the West End and thought",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:58.04",
-      "endTime": "00:33:59.72"
-    },
-    {
-      "text": "photos would help business so he gladly",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:33:59.72",
-      "endTime": "00:34:02.16"
-    },
-    {
-      "text": "posed for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:02.16",
-      "endTime": "00:34:04.48"
-    },
-    {
-      "text": "it why did you take a photo of him how's",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:04.48",
-      "endTime": "00:34:09.03"
-    },
-    {
-      "text": "he this is Maran Smith a single mother",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:12.28",
-      "endTime": "00:34:16.92"
-    },
-    {
-      "text": "she worried if she could afford to feed",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:16.92",
-      "endTime": "00:34:18.56"
-    },
-    {
-      "text": "her child every night but she never gave",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:18.56",
-      "endTime": "00:34:21.16"
-    },
-    {
-      "text": "up her dream of being a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:21.16",
-      "endTime": "00:34:23.28"
-    },
-    {
-      "text": "writer I met her at a snack bar at 2:00",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:23.28",
-      "endTime": "00:34:26.20"
-    },
-    {
-      "text": "a.m. her one play about the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:26.20",
-      "endTime": "00:34:28.44"
-    },
-    {
-      "text": "transantarctic expedition was a real",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:28.44",
-      "endTime": "00:34:31.80"
-    },
-    {
-      "text": "Masterpiece this is Julie who once",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:31.80",
-      "endTime": "00:34:34.56"
-    },
-    {
-      "text": "invited me to her house her bedroom wall",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:34.56",
-      "endTime": "00:34:37.24"
-    },
-    {
-      "text": "was covered with posters of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:37.24",
-      "endTime": "00:34:39.68"
-    },
-    {
-      "text": "raldo the FIFA World Player of the Year",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:39.68",
-      "endTime": "00:34:43.04"
-    },
-    {
-      "text": "who then became a mass",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:43.04",
-      "endTime": "00:34:45.20"
-    },
-    {
-      "text": "Idol trans anarctica",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:45.20",
-      "endTime": "00:34:48.28"
-    },
-    {
-      "text": "Expedition",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:48.28",
-      "endTime": "00:34:50.04"
-    },
-    {
-      "text": "ralo I've never heard of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:50.04",
-      "endTime": "00:34:54.08"
-    },
-    {
-      "text": "them there're stories from a long long",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:54.44",
-      "endTime": "00:34:57.76"
-    },
-    {
-      "text": "time to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:57.76",
-      "endTime": "00:34:59.12"
-    },
-    {
-      "text": "come these photos date forward to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:34:59.12",
-      "endTime": "00:35:03.68"
-    },
-    {
-      "text": "1999 my",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:03.68",
-      "endTime": "00:35:07.00"
-    },
-    {
-      "text": "time our time is going backwards",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:10.88",
-      "endTime": "00:35:15.68"
-    },
-    {
-      "text": "regular at the countdown to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:15.80",
-      "endTime": "00:35:17.84"
-    },
-    {
-      "text": "Millennium before the Clock Struck 12",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:17.84",
-      "endTime": "00:35:20.96"
-    },
-    {
-      "text": "time",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:20.96",
-      "endTime": "00:35:21.80"
-    },
-    {
-      "text": "reversed we were sent back to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:21.80",
-      "endTime": "00:35:23.80"
-    },
-    {
-      "text": "explosion of the Supernova in the80s to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:23.80",
-      "endTime": "00:35:26.52"
-    },
-    {
-      "text": "the release of VHS",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:26.52",
-      "endTime": "00:35:29.44"
-    },
-    {
-      "text": "and to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:29.44",
-      "endTime": "00:35:30.88"
-    },
-    {
-      "text": "1960s where I met",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:30.88",
-      "endTime": "00:35:33.52"
-    },
-    {
-      "text": "you time is going",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:33.52",
-      "endTime": "00:35:37.00"
-    },
-    {
-      "text": "backwards so the people in the photos",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:37.00",
-      "endTime": "00:35:40.16"
-    },
-    {
-      "text": "people like me where are they now have",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:40.16",
-      "endTime": "00:35:44.12"
-    },
-    {
-      "text": "they all been",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:44.12",
-      "endTime": "00:35:46.96"
-    },
-    {
-      "text": "reversed like in the storm just",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:46.96",
-      "endTime": "00:35:51.32"
-    },
-    {
-      "text": "now",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:52.16",
-      "endTime": "00:35:54.32"
-    },
-    {
-      "text": "maybe I doubt I'll ever see them again",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:54.32",
-      "endTime": "00:35:58.44"
-    },
-    {
-      "text": "before meeting you I had done so many",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:35:58.44",
-      "endTime": "00:36:02.48"
-    },
-    {
-      "text": "experiments at one point I discovered",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:02.48",
-      "endTime": "00:36:05.28"
-    },
-    {
-      "text": "that my suitcase was able to cut the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:05.28",
-      "endTime": "00:36:07.04"
-    },
-    {
-      "text": "storm out it can preserve items from the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:07.04",
-      "endTime": "00:36:10.20"
-    },
-    {
-      "text": "last era too like these",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:10.20",
-      "endTime": "00:36:13.56"
-    },
-    {
-      "text": "photos so by tried putting newspapers",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:13.56",
-      "endTime": "00:36:16.56"
-    },
-    {
-      "text": "mushrooms even wapes into the case they",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:16.56",
-      "endTime": "00:36:19.96"
-    },
-    {
-      "text": "all",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:19.96",
-      "endTime": "00:36:21.24"
-    },
-    {
-      "text": "succeeded however when it came to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:21.24",
-      "endTime": "00:36:23.16"
-    },
-    {
-      "text": "friends I'd made in the last",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:23.16",
-      "endTime": "00:36:25.56"
-    },
-    {
-      "text": "era I failed",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:25.56",
-      "endTime": "00:36:28.88"
-    },
-    {
-      "text": "it doesn't work on ordinary",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:28.88",
-      "endTime": "00:36:31.48"
-    },
-    {
-      "text": "people maybe I should just record the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:31.48",
-      "endTime": "00:36:33.76"
-    },
-    {
-      "text": "time be a silent emotionless",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:33.76",
-      "endTime": "00:36:36.72"
-    },
-    {
-      "text": "Observer act the foundation has asked me",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:36.72",
-      "endTime": "00:36:41.16"
-    },
-    {
-      "text": "to but why are",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:41.16",
-      "endTime": "00:36:43.96"
-    },
-    {
-      "text": "we because we can see the mutation of",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:43.96",
-      "endTime": "00:36:46.64"
-    },
-    {
-      "text": "the world the unusual happenings before",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:46.64",
-      "endTime": "00:36:49.80"
-    },
-    {
-      "text": "the storm have left a deep impression on",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:49.80",
-      "endTime": "00:36:52.80"
-    },
-    {
-      "text": "this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:52.80",
-      "endTime": "00:36:54.92"
-    },
-    {
-      "text": "apple I think so",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:54.92",
-      "endTime": "00:36:58.32"
-    },
-    {
-      "text": "when you were out at Sea broadcasting on",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:36:58.32",
-      "endTime": "00:37:00.68"
-    },
-    {
-      "text": "the radio regulus Cried Out shout it to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:00.68",
-      "endTime": "00:37:04.24"
-    },
-    {
-      "text": "the full",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:04.24",
-      "endTime": "00:37:05.72"
-    },
-    {
-      "text": "moon it was the beginning of the month",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:05.72",
-      "endTime": "00:37:09.08"
-    },
-    {
-      "text": "there couldn't have been a full moon",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:09.08",
-      "endTime": "00:37:10.36"
-    },
-    {
-      "text": "that day the real moon was to your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:10.36",
-      "endTime": "00:37:13.32"
-    },
-    {
-      "text": "West there were two that",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:13.32",
-      "endTime": "00:37:16.28"
-    },
-    {
-      "text": "night I realized that you could see what",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:16.28",
-      "endTime": "00:37:18.96"
-    },
-    {
-      "text": "I see in this",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:18.96",
-      "endTime": "00:37:20.96"
-    },
-    {
-      "text": "world",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:20.96",
-      "endTime": "00:37:23.24"
-    },
-    {
-      "text": "so I decided to try it",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:23.24",
-      "endTime": "00:37:26.28"
-    },
-    {
-      "text": "again one one last",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:26.28",
-      "endTime": "00:37:30.20"
-    },
-    {
-      "text": "time uh",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:32.84",
-      "endTime": "00:37:36.40"
-    },
-    {
-      "text": "um oh what's going on is that an",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:36.40",
-      "endTime": "00:37:41.44"
-    },
-    {
-      "text": "earthquake not good seems our suitcase",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:41.44",
-      "endTime": "00:37:44.44"
-    },
-    {
-      "text": "has been",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:44.44",
-      "endTime": "00:37:45.92"
-    },
-    {
-      "text": "found by Critters maybe or just someone",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:45.92",
-      "endTime": "00:37:49.52"
-    },
-    {
-      "text": "passing by sorry I need to leave for a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:49.52",
-      "endTime": "00:37:53.16"
-    },
-    {
-      "text": "while need to hide it somewhere",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:53.16",
-      "endTime": "00:37:56.24"
-    },
-    {
-      "text": "safe hey",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:56.24",
-      "endTime": "00:37:58.88"
-    },
-    {
-      "text": "wait the things you're doing does your",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:37:58.88",
-      "endTime": "00:38:01.40"
-    },
-    {
-      "text": "boss",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:01.40",
-      "endTime": "00:38:03.68"
-    },
-    {
-      "text": "know this is my own",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:05.64",
-      "endTime": "00:38:08.44"
-    },
-    {
-      "text": "will I can't stand aside and watch you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:08.44",
-      "endTime": "00:38:10.88"
-    },
-    {
-      "text": "be taken away by senetto have you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:10.88",
-      "endTime": "00:38:13.48"
-    },
-    {
-      "text": "disappear like the others in the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:13.48",
-      "endTime": "00:38:15.88"
-    },
-    {
-      "text": "storm there's also something I need to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:15.88",
-      "endTime": "00:38:18.44"
-    },
-    {
-      "text": "find out for",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:18.44",
-      "endTime": "00:38:20.40"
-    },
-    {
-      "text": "myself the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:20.40",
-      "endTime": "00:38:22.80"
-    },
-    {
-      "text": "truth",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:22.80",
-      "endTime": "00:38:25.12"
-    },
-    {
-      "text": "solid Mr Apple could you please give",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:25.12",
-      "endTime": "00:38:27.72"
-    },
-    {
-      "text": "Veron a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:27.72",
-      "endTime": "00:38:29.40"
-    },
-    {
-      "text": "hand I need some time to think about all",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:29.40",
-      "endTime": "00:38:34.68"
-    },
-    {
-      "text": "this about everything you",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:34.68",
-      "endTime": "00:38:38.60"
-    },
-    {
-      "text": "said greetings Madam I'm",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:47.76",
-      "endTime": "00:38:51.12"
-    },
-    {
-      "text": "here now rush to the",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:51.12",
-      "endTime": "00:38:55.48"
-    },
-    {
-      "text": "gleaming it's only dream",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:55.48",
-      "endTime": "00:38:58.04"
-    },
-    {
-      "text": "the ashes scatter in the sky so far from",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:38:59.88",
-      "endTime": "00:39:05.60"
-    },
-    {
-      "text": "home the clouds are",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:05.60",
-      "endTime": "00:39:08.96"
-    },
-    {
-      "text": "dring the sun is",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:08.96",
-      "endTime": "00:39:12.32"
-    },
-    {
-      "text": "coming the memories are left without a",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:12.32",
-      "endTime": "00:39:17.52"
-    },
-    {
-      "text": "place to",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:17.52",
-      "endTime": "00:39:20.68"
-    },
-    {
-      "text": "go",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:21.16",
-      "endTime": "00:39:22.68"
-    },
-    {
-      "text": "and to the end we all",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:22.68",
-      "endTime": "00:39:27.76"
-    },
-    {
-      "text": "hello once again",
-      "speaker": "Speaker 1",
-      "translation": "",
-      "startTime": "00:39:27.76",
-      "endTime": "00:39:32.32"
+      "text": "About everything you said.",
+      "speaker": "Regulus",
+      "translation": "네가 한 말들 전부 말이야.",
+      "startTime": "00:38:35.20",
+      "endTime": "00:38:36.74"
     }
   ]
 }

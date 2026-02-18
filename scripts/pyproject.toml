@@ -2,7 +2,12 @@
 name = "english1999-transcription-fetcher"
 version = "0.1.0"
 description = "Fetch YouTube transcriptions for English1999 app"
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 dependencies = [
     "youtube-transcript-api==1.2.4",
+    "yt-dlp>=2024.1.0",
+    "faster-whisper>=1.0.0; sys_platform != 'darwin'",
+    "mlx-whisper>=0.4.0; sys_platform == 'darwin'",
+    "rapidfuzz>=3.0.0",
+    "anthropic>=0.40.0",
 ]
