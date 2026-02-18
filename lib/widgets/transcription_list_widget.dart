@@ -13,6 +13,7 @@ class TranscriptionListWidget extends StatefulWidget {
 
 class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
   final ScrollController _scrollController = ScrollController();
+  final _listKey = GlobalKey();
   final Map<int, GlobalKey> _segmentKeys = {};
   int? _previousSegmentIndex;
   bool? _previousShowTranslation;
@@ -22,6 +23,78 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
   void dispose() {
     _scrollController.dispose();
     super.dispose();
+  }
+
+  void _compensateScrollForHeightChange(int? activeIndex) {
+    if (!_scrollController.hasClients) return;
+
+    // Get the ListView's bounds on screen to determine visibility.
+    final listBox = _listKey.currentContext?.findRenderObject() as RenderBox?;
+    if (listBox == null || !listBox.attached) return;
+    final listTop = listBox.localToGlobal(Offset.zero).dy;
+    final listBottom = listTop + listBox.size.height;
+
+    bool _isVisible(RenderBox box) {
+      final y = box.localToGlobal(Offset.zero).dy;
+      final h = box.size.height;
+      return y + h > listTop && y < listBottom;
+    }
+
+    // During build(), RenderObjects still hold the OLD layout — read positions now.
+    int? anchorIndex;
+    double anchorScreenY = 0.0;
+
+    // Priority 1: use the active (highlighted) segment if it's visible.
+    if (activeIndex != null) {
+      final ctx = _segmentKeys[activeIndex]?.currentContext;
+      if (ctx != null) {
+        final box = ctx.findRenderObject() as RenderBox?;
+        if (box != null && box.attached && _isVisible(box)) {
+          anchorIndex = activeIndex;
+          anchorScreenY = box.localToGlobal(Offset.zero).dy;
+        }
+      }
+    }
+
+    // Priority 2: item closest to the vertical center of the list.
+    if (anchorIndex == null) {
+      final listCenter = (listTop + listBottom) / 2;
+      double bestDist = double.infinity;
+      for (int i = 0; i < _segmentKeys.length; i++) {
+        final ctx = _segmentKeys[i]?.currentContext;
+        if (ctx == null) continue;
+        final box = ctx.findRenderObject() as RenderBox?;
+        if (box == null || !box.attached || !_isVisible(box)) continue;
+        final itemCenter = box.localToGlobal(Offset.zero).dy + box.size.height / 2;
+        final dist = (itemCenter - listCenter).abs();
+        if (dist < bestDist) {
+          bestDist = dist;
+          anchorIndex = i;
+          anchorScreenY = box.localToGlobal(Offset.zero).dy;
+        }
+      }
+    }
+
+    if (anchorIndex == null) return;
+    final savedIndex = anchorIndex;
+    final savedY = anchorScreenY;
+
+    // After the new layout is rendered, restore the anchor item to its exact position.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!_scrollController.hasClients) return;
+      final ctx = _segmentKeys[savedIndex]?.currentContext;
+      if (ctx == null) return;
+      final box = ctx.findRenderObject() as RenderBox?;
+      if (box == null || !box.attached) return;
+      final newY = box.localToGlobal(Offset.zero).dy;
+      final diff = newY - savedY;
+      if (diff.abs() > 0.5) {
+        _scrollController.jumpTo(
+          (_scrollController.offset + diff)
+              .clamp(0.0, _scrollController.position.maxScrollExtent),
+        );
+      }
+    });
   }
 
   void _scrollToSegment(int segmentIndex) {
@@ -96,7 +169,13 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
           }
         }
 
-        // Auto-scroll when segment changes during playback (but not on translation toggle)
+        // When translation is toggled, all item heights change.
+        // Compensate scroll offset so the first visible item stays in place.
+        if (translationChanged) {
+          _compensateScrollForHeightChange(provider.currentSegmentIndex);
+        }
+
+        // Auto-scroll when segment changes during playback
         if (!translationChanged &&
             !seeked &&
             provider.currentSegmentIndex != null &&
@@ -109,6 +188,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
         if (seeked) _previousSegmentIndex = provider.currentSegmentIndex;
 
         return ListView.builder(
+          key: _listKey,
           controller: _scrollController,
           itemCount: segments.length,
           cacheExtent: 2000,
