@@ -2,8 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/video_player_provider.dart';
 
-class AudioPlayerWidget extends StatelessWidget {
+class AudioPlayerWidget extends StatefulWidget {
   const AudioPlayerWidget({super.key});
+
+  @override
+  State<AudioPlayerWidget> createState() => _AudioPlayerWidgetState();
+}
+
+class _AudioPlayerWidgetState extends State<AudioPlayerWidget> {
+  double? _dragValue;
 
   String _formatDuration(Duration d) {
     final minutes = d.inMinutes.remainder(60).toString().padLeft(2, '0');
@@ -18,10 +25,15 @@ class AudioPlayerWidget extends StatelessWidget {
         final position = provider.currentPosition;
         final total = provider.totalDuration;
         final sliderMax = total.inSeconds > 0 ? total.inSeconds.toDouble() : 1.0;
-        // When duration unknown, keep slider at 0 to avoid jumping to rightmost
         final sliderValue = total.inSeconds > 0
             ? position.inSeconds.toDouble().clamp(0.0, sliderMax)
             : 0.0;
+
+        // During drag: show local drag position; otherwise show actual playback position
+        final displayValue = (_dragValue ?? sliderValue).clamp(0.0, sliderMax);
+        final displayPosition = _dragValue != null
+            ? Duration(seconds: _dragValue!.round())
+            : position;
 
         return Container(
           color: const Color(0xFF1C1410),
@@ -40,11 +52,17 @@ class AudioPlayerWidget extends StatelessWidget {
                   trackHeight: 3,
                 ),
                 child: Slider(
-                  value: sliderValue,
+                  value: displayValue,
                   min: 0,
                   max: sliderMax,
-                  onChanged: (value) async {
-                    await provider.seekTo(value);
+                  // During drag: only update local state — no provider calls, no async
+                  onChanged: (value) {
+                    setState(() => _dragValue = value);
+                  },
+                  // On release: single seek call
+                  onChangeEnd: (value) {
+                    setState(() => _dragValue = null);
+                    provider.seekTo(value);
                   },
                 ),
               ),
@@ -55,7 +73,7 @@ class AudioPlayerWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      _formatDuration(position),
+                      _formatDuration(displayPosition),
                       style: const TextStyle(color: Colors.white54, fontSize: 12),
                     ),
                     Text(
@@ -72,9 +90,9 @@ class AudioPlayerWidget extends StatelessWidget {
                 children: [
                   IconButton(
                     icon: const Icon(Icons.replay_10, color: Colors.white70, size: 28),
-                    onPressed: () async {
+                    onPressed: () {
                       final newSec = (position.inSeconds - 10).clamp(0, total.inSeconds).toDouble();
-                      await provider.seekTo(newSec);
+                      provider.seekTo(newSec);
                     },
                   ),
                   const SizedBox(width: 8),
@@ -89,9 +107,9 @@ class AudioPlayerWidget extends StatelessWidget {
                   const SizedBox(width: 8),
                   IconButton(
                     icon: const Icon(Icons.forward_10, color: Colors.white70, size: 28),
-                    onPressed: () async {
+                    onPressed: () {
                       final newSec = (position.inSeconds + 10).clamp(0, total.inSeconds).toDouble();
-                      await provider.seekTo(newSec);
+                      provider.seekTo(newSec);
                     },
                   ),
                 ],

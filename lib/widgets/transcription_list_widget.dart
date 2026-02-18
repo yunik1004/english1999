@@ -16,6 +16,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
   final Map<int, GlobalKey> _segmentKeys = {};
   int? _previousSegmentIndex;
   bool? _previousShowTranslation;
+  int _previousSeekVersion = 0;
 
   @override
   void dispose() {
@@ -25,6 +26,8 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
 
   void _scrollToSegment(int segmentIndex) {
     final key = _segmentKeys[segmentIndex];
+
+    // If the widget is already rendered, scroll directly
     if (key?.currentContext != null) {
       Scrollable.ensureVisible(
         key!.currentContext!,
@@ -32,7 +35,30 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
         curve: Curves.easeInOut,
         alignment: 0.3,
       );
+      return;
     }
+
+    // Widget not yet rendered (outside ListView's build window).
+    // Jump to an estimated position to bring it into the render area,
+    // then ensureVisible once it's built.
+    if (!_scrollController.hasClients) return;
+    final totalSegments = _segmentKeys.length;
+    if (totalSegments == 0) return;
+
+    final maxExtent = _scrollController.position.maxScrollExtent;
+    final estimatedOffset = (segmentIndex / totalSegments) * maxExtent;
+    _scrollController.jumpTo(estimatedOffset.clamp(0.0, maxExtent));
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (key?.currentContext != null) {
+        Scrollable.ensureVisible(
+          key!.currentContext!,
+          duration: const Duration(milliseconds: 150),
+          curve: Curves.easeOut,
+          alignment: 0.3,
+        );
+      }
+    });
   }
 
   @override
@@ -59,8 +85,20 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
             _previousShowTranslation != provider.showTranslation;
         _previousShowTranslation = provider.showTranslation;
 
-        // Auto-scroll when segment changes (but not when only translation toggles)
+        // Force scroll on explicit seek (slider drag), regardless of segment change
+        final seeked = provider.seekVersion != _previousSeekVersion;
+        if (seeked) {
+          _previousSeekVersion = provider.seekVersion;
+          if (provider.currentSegmentIndex != null) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              _scrollToSegment(provider.currentSegmentIndex!);
+            });
+          }
+        }
+
+        // Auto-scroll when segment changes during playback (but not on translation toggle)
         if (!translationChanged &&
+            !seeked &&
             provider.currentSegmentIndex != null &&
             provider.currentSegmentIndex != _previousSegmentIndex) {
           _previousSegmentIndex = provider.currentSegmentIndex;
@@ -68,6 +106,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
             _scrollToSegment(provider.currentSegmentIndex!);
           });
         }
+        if (seeked) _previousSegmentIndex = provider.currentSegmentIndex;
 
         return ListView.builder(
           controller: _scrollController,

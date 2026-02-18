@@ -17,6 +17,9 @@ class MediaPlayerProvider extends ChangeNotifier {
   PlaybackMode _mode = PlaybackMode.video;
   bool _isPlaying = false;
   bool _durationFetched = false;
+  int _seekVersion = 0;
+  bool _isSeeking = false;
+  Timer? _seekDebounceTimer;
 
   YoutubePlayerController? get controller => _controller;
   Duration get currentPosition => _currentPosition;
@@ -28,6 +31,7 @@ class MediaPlayerProvider extends ChangeNotifier {
   bool get showTranslation => _showTranslation;
   PlaybackMode get mode => _mode;
   bool get isPlaying => _isPlaying;
+  int get seekVersion => _seekVersion;
 
   Future<void> initializePlayer(
     String youtubeVideoId,
@@ -79,7 +83,8 @@ class MediaPlayerProvider extends ChangeNotifier {
 
       bool changed = false;
 
-      if (positionDuration != _currentPosition) {
+      // Skip position updates while seeking - keep manually set seek position
+      if (!_isSeeking && positionDuration != _currentPosition) {
         _currentPosition = positionDuration;
         _updateCurrentSegment();
         changed = true;
@@ -124,6 +129,7 @@ class MediaPlayerProvider extends ChangeNotifier {
   }
 
   void _updateCurrentSegment() {
+    if (_isSeeking) return; // Don't override segment while seek is processing
     if (_transcription == null) return;
     final segment = _transcription!.getCurrentSegment(_currentPosition);
     if (segment != null) {
@@ -171,8 +177,50 @@ class MediaPlayerProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> seekTo(double seconds) async {
-    await _controller?.seekTo(seconds: seconds, allowSeekAhead: true);
+  void seekTo(double seconds) {
+    _isSeeking = true;
+    // Cancel any previous debounce timer so rapid seeks don't prematurely unlock
+    _seekDebounceTimer?.cancel();
+
+    // Fire-and-forget: don't await so multiple rapid calls can't race each other
+    _controller?.seekTo(seconds: seconds, allowSeekAhead: true);
+    _currentPosition = Duration(milliseconds: (seconds * 1000).round());
+    _updateCurrentSegmentForSeek();
+    _seekVersion++;
+    notifyListeners();
+
+    _seekDebounceTimer = Timer(const Duration(milliseconds: 600), () {
+      _isSeeking = false;
+      _seekDebounceTimer = null;
+    });
+  }
+
+  // Like _updateCurrentSegment but also matches gaps between segments
+  // by finding the last segment that started before the current position.
+  void _updateCurrentSegmentForSeek() {
+    if (_transcription == null) return;
+    final segments = _transcription!.segments;
+
+    // Check if position is within an active segment
+    for (int i = 0; i < segments.length; i++) {
+      if (segments[i].isActive(_currentPosition)) {
+        _currentSegmentIndex = i;
+        return;
+      }
+    }
+
+    // In a gap: find the last segment that started before this position
+    int? lastBefore;
+    for (int i = 0; i < segments.length; i++) {
+      if (segments[i].startTime <= _currentPosition) {
+        lastBefore = i;
+      } else {
+        break;
+      }
+    }
+    if (lastBefore != null) {
+      _currentSegmentIndex = lastBefore;
+    }
   }
 
   void play() {
