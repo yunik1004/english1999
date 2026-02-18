@@ -37,7 +37,7 @@ class _TranscriptionListWidgetState extends State<TranscriptionListWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<VideoPlayerProvider>(
+    return Consumer<MediaPlayerProvider>(
       builder: (context, provider, _) {
         if (provider.transcription == null) {
           return const Center(

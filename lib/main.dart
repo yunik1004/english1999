@@ -3,9 +3,16 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'providers/video_player_provider.dart';
+import 'services/preferences_service.dart';
 import 'router/app_router.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize preferences
+  final prefsService = PreferencesService();
+  await prefsService.initialize();
+
   // Use path-based URL strategy instead of hash-based (#)
   usePathUrlStrategy();
   runApp(const MyApp());
@@ -17,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (_) => VideoPlayerProvider(),
+      create: (_) => MediaPlayerProvider(),
       child: MaterialApp.router(
         routerConfig: appRouter,
         title: 'English 1999',

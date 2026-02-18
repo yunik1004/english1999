@@ -58,7 +58,7 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
         return Center(
           child: ConstrainedBox(
             constraints: BoxConstraints(maxWidth: maxVideoWidth),
-            child: Consumer<VideoPlayerProvider>(
+            child: Consumer<MediaPlayerProvider>(
               // Use child parameter to prevent rebuilding the player
               child: const _StableYoutubePlayer(),
               builder: (context, provider, child) {
@@ -151,7 +151,7 @@ class _StableYoutubePlayerState extends State<_StableYoutubePlayer>
     super.build(context); // Required for AutomaticKeepAliveClientMixin
 
     // Get the controller without listening to changes
-    final provider = Provider.of<VideoPlayerProvider>(context, listen: false);
+    final provider = Provider.of<MediaPlayerProvider>(context, listen: false);
 
     if (provider.controller == null) {
       return AspectRatio(

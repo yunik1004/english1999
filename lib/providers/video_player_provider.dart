@@ -2,47 +2,67 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import '../models/transcription.dart';
+import '../models/playback_mode.dart';
 
-class VideoPlayerProvider extends ChangeNotifier {
+class MediaPlayerProvider extends ChangeNotifier {
   YoutubePlayerController? _controller;
   Timer? _positionTimer;
   Transcription? _transcription;
   Duration _currentPosition = Duration.zero;
+  Duration _totalDuration = Duration.zero;
   int? _currentSegmentIndex;
   bool _isInitialized = false;
   String? _errorMessage;
   bool _showTranslation = false;
+  PlaybackMode _mode = PlaybackMode.video;
+  bool _isPlaying = false;
+  bool _durationFetched = false;
 
   YoutubePlayerController? get controller => _controller;
   Duration get currentPosition => _currentPosition;
+  Duration get totalDuration => _totalDuration;
   int? get currentSegmentIndex => _currentSegmentIndex;
   Transcription? get transcription => _transcription;
   bool get isInitialized => _isInitialized;
   String? get errorMessage => _errorMessage;
   bool get showTranslation => _showTranslation;
+  PlaybackMode get mode => _mode;
+  bool get isPlaying => _isPlaying;
 
-  void initializePlayer(String youtubeVideoId, Transcription transcription) {
+  Future<void> initializePlayer(
+    String youtubeVideoId,
+    Transcription transcription,
+    PlaybackMode mode,
+  ) async {
     _transcription = transcription;
+    _mode = mode;
+    await _initializeVideoPlayer(youtubeVideoId);
+  }
 
-    // Create controller without using videoId as key to avoid JavaScript syntax errors
-    // when video IDs contain special characters like dashes
+  Future<void> _initializeVideoPlayer(String youtubeVideoId) async {
+    _positionTimer?.cancel();
+    await _controller?.close();
+    _controller = null;
+
     _controller = YoutubePlayerController(
-      params: const YoutubePlayerParams(
-        showControls: true,
+      params: YoutubePlayerParams(
+        showControls: _mode.isVideo,
         mute: false,
-        showFullscreenButton: true,
+        showFullscreenButton: _mode.isVideo,
         loop: false,
         enableCaption: false,
       ),
     );
 
-    // Manually cue the video after controller creation
     _controller!.cueVideoById(videoId: youtubeVideoId);
 
+    _totalDuration = Duration.zero;
+    _durationFetched = false;
+
     _isInitialized = true;
+    _errorMessage = null;
     notifyListeners();
 
-    // Start position polling
     _positionTimer = Timer.periodic(
       const Duration(milliseconds: 300),
       (_) => _updatePosition(),
@@ -50,27 +70,61 @@ class VideoPlayerProvider extends ChangeNotifier {
   }
 
   void _updatePosition() async {
-    if (_controller == null) {
-      return;
-    }
+    if (_controller == null) return;
 
+    // Position polling - runs every tick
     try {
       final position = await _controller!.currentTime;
       final positionDuration = Duration(milliseconds: (position * 1000).round());
 
+      bool changed = false;
+
       if (positionDuration != _currentPosition) {
         _currentPosition = positionDuration;
         _updateCurrentSegment();
-        notifyListeners();
+        changed = true;
       }
+
+      final playerState = _controller!.value.playerState;
+      if (_mode.isVideo) {
+        // In video mode: YouTube native controls are the authority, keep in sync
+        final actuallyPlaying = playerState == PlayerState.playing ||
+            playerState == PlayerState.buffering;
+        if (actuallyPlaying != _isPlaying) {
+          _isPlaying = actuallyPlaying;
+          changed = true;
+        }
+      } else {
+        // In audio mode: custom controls are the authority, only stop on end
+        if (_isPlaying && playerState == PlayerState.ended) {
+          _isPlaying = false;
+          changed = true;
+        }
+      }
+
+      if (changed) notifyListeners();
     } catch (e) {
-      // Position not available yet, ignore
+      // Position not available yet
+    }
+
+    // Duration polling - only until we get a valid value, with timeout
+    if (!_durationFetched) {
+      try {
+        final durationSecs = await _controller!.duration
+            .timeout(const Duration(milliseconds: 800));
+        if (durationSecs > 0) {
+          _totalDuration = Duration(milliseconds: (durationSecs * 1000).round());
+          _durationFetched = true;
+          notifyListeners();
+        }
+      } catch (e) {
+        // Timeout or not available yet - will retry next tick
+      }
     }
   }
 
   void _updateCurrentSegment() {
     if (_transcription == null) return;
-
     final segment = _transcription!.getCurrentSegment(_currentPosition);
     if (segment != null) {
       final index = _transcription!.segments.indexOf(segment);
@@ -78,50 +132,58 @@ class VideoPlayerProvider extends ChangeNotifier {
         _currentSegmentIndex = index;
       }
     } else {
-      // No active segment - clear current segment
       if (_currentSegmentIndex != null) {
         _currentSegmentIndex = null;
       }
     }
   }
 
-  void seekToSegment(TranscriptionSegment segment) async {
-    if (_controller == null || _transcription == null) return;
-
+  Future<void> switchMode(PlaybackMode newMode, String youtubeVideoId) async {
+    if (_mode == newMode) return;
+    _mode = newMode;
+    // Final sync of play state via async JS call (more reliable than cached value)
     try {
-      // Add 0.1 seconds to ensure we're inside the target segment
-      final seekTime = (segment.startTime.inMilliseconds + 100) / 1000.0;
+      final state = await _controller!.playerState
+          .timeout(const Duration(milliseconds: 500));
+      _isPlaying = state == PlayerState.playing || state == PlayerState.buffering;
+    } catch (_) {
+      // Fall back to cached value
+      _isPlaying = _controller?.value.playerState == PlayerState.playing;
+    }
+    notifyListeners();
+  }
 
-      // Try direct seek with allowSeekAhead flag
+  void seekToSegment(TranscriptionSegment segment) async {
+    if (_transcription == null || _controller == null) return;
+    try {
+      final seekPosition = Duration(milliseconds: segment.startTime.inMilliseconds + 100);
+      final seekTime = seekPosition.inMilliseconds / 1000.0;
       await _controller!.seekTo(seconds: seekTime, allowSeekAhead: true);
-
-      // Wait a moment for seek to process
       await Future.delayed(const Duration(milliseconds: 300));
-
-      // Play the video
       await _controller!.playVideo();
-
-      // Update state with the adjusted time
-      _currentPosition = Duration(milliseconds: segment.startTime.inMilliseconds + 100);
+      _isPlaying = true;
+      _currentPosition = seekPosition;
       final index = _transcription!.segments.indexOf(segment);
-      if (index != -1) {
-        _currentSegmentIndex = index;
-      }
+      if (index != -1) _currentSegmentIndex = index;
       notifyListeners();
-
-      debugPrint('Seeked to ${seekTime}s for segment: ${segment.text}');
     } catch (e) {
       debugPrint('Error seeking: $e');
     }
   }
 
+  Future<void> seekTo(double seconds) async {
+    await _controller?.seekTo(seconds: seconds, allowSeekAhead: true);
+  }
+
   void play() {
     _controller?.playVideo();
+    _isPlaying = true;
     notifyListeners();
   }
 
   void pause() {
     _controller?.pauseVideo();
+    _isPlaying = false;
     notifyListeners();
   }
 
