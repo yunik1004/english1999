@@ -46,9 +46,14 @@ def load_stories() -> list[dict]:
     return stories
 
 
+VENV_BIN = Path(sys.executable).parent
+
+
 def run(cmd: list[str], env: dict = None, label: str = "") -> bool:
     """Run a subprocess, streaming output. Returns True on success."""
     full_env = os.environ.copy()
+    # Prepend venv bin so yt-dlp, mlx_whisper, etc. are found
+    full_env["PATH"] = str(VENV_BIN) + os.pathsep + full_env.get("PATH", "")
     if env:
         full_env.update(env)
     print(f"\n{'='*60}")

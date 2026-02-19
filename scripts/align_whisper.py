@@ -29,7 +29,12 @@ import subprocess
 import sys
 import tempfile
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List, Optional, Tuple
+
+# Use yt-dlp from the same venv as this Python if available
+_VENV_BIN = Path(sys.executable).parent
+_YT_DLP = str(_VENV_BIN / "yt-dlp") if (_VENV_BIN / "yt-dlp").exists() else "yt-dlp"
 
 
 # ---------------------------------------------------------------------------
@@ -122,15 +127,23 @@ def word_match_score(ref: List[str], hyp: List[str]) -> float:
 def download_audio(youtube_id: str, output_path: str) -> None:
     """Download best audio-only stream from YouTube as WAV."""
     url = f"https://www.youtube.com/watch?v={youtube_id}"
+    # Find node.js for yt-dlp JS runtime (required for recent YouTube extraction)
+    _node = next(
+        (p for p in ["/opt/homebrew/bin/node", "/usr/local/bin/node"] if os.path.exists(p)),
+        None,
+    )
     cmd = [
-        "yt-dlp",
+        _YT_DLP,
         "-x",
         "--audio-format", "wav",
         "--audio-quality", "0",
         "-o", output_path,
         "--no-playlist",
-        url,
     ]
+    if _node:
+        cmd += ["--js-runtimes", f"node:{_node}"]
+    cmd += ["--cookies-from-browser", "chrome", "--remote-components", "ejs:github"]
+    cmd.append(url)
     print(f"[1/3] Downloading audio from YouTube ({youtube_id})...")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
