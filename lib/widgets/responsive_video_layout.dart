@@ -1,7 +1,6 @@
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
-import 'package:web/web.dart' as web;
 import '../utils/responsive_helper.dart';
+import '../utils/web_utils.dart';
 
 /// A responsive layout widget that adapts the arrangement of video player
 /// and transcription list based on screen size.
@@ -106,22 +105,7 @@ class _ResponsiveVideoLayoutState extends State<ResponsiveVideoLayout> {
   /// This disables pointer events on all iframes (including YouTube player)
   /// to prevent them from intercepting drag events.
   void _setWebDraggingState(bool isDragging) {
-    if (kIsWeb) {
-      final body = web.document.body;
-      if (body != null) {
-        if (isDragging) {
-          body.classList.add('flutter-dragging');
-          print('DEBUG: Added flutter-dragging class to body');
-        } else {
-          body.classList.remove('flutter-dragging');
-          print('DEBUG: Removed flutter-dragging class from body');
-        }
-      } else {
-        print('DEBUG: body is null!');
-      }
-    } else {
-      print('DEBUG: Not running on web platform');
-    }
+    setWebDraggingState(isDragging);
   }
 
   @override
