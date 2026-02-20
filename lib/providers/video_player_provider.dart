@@ -55,6 +55,7 @@ class MediaPlayerProvider extends ChangeNotifier {
         showFullscreenButton: _mode.isVideo,
         loop: false,
         enableCaption: false,
+        origin: 'https://www.youtube-nocookie.com',
       ),
     );
 

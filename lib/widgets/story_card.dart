@@ -76,10 +76,7 @@ class StoryCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Container(
-                        height: 48, // Reduced height for tighter spacing
-                        alignment: Alignment.topLeft,
-                        child: Text(
+                      Text(
                           story.title,
                           style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                                 color: const Color(0xFFF5E6D3),
@@ -90,7 +87,6 @@ class StoryCard extends StatelessWidget {
                               ),
                           maxLines: 3,
                           overflow: TextOverflow.ellipsis,
-                        ),
                       ),
                       const SizedBox(height: 6),
                       Text(

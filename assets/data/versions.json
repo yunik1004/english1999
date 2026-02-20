@@ -2,12 +2,12 @@
   "versions": [
     {
       "id": "1",
-      "title": "The Living and the Rest",
+      "title": "",
       "posterImage": "assets/images/versions/1.png",
       "stories": [
         {
           "id": "0",
-          "title": "Prologue - This is Tomorrow",
+          "title": "Prologue",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/0.png",
           "youtubeVideoId": "r0x4k0yxd8s",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1",
-          "title": "Chapter 1 - In Our Time",
+          "title": "Chapter 1",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/1.png",
           "youtubeVideoId": "y-m56nn4LeQ",
@@ -23,7 +23,7 @@
         },
         {
           "id": "2",
-          "title": "Chapter 2 - Tender is the Night",
+          "title": "Chapter 2",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/2.png",
           "youtubeVideoId": "t20EPXnQVug",
@@ -31,7 +31,7 @@
         },
         {
           "id": "3",
-          "title": "Chapter 3 - Nouvelles et Textes pour Rien",
+          "title": "Chapter 3",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/3.png",
           "youtubeVideoId": "Yj7sgYOg6-M",
@@ -39,7 +39,7 @@
         },
         {
           "id": "4",
-          "title": "Chapter 4 - EL ORO DE LOS TIGRES",
+          "title": "Chapter 4",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/4.png",
           "youtubeVideoId": "ODYbInhnxAE",
@@ -47,7 +47,7 @@
         },
         {
           "id": "5",
-          "title": "Chapter 5 - The Prisoner in the Cave",
+          "title": "Chapter 5",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/5.png",
           "youtubeVideoId": "vYdcFOdQJOQ",
@@ -55,7 +55,7 @@
         },
         {
           "id": "6",
-          "title": "Chapter 6 - E lucevan le stelle",
+          "title": "Chapter 6",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/6.png",
           "youtubeVideoId": "DmgAVEFZqlE",
@@ -63,7 +63,7 @@
         },
         {
           "id": "7",
-          "title": "Chapter 7 - Vereinsamt",
+          "title": "Chapter 7",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/7.png",
           "youtubeVideoId": "GoiE64XEj7w",
@@ -73,12 +73,12 @@
     },
     {
       "id": "2",
-      "title": "The Journey Back",
+      "title": "",
       "posterImage": "assets/images/versions/2.png",
       "stories": [
         {
           "id": "8",
-          "title": "Chapter 8 - Tristes Tropiques",
+          "title": "Chapter 8",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/8.png",
           "youtubeVideoId": "S9IhzKATiWg",
@@ -86,7 +86,7 @@
         },
         {
           "id": "9",
-          "title": "Chapter 9 - Folie et Déraison",
+          "title": "Chapter 9",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/9.png",
           "youtubeVideoId": "F9iSnbf9-2A",
@@ -94,7 +94,7 @@
         },
         {
           "id": "10",
-          "title": "Chapter 10 - Paradise Regained",
+          "title": "Chapter 10",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/10.png",
           "youtubeVideoId": "5kLjK85EyXM",
@@ -104,12 +104,12 @@
     },
     {
       "id": "3",
-      "title": "The Roots of the Tale",
+      "title": "",
       "posterImage": "assets/images/versions/3.png",
       "stories": [
         {
           "id": "11",
-          "title": "Chapter 11 - A Long Long Way",
+          "title": "Chapter 11",
           "tag": "Main story",
           "posterImage": "assets/images/chapters/11.png",
           "youtubeVideoId": "Zd3TA1QdRdg",

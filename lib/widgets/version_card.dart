@@ -50,19 +50,6 @@ class VersionCard extends StatelessWidget {
                     );
                   },
                 ),
-                // Dark Gradient Overlay
-                Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        Colors.transparent,
-                        Colors.black.withValues(alpha: 0.7),
-                      ],
-                    ),
-                  ),
-                ),
                 // Text Overlay
                 Positioned(
                   left: 16,
@@ -72,21 +59,17 @@ class VersionCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Container(
-                        height: 60,
-                        alignment: Alignment.topLeft,
-                        child: Text(
-                          version.title,
-                          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                color: const Color(0xFFF5E6D3),
-                                fontWeight: FontWeight.bold,
-                                fontSize: 20,
-                                height: 1.3,
-                                letterSpacing: 0.5,
-                              ),
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
+                      Text(
+                        version.title,
+                        style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                              color: const Color(0xFFF5E6D3),
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                              height: 1.3,
+                              letterSpacing: 0.5,
+                            ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ],
                   ),

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -73,7 +74,12 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, _) {
+        if (!didPop && !kIsWeb) context.go('/story/${widget.chapterId}');
+      },
+      child: Scaffold(
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
@@ -222,6 +228,7 @@ class _VideoLessonScreenState extends State<VideoLessonScreen> {
                     );
                   },
                 ),
+      ),
     );
   }
 }
