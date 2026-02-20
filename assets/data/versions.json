@@ -11,7 +11,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/0.png",
           "youtubeVideoId": "r0x4k0yxd8s",
-          "transcriptionPath": "data/transcriptions/0.json"
+          "transcriptionPath": "assets/data/transcriptions/0.json"
         },
         {
           "id": "1",
@@ -19,7 +19,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/1.png",
           "youtubeVideoId": "y-m56nn4LeQ",
-          "transcriptionPath": "data/transcriptions/1.json"
+          "transcriptionPath": "assets/data/transcriptions/1.json"
         },
         {
           "id": "2",
@@ -27,7 +27,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/2.png",
           "youtubeVideoId": "t20EPXnQVug",
-          "transcriptionPath": "data/transcriptions/2.json"
+          "transcriptionPath": "assets/data/transcriptions/2.json"
         },
         {
           "id": "3",
@@ -35,7 +35,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/3.png",
           "youtubeVideoId": "Yj7sgYOg6-M",
-          "transcriptionPath": "data/transcriptions/3.json"
+          "transcriptionPath": "assets/data/transcriptions/3.json"
         },
         {
           "id": "4",
@@ -43,7 +43,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/4.png",
           "youtubeVideoId": "ODYbInhnxAE",
-          "transcriptionPath": "data/transcriptions/4.json"
+          "transcriptionPath": "assets/data/transcriptions/4.json"
         },
         {
           "id": "5",
@@ -51,7 +51,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/5.png",
           "youtubeVideoId": "vYdcFOdQJOQ",
-          "transcriptionPath": "data/transcriptions/5.json"
+          "transcriptionPath": "assets/data/transcriptions/5.json"
         },
         {
           "id": "6",
@@ -59,7 +59,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/6.png",
           "youtubeVideoId": "DmgAVEFZqlE",
-          "transcriptionPath": "data/transcriptions/6.json"
+          "transcriptionPath": "assets/data/transcriptions/6.json"
         },
         {
           "id": "7",
@@ -67,7 +67,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/7.png",
           "youtubeVideoId": "GoiE64XEj7w",
-          "transcriptionPath": "data/transcriptions/7.json"
+          "transcriptionPath": "assets/data/transcriptions/7.json"
         }
       ]
     },
@@ -82,7 +82,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/8.png",
           "youtubeVideoId": "S9IhzKATiWg",
-          "transcriptionPath": "data/transcriptions/8.json"
+          "transcriptionPath": "assets/data/transcriptions/8.json"
         },
         {
           "id": "9",
@@ -90,7 +90,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/9.png",
           "youtubeVideoId": "F9iSnbf9-2A",
-          "transcriptionPath": "data/transcriptions/9.json"
+          "transcriptionPath": "assets/data/transcriptions/9.json"
         },
         {
           "id": "10",
@@ -98,7 +98,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/10.png",
           "youtubeVideoId": "5kLjK85EyXM",
-          "transcriptionPath": "data/transcriptions/10.json"
+          "transcriptionPath": "assets/data/transcriptions/10.json"
         }
       ]
     },
@@ -113,7 +113,7 @@
           "tag": "Main story",
           "posterImage": "assets/images/chapters/11.png",
           "youtubeVideoId": "Zd3TA1QdRdg",
-          "transcriptionPath": "data/transcriptions/11.json"
+          "transcriptionPath": "assets/data/transcriptions/11.json"
         }
       ]
     }
