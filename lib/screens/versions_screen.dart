@@ -37,7 +37,7 @@ class _VersionsScreenState extends State<VersionsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('English 1999'),
+        title: const Text('English: 1999'),
       ),
       body: FutureBuilder<List<Version>>(
         future: _versionsFuture,

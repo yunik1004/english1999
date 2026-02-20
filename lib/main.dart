@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       create: (_) => MediaPlayerProvider(),
       child: MaterialApp.router(
         routerConfig: appRouter,
-        title: 'English 1999',
+        title: 'English: 1999',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
